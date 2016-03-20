@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Virtualization on Blog </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://guptayuvraj.github.io/categories/virtualization/</link>
+    <language>en-us</language>
+    <author>Yuvraj Gupta</author>
+    
+    <updated>Sun, 20 Mar 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Virtualization &amp; Private Cloud</title>
+      <link>http://guptayuvraj.github.io/post/Virtualization-Private-Cloud/</link>
+      <pubDate>Sun, 20 Mar 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Virtualization-Private-Cloud/</guid>
+      <description>&lt;p&gt;Virtualization of computers or operating systems hides the physical characteristics of a computing platform from users; instead it shows another abstract computing platform. A hypervisor is a piece of virtualization software that allows multiple operating systems to run on a host computer concurrently. Virtualization providers include VMware, Microsoft, and Citrix Systems. Virtualization is an enabler of cloud computing.&lt;/p&gt;
+
+&lt;p&gt;Recently some vendors have described solutions that emulate cloud computing on private networks, referring to these as “private” or “internal” clouds (where “public” or “external” cloud describes cloud computing in the traditional mainstream sense). Private cloud products claim to deliver some of the benefits of cloud computing without the pitfalls. Hybrid solutions are also possible: building internal clouds and connecting customer data centers to those of external cloud providers. It has been reported that Eli Lilly wants to benefit from both internal and external clouds3 and that Amylin6 is looking at private cloud VMware as a complement to EC2. Other experts, however, are skeptical: one has even gone as far as to describe private clouds as absolute rubbish.7&lt;/p&gt;
+
+&lt;p&gt;Platform Computing has recently launched a cloud management system, Platform ISF, enabling customers to manage workload across both virtual and physical environments and support multiple hypervisors and operating systems from a single interface. VMware, the market leader in virtualization technology, is moving into cloud technologies in a big way, with vSphere 4. The company is building a huge partner network of service providers and is also releasing a “vCloud API”. VMware wants customers to build a series of “virtual data centers”, each tailored to meet different requirements, and then have the ability to move workloads in the virtual data centers to the infrastructure provided by cloud vendors.&lt;/p&gt;
+
+&lt;p&gt;Cisco, EMC and VMware have formed a new venture called Acadia. Its strategy for private cloud computing is based on Cisco’s servers and networking, VMware’s server virtualization and EMC’s storage. (Note, by the way, that EMC owns nearly 85% of VMware.) Other vendors, such as Google, disagree with VMware’s emphasis on private clouds; in return VMware says Google’s online applications are not ready for the enterprise.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
