@@ -4,8 +4,8 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>What Is Cloud Computing? - Blog</title>
-	<meta name="author" content="map[email:gupta.yuvraj@gmail.com name:Yuvraj Gupta]">
+	<title>Cloud Enterprise Applications: 12 principles of operational readiness - Blog</title>
+	<meta name="author" content="map[name:Yuvraj Gupta email:gupta.yuvraj@gmail.com]">
 
 	
 	
@@ -19,7 +19,7 @@
     
 	<link href='/index.xml' rel="alternate" title="Blog" type="application/atom+xml">
 	
-	<link rel="canonical" href="http://guptayuvraj.github.io/post/What-Is-Cloud-Computing/">
+	<link rel="canonical" href="http://guptayuvraj.github.io/post/Cloud-Enterprise-Operational-Readiness/">
 	<link href="http://guptayuvraj.github.io/favicon.png" rel="shortcut icon">
 	<link href="http://guptayuvraj.github.io/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<link href="http://guptayuvraj.github.io/css/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -117,18 +117,33 @@
 				<div id="content" class="inner">
 					<div itemscope itemtype="http://schema.org/Blog">
 					<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <h1 class="title" itemprop="name">What Is Cloud Computing?</h1>
-	<div class="entry-content" itemprop="articleBody"><p>Cloud computing is a general term for anything that involves delivering hosted services over the Internet. These services are broadly divided into three categories: Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS) and Software-as-a-Service (SaaS). The name cloud computing was inspired by the cloud symbol that’s often used to represent the Internet in flowcharts and diagrams.</p>
+    <h1 class="title" itemprop="name">Cloud Enterprise Applications: 12 principles of operational readiness</h1>
+	<div class="entry-content" itemprop="articleBody">
 
-<p>A cloud service has three distinct characteristics that differentiate it from traditional hosting. It is sold on demand, typically by the minute or the hour; it is elastic — a user can have as much or as little of a service as they want at any given time; and the service is fully managed by the provider (the consumer needs nothing but a personal computer and Internet access). Significant innovations in virtualization and distributed computing, as well as improved access to high-speed Internet and a weak economy, have accelerated interest in cloud computing.</p>
+<h1 id="enterprise-service-operational-principles:780d8bdc7e2b5b1e2903fcce2240231f">Enterprise service operational principles</h1>
 
-<p>A cloud can be private or public. A public cloud sells services to anyone on the Internet. (Currently, Amazon Web Services is the largest public cloud provider.) A private cloud is a proprietary network or a data center that supplies hosted services to a limited number of people. When a service provider uses public cloud resources to create their private cloud, the result is called a virtual private cloud. Private or public, the goal of cloud computing is to provide easy, scalable access to computing resources and IT services.</p>
+<p>These dozen statements describe how an enterprise service should be. If all these statements apply to my new enterprise service, I can happily stamp my operational approval on it.</p>
 
-<p>Infrastructure-as-a-Service like Amazon Web Services provides virtual server instance API) to start, stop, access and configure their virtual servers and storage. In the enterprise, cloud computing allows a company to pay for only as much capacity as is needed, and bring more online as soon as required. Because this pay-for-what-you-use model resembles the way electricity, fuel and water are consumed, it’s sometimes referred to as utility computing.</p>
+<p>I have provided a few examples to make these statements a little clearer, but I have not described the actions required to get there. As you can imagine, putting these principles into practice for enterprise services is complicated. It’s almost impossible to get everything right.</p>
 
-<p>Platform-as-a-service in the cloud is defined as a set of software and product development tools hosted on the provider’s infrastructure. Developers create applications on the provider’s platform over the Internet. PaaS providers may use APIs, website portals or gateway software installed on the customer’s computer. Force.com, (an outgrowth of Salesforce.com) and GoogleApps are examples of PaaS. Developers need to know that currently, there are not standards for interoperability or data portability in the cloud. Some providers will not allow software created by their customers to be moved off the provider’s platform.</p>
+<p>Many cloud innovatorprovide services in one or two of these areas, to ease an organization’s workload. You can pay Green Hat to provide cloud-based performance testing tools, Core Cloud Inspect to check security, and Cloudkick to monitor infrastructure. A few big players like EMC and Novell have enough tools to take all the responsibility. The bigger your wallet, the more responsibility you can avoid.</p>
 
-<p>In the software-as-a-service cloud model, the vendor supplies the hardware infrastructure, the software product and interacts with the user through a front-end portal. SaaS is a very broad market. Services can be anything from Web-based email to inventory control and database processing. Because the service provider hosts both the application and the data, the end user is free to use the service from anywhere.</p>
+<h2 id="my-enterprise-service:780d8bdc7e2b5b1e2903fcce2240231f">My enterprise service:</h2>
+
+<ol>
+<li><strong>Has been functionally tested</strong>:- If a new business application has not yet been signed off by the guy paying the bills, I will waste my time carrying out operational tests.</li>
+<li><strong>Has capacity</strong>:- Sysadmins may want to scale up the disk space for a storage service and the bandwidth for a video chat service. They may scale down to a pocket calculator for a monitoring service.</li>
+<li><strong>Is resilient</strong>:- This is the world of High Availability: double up on single points of failure, improve code quality, and even if something does fail, make sure the service handles it gracefully.</li>
+<li><strong>Is recoverable</strong>:- If the student deletes half the files or the computer room catches fire, service can be restored.</li>
+<li><strong>Is reliable</strong>:- Customers use Internet services 24 hours a day, but an intranet may only be needed during office hours. An intranet that is down every night may still be perfectly reliable.</li>
+<li><strong>Is scalable</strong>:- What if the new service has traffic spikes or gets really popular? I may need to scale out by adding more servers. Wading through treacle is not attractive.</li>
+<li><strong>Is monitored</strong>:- The operational support people must be alerted immediately if someone breaks into the computer room, if upstream services disappear, and if a process goes berserk.</li>
+<li><strong>Is supportable</strong>:- If an architect designs an Internet bank that only runs on one server, how pleased will customers be when an operator turns off the bank to upgrade the memory?</li>
+<li><strong>Is secure</strong>:- Vulnerabilities get patched, an IDS (Intrusion Detection System) watches the network, and the security team have signed on the dotted line.</li>
+<li><strong>Has been pushed to the limit</strong>:- The whole system has been thrashed, bottlenecks fixed and the system thrashed again and again. The service owner then knows how much performance can be squeezed out of her service.</li>
+<li><strong>Has integrity</strong>:- The customer support people won’t be plagued by calls from customers whose data is inconsistent, whose files have disappeared, or whose transactions were duplicated.</li>
+<li><strong>Will operate within the SLA</strong>:- The people sponsoring this service deserve to know how their investment is doing. The service builders automate the measurement and reports of the service level. Stakeholders can then help a failing service to succeed.</li>
+</ol>
 </div></article>
 					
 						<div class="share">
