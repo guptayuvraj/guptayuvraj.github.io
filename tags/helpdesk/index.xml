@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Funny on Blog </title>
+      <title>Helpdesk on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/tags/funny/</link>
+    <link>http://guptayuvraj.github.io/tags/helpdesk/</link>
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
@@ -16,16 +16,6 @@
       <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Cloud-Help-Desk/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Help-Desk.jpg&#34; alt=&#34;&#34; title=&#34;Cloud Help Desk&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cloud Data Specialist</title>
-      <link>http://guptayuvraj.github.io/post/Cloud-Data-Specialist/</link>
-      <pubDate>Tue, 22 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
-      <guid>http://guptayuvraj.github.io/post/Cloud-Data-Specialist/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Specialist.jpg&#34; alt=&#34;&#34; title=&#34;Are you sure this is how we get data into the Cloud?&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
