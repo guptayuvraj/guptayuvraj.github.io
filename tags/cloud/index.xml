@@ -7,7 +7,35 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Mon, 28 Mar 2016 00:00:00 UTC</updated>
+    <updated>Tue, 29 Mar 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Enhancing Data Security in Cloud Computing - Abstract</title>
+      <link>http://guptayuvraj.github.io/post/Enhancing-Data-Security-Abstract/</link>
+      <pubDate>Tue, 29 Mar 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Enhancing-Data-Security-Abstract/</guid>
+      <description>&lt;p&gt;&lt;center&gt;
+&lt;strong&gt;Abstract&lt;/strong&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Cloud Computing is a new mechanism to deliver products from producer to consumer in a very different and efficient style of computing. It has revolutionized not only the IT industry but has also revolutionized the hardware and software industry. It is growing leaps and bounds and has only bright sky ahead. But will you love to see a bright sky with embraces of black holes? Obviously you won’t, similarly security is the main issue which acts as a blackhole to the whole system of it specialists in this domain. The main mission of security is to limit access to the authorized person, who can see, modify only that data which they are associated with. When we talk about the security of data in Cloud Computing the vendor has to ensure assurance to convince the customer on the security issues. Organizations are using cloud computing for confidential issues for their business applications though guaranteeing the security is difficult. This paper is divided into different sections such as:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Introduction to Cloud.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Benefits of Cloud.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Challenges of Cloud.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enhancement of Security.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Conclusion.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This paper will enlighten the various improved methods for dealing with data security in the domain of authentication, encryption, decryption, biometrics, cryptography and public key infrastructure in the venture of Cloud Computing. We will focus on the security enhancement of cryptography and biometrics by their combinations. This paper is aimed at being a reference point to understand the basic security ideas for the newcomers and intended to promote more activities and research in these critical and very important security issues which has to be addressed.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cloud Efficiency - Theory of Einstein</title>

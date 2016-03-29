@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Data on Blog </title>
+      <title>Technical Paper on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/tags/data/</link>
+    <link>http://guptayuvraj.github.io/categories/technical-paper/</link>
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
@@ -34,16 +34,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;This paper will enlighten the various improved methods for dealing with data security in the domain of authentication, encryption, decryption, biometrics, cryptography and public key infrastructure in the venture of Cloud Computing. We will focus on the security enhancement of cryptography and biometrics by their combinations. This paper is aimed at being a reference point to understand the basic security ideas for the newcomers and intended to promote more activities and research in these critical and very important security issues which has to be addressed.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cloud Data Specialist</title>
-      <link>http://guptayuvraj.github.io/post/Cloud-Data-Specialist/</link>
-      <pubDate>Tue, 22 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
-      <guid>http://guptayuvraj.github.io/post/Cloud-Data-Specialist/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Specialist.jpg&#34; alt=&#34;&#34; title=&#34;Are you sure this is how we get data into the Cloud?&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
