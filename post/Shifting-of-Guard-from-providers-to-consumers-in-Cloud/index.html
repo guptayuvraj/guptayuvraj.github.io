@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Shifting of Guard from providers to consumers in Cloud - Blog</title>
+	<meta name="author" content="map[name:Yuvraj Gupta email:gupta.yuvraj@gmail.com]">
+
+	
+	
+	<meta name="description" content="">
+	
+
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<link href='/index.xml' rel="alternate" title="Blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://guptayuvraj.github.io/post/Shifting-of-Guard-from-providers-to-consumers-in-Cloud/">
+	<link href="http://guptayuvraj.github.io/favicon.png" rel="shortcut icon">
+	<link href="http://guptayuvraj.github.io/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="http://guptayuvraj.github.io/css/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+  
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-75311692-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+	
+	
+	<script src="http://guptayuvraj.github.io/js/md5.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5('gupta.yuvraj@gmail.com') + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+		});
+	</script>
+	
+	
+</div>
+<h1>Yuvraj Gupta</h1>
+<div class="subtitle">
+<b><big>Author | Techie | Gadget Freak | Sports Freak | Foodie  </b></big>
+</div>
+
+<nav id="main-nav"><ul class="main">
+    <li><a href="/">Blog</a></li>
+    <li><a href="/post/">Archives</a></li>
+</ul>
+
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+			<a class="email" href='mailto:gupta.yuvraj@gmail.com' title="Email">Email</a>
+		
+		
+			<a class="facebook" href='http://www.facebook.com/gupta.yuvraj' title="Facebook">Facebook</a>
+		
+		
+		
+			<a class="twitter" href='http://twitter.com/yuvrajgupta14' title="Twitter">Twitter</a>
+		
+		
+			<a class="github" href='https://github.com/guptayuvraj' title="GitHub">GitHub</a>
+		
+		
+		
+		  <a class="stackoverflow" href='http://stackoverflow.com/users/3678433/yuvraj-gupta' title="StackOverflow"></a>
+		
+		
+			<a class="linkedin" href='http://www.linkedin.com/in/guptayuvraj' title="LinkedIn">LinkedIn</a>
+		
+		
+		
+		
+		
+		
+			<a class="quora" href='https://quora.com/Yuvraj-Gupta-1' title="Quora">Quora</a>
+		
+		
+    	
+    	
+			<a class="rss" href='/index.xml' title="RSS">RSS</a>
+		
+
+	</div>
+</nav>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner">
+					<div itemscope itemtype="http://schema.org/Blog">
+					<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="title" itemprop="name">Shifting of Guard from providers to consumers in Cloud</h1>
+	<div class="entry-content" itemprop="articleBody">
+
+<p>For a long time, the power in the IT industry has been in the hands of the providers. This is due to three industry characteristics that, while still present, are beginning to change. The first is the pricing and investment model. In a traditional hardware/software model, the deployment of any IT system has potentially large initial investment costs: the cost of purchasing necessary hardware and software licenses, project development costs, and so on. This <strong>large initial investment contributes to vendor lock-in,</strong> since customers are usually unwilling to make these expenses a second time in order to change providers.</p>
+
+<p>The <strong>lack of interoperability</strong> between systems is the second. The harder it is to move your stuff from one system to another, the less likely it is that you will even be willing to try the new system. Even worse, this resistance to change tends to increase over time, since people will have more and more data stored, and will be used to the way the current systems work. This does not mean that new systems are necessarily better, but if users are unwilling to try them out, they’ll never know.</p>
+
+<p>Finally, the <strong>lack of transparency regarding pricing models and structure</strong> is the third source of power. It allowed providers to come up with complex pricing structures that make any sort of price comparison nearly impossible. In order to compare prices, customers are forced to get in touch with salespeople and request proposals, going through a lengthy process. And the high initial investment makes any “try it out first” movement much harder.</p>
+
+<h2 id="a-consumer-friendly-cloud:1e26d8b33ceeb9d99961bbb5f007f8db">A consumer-friendly cloud</h2>
+
+<p>Fortunately for IT consumers, the shift to services, and especially cloud-based services, has been steadily shifting this power back into the hands of consumers. First, cloud computing has a great potential to democratize IT solutions by eliminating the entry barriers into this market. It can eliminate entry barriers for consumers by <strong>removing the need for upfront investment.</strong> It is much easier for a small start-up to have dozens or even hundreds of server instances running at a given time, without the need to buy these servers, build a data center, or anything else.</p>
+
+<p>The cloud also reduces barriers for providers. Being on the web allows any new provider to easily reach a much broader audience without the need for large marketing investments. It also simplifies distribution, since cloud-based software usually runs on the browser, with no need for installation procedures. This, in turn, simplifies support, since the problem of variability in client machine configuration is reduced.</p>
+
+<p>Having more providers means having more competition, and this also means more power to consumers. The more competition there is, the more pressure is made towards lower prices, improved and diversified offerings, and better service. We are already seeing <strong>benefits of competition in the cloud space:</strong> the only reason Rackspace dropped its inbound data-transfer fees was because all its competitors were doing it – and advertising that Rackspace didn’t.</p>
+
+<p>This is another important point in cloud-based services. Providers of all sorts, from infrastructure to software, are adopting <strong>simpler pricing models</strong> to better engage customers. Unlike what we saw before, providers are fully advertising their prices, making it easier for consumers to compare different offerings. This price and feature transparency is second nature to cloud companies, because it is part of what we have come to expect from the web. I should be able to compare prices of cloud services in the same way that I can compare the price of physical products across several web retailers.</p>
+
+<p>Finally, we are seeing much <strong>improved interoperability between services.</strong> This is especially true for cloud-based software offerings. While lack of interoperability was interesting for in-house software vendors because it created vendor lock-in, users already come to the cloud with the expectation of being able to easily export the data. The very nature of the way that software is sold in the cloud, on a pay-as-you-go model, strengthens the idea that if the user may cancel his contract at any time, he should be able to export his data from my service at any given time. Yes, there are still limitations and format inconsistencies, but many competing cloud-based software providers already offer automated import/export of data from their competitors.</p>
+
+<p>The same thing, to a certain extent, happens with infrastructure providers. In theory, if my application is properly designed to run on cloud instances, it should make no great difference to me if it is running on an Amazon, Rackspace, or anyone else’s cloud server. In fact, I should be able to run on whichever instance is the cheapest one at that time.</p>
+
+<p>The cloud model, then, is much more consumer-friendly than any in-house model, either for software or for servers. The logic is similar to what happens in any other service: if I need to go to a dentist when I’m a child, I don’t have to purchase a dentist’s chair and instruments, and my dental records are not kept in a format that only that dentist will understand. If I want to change dentists in the future, all I have to do is take my records with me and visit another one. The same goes for the cloud: there is no upfront investment, and the information is more accessible, so any future migration is much easier.</p>
+</div></article>
+					
+						<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size=''></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	
+	</div>
+	
+  	<script type="text/javascript" src='http://s7.addthis.com/js/250/addthis_widget.js#pubid=true'></script>
+  	
+</div>
+
+					
+					
+					<section id="comment">
+					    <h1 class="title">Comments</h1>
+					    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+					</section>
+					
+					
+
+<script type="text/javascript">
+    
+    var disqus_shortname = 'yuvrajgupta';
+
+    
+    
+
+    
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+    
+</script>
+
+
+				    </div>
+				</div>
+			</div>
+			<footer id="footer" class="inner">Copyright &copy; 2016
+
+    Yuvraj Gupta
+
+<script src="http://guptayuvraj.github.io/js/slash.js"></script>
+<script src="http://guptayuvraj.github.io/js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script>
+</footer>
+		</div>
+	</div>
+	
+</body>
+</html>
