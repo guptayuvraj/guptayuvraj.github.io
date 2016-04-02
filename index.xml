@@ -7,7 +7,77 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Fri, 01 Apr 2016 00:00:00 UTC</updated>
+    <updated>Sat, 02 Apr 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>10 Things To Look For In Your Cloud Service Provider</title>
+      <link>http://guptayuvraj.github.io/post/Cloud-Service-Provider/</link>
+      <pubDate>Sat, 02 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Cloud-Service-Provider/</guid>
+      <description>&lt;p&gt;The cloud computing market is exploding with a large number of new entrants. If you are shopping around for a cloud service provider (CSP), here are ten things you should keep in mind.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Technical Expertise&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A cloud computing service is not a commodity: it is not as simple as providing you with a computer in a server farm. It requires a lot of technical expertise to set up the right system that guarantees security for your data and lets you run your business without interruption. Thus, the first thing you have to look in your CSP is the quality of their team and their technical prowess.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Trust&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You are going to migrate your sensitive enterprise data to a third-party server. You really need to be able to trust that organization. Interview their team and see if they are the people with whom you can trust your confidential corporate information. Ask for references and testimonials. Research the vendor thoroughly before trusting them with your data. Also, look for their industry memberships and accreditations.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Uptime guarantees&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Can you afford to have your server down for hours in the middle of the week? If not, ask for uptime guarantees from CSPs. Ask their existing customers about previous outages, and how soon the vendor had the services restored. Anything more than 1 hour’s downtime/month is unacceptable for most businesses.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tools available&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Does the CSP have a good tool set to help you with analytics, data management, security, etc? A good tool set provided by the CSP can help you cut the costs of your IT operations team.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ease of migration&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Will it be easy to migrate your data and applications to the cloud? Migration is one of the biggest pain-points for enterprises moving to the cloud, so check if your CSP provides tools and support to make this process less painful.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Performance guarantees&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Just as uptimes are important, so are performance metrics. Ask the CSP about the servers they are using, the disc access speeds, the processor types, network bandwidth and availability of SSDs.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Customer Support&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You are going to trust your corporate IT infrastructure with a third party. What if your server crashes at the start of the day due to a malfunctioning app? Are you sure you can get it fixed ASAP? Customer support is critical, and it is important that the vendor provides you 24-hour technical support, at least on weekdays. If the support is poor, you can expect to spend a lot of money on your in-house IT team.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;How serious are they about Security?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Security should be a top priority for your CSP. Ask about the steps they take to ensure the security of your data and applications.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Third-party compliance audits&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Have the CSP had their service audited by third-party compliance teams to back up their claims? The industry body, the International Association of Managed Service Providers (MSP Alliance), has a certification standard (UCS) that is used to certify CSPs. Check if your CSP is accredited by it.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cost&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ultimately, it is all about the cost. Check for all the fees (one-time fees, monthly fees, usage fees, etc.) and make sure they are clearly spelled out in the contract.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Case Study Precise</title>
@@ -300,26 +370,6 @@ Why would anyone want to rely on another computer system to run programs and sto
 &lt;p&gt;Beginning his career as a software engineer for Tata Unisys in India, Chellani worked for a while in Dubai to finance his way to a Master’s Degree in the US. Chellani met Periasamy there, while working together at California Digital and were part of the team that built the ‘Thunder’ supercomputer for Lawrence Livermore National Lab. When ‘Thunder’ was put into production in 2004, it was the second-fastest supercomputer in the world.&lt;/p&gt;
 
 &lt;p&gt;Once they joined forces to launch Gluster the duo battled disbelief until they landed their first customer order with Petroleos de Venezuela, the Venezuelan national oil company. Gluster soon expanded its services by selling opensource storage solutions to customers such as UK defence major BAE Systems, Stanford University, Deutsche Bank and the administrative office of the US courts. To become a significant storage player, Gluster needed serious funding. Just prior to securing first round of funding, the company had just $25,000 in the bank and it had to pay salary to 13 people. “But we did not lose hope” said Chellani.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cloud Computing: What It Is and What It Can Do for You-Introduction</title>
-      <link>http://guptayuvraj.github.io/post/Cloud-Computing-Intro/</link>
-      <pubDate>Fri, 18 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
-      <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Intro/</guid>
-      <description>&lt;p&gt;Cloud computing is one of the latest computer and business industry buzz words. It joins the ranks of virtualization, grid computing, and clustering, among others, in the IT industry. The problem is that, depending on your point of view, the definition of cloud computing can be quite different. Depending on your perspective, you could look at it from a business point of view or an application point of view, as well as others. This has created confusion on the definition and a fuzzy view as to what cloud computing is or even does.&lt;/p&gt;
-
-&lt;p&gt;The term cloud computing is overused and ill-defined, which has led many IT professionals and management to make assumptions as to what cloud computing does and how their companies can best utilize it. The IT Industry is not making it easier for their customers by offering many different definitions and products that only create confusion. This confusion is what the IT vendors are utilizing to create many different products and call them “cloud products.” Examples of this behavior can be seen by watching television ads that are being broadcast to everyone, not just IT professionals and management. One large IT company defines cloud computing in a way that only a person with a PhD. in linguistics and computer science could understand, but the ad tells you they are making a simple definition, and if you do not understand their definition then call up their professional services to “help” your company take advantage of cloud computing. This ad, as well as other marketing, makes the idea so complex that no one understands it, and this only makes cloud computing more of a “riddle wrapped in an enigma.”&lt;/p&gt;
-
-&lt;p&gt;The cloud is a great marketing term, with lots of hype behind it. This white paper will define cloud computing using a commonly accepted definition to get past the hype. Then we will discuss the different types of cloud computing, which also have added to the confusion as to what cloud computing is and does. We will end with ideas on how you can begin to implement the cloud in your environment.&lt;/p&gt;
-
-&lt;p&gt;The term cloud, which is a familiar computer cliché that every computer networking professional has used as the “public internet” in a network design at one time or another, is a great place to start. The internet cloud is drawn into the network design as the part of the network that is not controlled by the company. It represents the unknown path to send data or information between the company and the customer.&lt;/p&gt;
-
-&lt;p&gt;For the IT professional, this is a well-understood concept and has been an acceptable practice for many years.&lt;/p&gt;
-
-&lt;p&gt;In addition, the internet cloud design has been shown to management over the years, and they also have a comfort level with the design and the concept. Now IT professionals do have a common knowledge of the internet cloud; however, if you combine cloud with computing, the definition becomes fuzzy, and there is no single acceptable meaning. If the concept comes up in a meeting, it begins to remind you of the story of the Emperor who has no clothes. No one wants to admit that they do not know exactly what cloud computing is, and this is why, many years ago, the industry developed Request For Comments (RFC). The RFCs were designed to standardize computer concepts. By standardizing, computers and the Internet were able to grow quickly, because companies had to abide by the RFC. This standardization made it easy for the producer and the consumer to avoid confusion on what was being produced and consumed. However, there are no RFCs for cloud computing, and this creates confusion as to what should or must be done to implement it. Without standardization, the producer and consumer are left to write their own rules and make their own definitions.&lt;/p&gt;
 </description>
     </item>
     
