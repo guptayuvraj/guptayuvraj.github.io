@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Storage on Blog </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://guptayuvraj.github.io/categories/storage/</link>
+    <language>en-us</language>
+    <author>Yuvraj Gupta</author>
+    
+    <updated>Tue, 05 Apr 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>What is Storage Virtualization</title>
+      <link>http://guptayuvraj.github.io/post/What-is-Storage-Virtualization/</link>
+      <pubDate>Tue, 05 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/What-is-Storage-Virtualization/</guid>
+      <description>&lt;p&gt;It is the abstraction of physical media (hard disks or solid state drives etc) from the attaching servers which treats the storage as a single logical entity without regard to the hierarchy of physical media that is involved. Storage virtualization means adding an abstraction layer of software that hides the physical devices from the user and allows all devices to be managed as a single pool.
+It adds a new layer of software or hardware in between the storage systems and servers so that the applications would not require to know to which logical drive, partitions or storage subsystems the data resides in.&lt;/p&gt;
+
+&lt;p&gt;Within the context of a storage system, there are two primary types of virtualization that can occur:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Block virtualization&lt;/strong&gt; used in this context refers to the abstraction (separation) of logical storage (partition) from physical storage so that it may be accessed without regard to physical storage or heterogeneous structure. This separation allows the administrators of the storage system greater flexibility in how they manage storage for end users. The act of applying virtualization , to one or more block based (storage) services for the purpose of providing a new aggregated, higher level, richer, simpler, secure, etc., block service to clients. Block virtualization functions can be nested. A disk drive, RAID system or volume manager all perform some form of block address to (different) block address mapping or aggregation&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;File virtualization&lt;/strong&gt; addresses the NAS challenges by eliminating the dependencies between the data accessed at the file level and the location where the files are physically stored. This provides opportunities to optimize storage use and server consolidation and to perform non-disruptive file migrations. File virtualization is the creation of an abstraction layer between file servers and the clients that access those file servers. Once deployed, the file virtualization layer manages files and file systems across servers, allowing administrators to present clients with one logical file mount for all servers&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
