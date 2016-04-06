@@ -7,7 +7,30 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Tue, 05 Apr 2016 00:00:00 UTC</updated>
+    <updated>Wed, 06 Apr 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Benefits of Storage Visualization</title>
+      <link>http://guptayuvraj.github.io/post/Benefits-Storage-Visualization/</link>
+      <pubDate>Wed, 06 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Benefits-Storage-Visualization/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Improved Storage Management in an IT environment&lt;/li&gt;
+&lt;li&gt;Better availability and estimation of downtime required with automated management.&lt;/li&gt;
+&lt;li&gt;Ability to migrate data while retaining  I/O access (Non disruptive data migration).&lt;/li&gt;
+&lt;li&gt;Reduce the number of SAN devices.&lt;/li&gt;
+&lt;li&gt;Decrease in Power consumed.&lt;/li&gt;
+&lt;li&gt;Time Saving.&lt;/li&gt;
+&lt;li&gt;Ease in Data Replication.&lt;/li&gt;
+&lt;li&gt;Easy backup, archiving and recovery tasks.&lt;/li&gt;
+&lt;li&gt;Expansion of Storage Capacity.&lt;/li&gt;
+&lt;li&gt;Easy Updates&lt;/li&gt;
+&lt;li&gt;Ability to increase Storage Volume Size in real time.&lt;/li&gt;
+&lt;li&gt;Increased loading and backup speed.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>What is Storage Virtualization</title>
@@ -348,16 +371,6 @@ Why would anyone want to rely on another computer system to run programs and sto
 &lt;li&gt;Corporations might save money on IT support. Streamlined hardware would, in theory, have fewer problems than a network of heterogeneous machines and operating systems.&lt;/li&gt;
 &lt;li&gt;If the cloud computing system’s back end is a grid computing system, then the client could take advantage of the entire network’s processing power. Often, scientists and researchers work with calculations so complex that it would take years for individual computers to complete them. On a grid computing system, the client could send the calculation to the cloud for processing. The cloud system would tap into the processing power of all available computers on the back end, significantly speeding up the calculation.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cloud Data Specialist</title>
-      <link>http://guptayuvraj.github.io/post/Cloud-Data-Specialist/</link>
-      <pubDate>Tue, 22 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
-      <guid>http://guptayuvraj.github.io/post/Cloud-Data-Specialist/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Specialist.jpg&#34; alt=&#34;&#34; title=&#34;Are you sure this is how we get data into the Cloud?&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

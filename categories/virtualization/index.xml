@@ -7,7 +7,30 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Tue, 05 Apr 2016 00:00:00 UTC</updated>
+    <updated>Wed, 06 Apr 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Benefits of Storage Visualization</title>
+      <link>http://guptayuvraj.github.io/post/Benefits-Storage-Visualization/</link>
+      <pubDate>Wed, 06 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Benefits-Storage-Visualization/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Improved Storage Management in an IT environment&lt;/li&gt;
+&lt;li&gt;Better availability and estimation of downtime required with automated management.&lt;/li&gt;
+&lt;li&gt;Ability to migrate data while retaining  I/O access (Non disruptive data migration).&lt;/li&gt;
+&lt;li&gt;Reduce the number of SAN devices.&lt;/li&gt;
+&lt;li&gt;Decrease in Power consumed.&lt;/li&gt;
+&lt;li&gt;Time Saving.&lt;/li&gt;
+&lt;li&gt;Ease in Data Replication.&lt;/li&gt;
+&lt;li&gt;Easy backup, archiving and recovery tasks.&lt;/li&gt;
+&lt;li&gt;Expansion of Storage Capacity.&lt;/li&gt;
+&lt;li&gt;Easy Updates&lt;/li&gt;
+&lt;li&gt;Ability to increase Storage Volume Size in real time.&lt;/li&gt;
+&lt;li&gt;Increased loading and backup speed.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>What is Storage Virtualization</title>
