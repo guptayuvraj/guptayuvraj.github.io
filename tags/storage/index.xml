@@ -7,7 +7,26 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Wed, 06 Apr 2016 00:00:00 UTC</updated>
+    <updated>Thu, 07 Apr 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Challenges  of Storage Virtualization</title>
+      <link>http://guptayuvraj.github.io/post/Challenges-Storage-Virtualization/</link>
+      <pubDate>Thu, 07 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Challenges-Storage-Virtualization/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Storage Architecture becomes  much more complicated.&lt;/li&gt;
+&lt;li&gt;More complication may lead to troubleshooting problems.&lt;/li&gt;
+&lt;li&gt;Problem determination and fault isolation can become complex.&lt;/li&gt;
+&lt;li&gt;Arise of situations in which physical storage resources are overcommitted.&lt;/li&gt;
+&lt;li&gt;Backing out of failed implementation.&lt;/li&gt;
+&lt;li&gt;Interoperability.&lt;/li&gt;
+&lt;li&gt;Management of Meta Data.&lt;/li&gt;
+&lt;li&gt;Higher Latency&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Benefits of Storage Virtualization</title>
