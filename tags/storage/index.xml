@@ -7,7 +7,110 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Thu, 07 Apr 2016 00:00:00 UTC</updated>
+    <updated>Fri, 08 Apr 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Implement Storage Virtualization</title>
+      <link>http://guptayuvraj.github.io/post/Implement-Storage-Virtualization/</link>
+      <pubDate>Fri, 08 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Implement-Storage-Virtualization/</guid>
+      <description>&lt;p&gt;Why do we need to implement Storage Virtualization?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Increasing Storage Demands&lt;/li&gt;
+&lt;li&gt;Too long to do backup and restore.&lt;/li&gt;
+&lt;li&gt;Limited Space in Data Center.&lt;/li&gt;
+&lt;li&gt;Need to improve DR capabilities.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Approach for implementation of Storage Virtualization?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Host Based:&lt;/strong&gt;  Physical drives are handled by traditional device driver, while a software layer above device driver intercepts I/O requests, looks up metadata and redirects I/O.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Simple to design and code.&lt;/li&gt;
+&lt;li&gt;Supports any storage type.&lt;/li&gt;
+&lt;li&gt;Improves storage utilization without thin provisioning restrictions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Replication and data migration only possible locally to that host.&lt;/li&gt;
+&lt;li&gt;Traditional data recovery following a server disk crash is impossible.&lt;/li&gt;
+&lt;li&gt;Storage utilization optimized only on per host basis.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Network Based:&lt;/strong&gt;  Storage virtualization is viewed as a network-based device using fibre channel networks connected as SAN. A fibre channel switch which is in between the host and storage will virtualize all requests. Interestingly operating system on the host doesn’t know it’s happening as it this method doesn’t rely on operating system.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Simple Management Interface.&lt;/li&gt;
+&lt;li&gt;Replication services across heterogeneous devices.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Difficult to implement fast metadata updates in switches.&lt;/li&gt;
+&lt;li&gt;Out-of-band requires specific host based software.&lt;/li&gt;
+&lt;li&gt;In-band adds latency to I/O.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Implementation of Network based&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Appliance Based:&lt;/strong&gt; an appliance residing between client and storage array implements storage virtualization layer and becomes new storage target. When the data is sent to appliance via client storage virtualization features can be enabled such as snapshot, thin provisioning and data replication.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Versatility&lt;/li&gt;
+&lt;li&gt;Cost&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Switch Based:&lt;/strong&gt; an application that resides in server connected to fibre channel SAN switch. Though it sits in between host and storage but it may use different techniques for metadata mapping.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Faster Speed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Expensive.&lt;/li&gt;
+&lt;li&gt;Lacks features such as thin provisioning.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Storage Device Based:&lt;/strong&gt; the primary storage controller allows direct attachment of other storage controllers and provides virtualization services. It will provide pooling and metadata management services.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No additional hardware or infrastructure requirement.&lt;/li&gt;
+&lt;li&gt;Provides most of the benefits of storage virtualization.&lt;/li&gt;
+&lt;li&gt;Does not add latency to individual I/O.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Storage utilization optimized only across the connected controllers&lt;/li&gt;
+&lt;li&gt;Replication and data migration only possible across the connected controllers and same vendors device for long distance support&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Array Based:&lt;/strong&gt; storage virtualization layer lives entirely within storage array.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Challenges  of Storage Virtualization</title>

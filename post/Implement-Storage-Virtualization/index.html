@@ -4,8 +4,8 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>What is Storage Virtualization - Blog</title>
-	<meta name="author" content="map[name:Yuvraj Gupta email:gupta.yuvraj@gmail.com]">
+	<title>Implement Storage Virtualization - Blog</title>
+	<meta name="author" content="map[email:gupta.yuvraj@gmail.com name:Yuvraj Gupta]">
 
 	
 	
@@ -19,7 +19,7 @@
     
 	<link href='/index.xml' rel="alternate" title="Blog" type="application/atom+xml">
 	
-	<link rel="canonical" href="http://guptayuvraj.github.io/post/What-is-Storage-Virtualization/">
+	<link rel="canonical" href="http://guptayuvraj.github.io/post/Implement-Storage-Virtualization/">
 	<link href="http://guptayuvraj.github.io/favicon.png" rel="shortcut icon">
 	<link href="http://guptayuvraj.github.io/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<link href="http://guptayuvraj.github.io/css/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -117,15 +117,101 @@
 				<div id="content" class="inner">
 					<div itemscope itemtype="http://schema.org/Blog">
 					<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <h1 class="title" itemprop="name">What is Storage Virtualization</h1>
-	<div class="entry-content" itemprop="articleBody"><p>It is the abstraction of physical media (hard disks or solid state drives etc) from the attaching servers which treats the storage as a single logical entity without regard to the hierarchy of physical media that is involved. Storage virtualization means adding an abstraction layer of software that hides the physical devices from the user and allows all devices to be managed as a single pool.
-It adds a new layer of software or hardware in between the storage systems and servers so that the applications would not require to know to which logical drive, partitions or storage subsystems the data resides in.</p>
+    <h1 class="title" itemprop="name">Implement Storage Virtualization</h1>
+	<div class="entry-content" itemprop="articleBody"><p>Why do we need to implement Storage Virtualization?</p>
 
-<p>Within the context of a storage system, there are two primary types of virtualization that can occur:</p>
+<ul>
+<li>Increasing Storage Demands</li>
+<li>Too long to do backup and restore.</li>
+<li>Limited Space in Data Center.</li>
+<li>Need to improve DR capabilities.</li>
+</ul>
 
-<p><strong>Block virtualization</strong> used in this context refers to the abstraction (separation) of logical storage (partition) from physical storage so that it may be accessed without regard to physical storage or heterogeneous structure. This separation allows the administrators of the storage system greater flexibility in how they manage storage for end users. The act of applying virtualization , to one or more block based (storage) services for the purpose of providing a new aggregated, higher level, richer, simpler, secure, etc., block service to clients. Block virtualization functions can be nested. A disk drive, RAID system or volume manager all perform some form of block address to (different) block address mapping or aggregation</p>
+<p>Approach for implementation of Storage Virtualization?</p>
 
-<p><strong>File virtualization</strong> addresses the NAS challenges by eliminating the dependencies between the data accessed at the file level and the location where the files are physically stored. This provides opportunities to optimize storage use and server consolidation and to perform non-disruptive file migrations. File virtualization is the creation of an abstraction layer between file servers and the clients that access those file servers. Once deployed, the file virtualization layer manages files and file systems across servers, allowing administrators to present clients with one logical file mount for all servers</p>
+<ul>
+<li><p><strong>Host Based:</strong>  Physical drives are handled by traditional device driver, while a software layer above device driver intercepts I/O requests, looks up metadata and redirects I/O.</p>
+
+<p><strong>Pros:</strong></p>
+
+<ul>
+<li>Simple to design and code.</li>
+<li>Supports any storage type.</li>
+<li>Improves storage utilization without thin provisioning restrictions.</li>
+</ul>
+
+<p><strong>Cons:</strong></p>
+
+<ul>
+<li>Replication and data migration only possible locally to that host.</li>
+<li>Traditional data recovery following a server disk crash is impossible.</li>
+<li>Storage utilization optimized only on per host basis.</li>
+</ul></li>
+
+<li><p><strong>Network Based:</strong>  Storage virtualization is viewed as a network-based device using fibre channel networks connected as SAN. A fibre channel switch which is in between the host and storage will virtualize all requests. Interestingly operating system on the host doesn’t know it’s happening as it this method doesn’t rely on operating system.</p>
+
+<p><strong>Pros:</strong></p>
+
+<ul>
+<li>Simple Management Interface.</li>
+<li>Replication services across heterogeneous devices.</li>
+</ul>
+
+<p><strong>Cons:</strong></p>
+
+<ul>
+<li>Difficult to implement fast metadata updates in switches.</li>
+<li>Out-of-band requires specific host based software.</li>
+<li>In-band adds latency to I/O.</li>
+</ul></li>
+</ul>
+
+<p><strong>Implementation of Network based</strong></p>
+
+<ul>
+<li><p><strong>Appliance Based:</strong> an appliance residing between client and storage array implements storage virtualization layer and becomes new storage target. When the data is sent to appliance via client storage virtualization features can be enabled such as snapshot, thin provisioning and data replication.</p>
+
+<p><strong>Pros:</strong></p>
+
+<ul>
+<li>Versatility</li>
+<li>Cost</li>
+</ul></li>
+
+<li><p><strong>Switch Based:</strong> an application that resides in server connected to fibre channel SAN switch. Though it sits in between host and storage but it may use different techniques for metadata mapping.</p>
+
+<p><strong>Pros:</strong></p>
+
+<ul>
+<li>Faster Speed.</li>
+</ul>
+
+<p><strong>Cons:</strong></p>
+
+<ul>
+<li>Expensive.</li>
+<li>Lacks features such as thin provisioning.</li>
+</ul></li>
+
+<li><p><strong>Storage Device Based:</strong> the primary storage controller allows direct attachment of other storage controllers and provides virtualization services. It will provide pooling and metadata management services.</p>
+
+<p><strong>Pros:</strong></p>
+
+<ul>
+<li>No additional hardware or infrastructure requirement.</li>
+<li>Provides most of the benefits of storage virtualization.</li>
+<li>Does not add latency to individual I/O.</li>
+</ul>
+
+<p><strong>Cons:</strong></p>
+
+<ul>
+<li>Storage utilization optimized only across the connected controllers</li>
+<li>Replication and data migration only possible across the connected controllers and same vendors device for long distance support</li>
+</ul></li>
+
+<li><p><strong>Array Based:</strong> storage virtualization layer lives entirely within storage array.</p></li>
+</ul>
 </div></article>
 					
 						<div class="share">
