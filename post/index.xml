@@ -7,7 +7,45 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Fri, 08 Apr 2016 00:00:00 UTC</updated>
+    <updated>Sat, 09 Apr 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Best Practices while going for Storage Virtualization</title>
+      <link>http://guptayuvraj.github.io/post/Best-Practices-Storage-Virtualization/</link>
+      <pubDate>Sat, 09 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Best-Practices-Storage-Virtualization/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Set your scope and objectives.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Begin the vendor selection process with specific goals and objectives. We must fully understand what we want to achieve or overcome with storage virtualization.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Arrange Proper Staff Training&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Address skill gaps so we can properly asses different virtualization approaches. Storage virtualization requires specific training and knowledge, so it’s necessary to asses current IT staff for skills and identify potential knowledge gaps. Also consider vendor specific training once finalized.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Leverage Storage Resource Management (SRM)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Properly instrumenting SRM tools providing full discovery and visibility of virtual, logic and physical storage.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Establish Storage Management Standards&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Reduce costs associated with managing multiple site management. When you establish storage management standards including standard LUN sizes and naming conventions—you can more easily interchange similar storage subsystems, reducing complicated planning exercises. Standard configurations simplify both production environment planning and disaster recovery site recovery planning.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Implement Service Maintenance Best Practices&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Accurately calculate capital and operational expenses for applications.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Implement Storage Virtualization</title>
@@ -445,16 +483,6 @@ Nivio promises to ‘complete’ your existing device; give it a second life. Th
       <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Cloud-Homework/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Homework.png&#34; alt=&#34;&#34; title=&#34;Cloud Homework&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cloud Help Desk</title>
-      <link>http://guptayuvraj.github.io/post/Cloud-Help-Desk/</link>
-      <pubDate>Fri, 25 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
-      <guid>http://guptayuvraj.github.io/post/Cloud-Help-Desk/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Help-Desk.jpg&#34; alt=&#34;&#34; title=&#34;Cloud Help Desk&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
