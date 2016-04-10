@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Desktop on Blog </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://guptayuvraj.github.io/tags/desktop/</link>
+    <language>en-us</language>
+    <author>Yuvraj Gupta</author>
+    
+    <updated>Sun, 10 Apr 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>What is Desktop Virtualization</title>
+      <link>http://guptayuvraj.github.io/post/What-is-Desktop-Virtualization/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/What-is-Desktop-Virtualization/</guid>
+      <description>&lt;p&gt;Desktop Virtualization is the concept of isolating an operating system (OS) from the client that is used to access it. It is also known as client virtualization which separates a computer desktop environment from the physical computer. It is used as a new approach to the provisioning, delivery, and management of user desktops in the enterprise. The main principle behind this new approach is leveraging existing and well-proven virtualization technologies to virtualize not only servers but also user desktops (the workstations). The resulting “virtualized” desktop is stored on a remote central server, instead of on the local storage of remote client; thus, when users work from their remote desktop client, all of the programs, applications, processes and data used are kept and run centrally, allowing users to access their desktops on any capable device, such as a traditional personal computer, notebook computer, smart phone, or thin client. Users may be geographically scattered, but all must be connected to the central machine by a local area network, a wide area network, or the public Internet.&lt;/p&gt;
+
+&lt;p&gt;Desktop Virtualization replaces the traditional model where users run all the applications and store data on their desktop services. Instead the whole environment of the desktop experience would be executed in the data center servers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Desktop-Virtualization.jpg&#34; alt=&#34;&#34; title=&#34;Desktop-Virtualization.jpg&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
