@@ -7,7 +7,28 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Mon, 11 Apr 2016 00:00:00 UTC</updated>
+    <updated>Tue, 12 Apr 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Understanding about EMC Vipr- All in One</title>
+      <link>http://guptayuvraj.github.io/post/EMC-Vipr/</link>
+      <pubDate>Tue, 12 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/EMC-Vipr/</guid>
+      <description>&lt;p&gt;EMC ViPR will purely provide the Control Plane. It discovers storage, creates virtual storage pools, and provisions those pools to the application. Only by separating the data center from its underlying hardware can IT truly deliver resources as customizable, on-demand services. ViPR is able to support IT services in a heterogeneous storage environment while retaining and extending the value of underlying arrays. It perform functions like “in-place” analytics. Abstracting, pooling and automating the infrastructure. It supports open API including Amazon Simple storage service (S3), Open stack Swift &amp;amp; Atmos to completely free data and applications from storage dependencies.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Managing both storage infrastructure (called the Control Plane) and the data stored within that infrastructure (called the Data Plane).&lt;/li&gt;
+&lt;li&gt;Decoupling the Control Plane from the Data Plane, allowing the use of both together — or enabling customers to use only the Control Plane to manage the underlying intelligence of the storage arrays through policy-based automation. This is a radical departure from prior attempts to virtualize storage.&lt;/li&gt;
+&lt;li&gt;Offering the ability to view objects as files and provides file access performance without the latency inherent to object storage.&lt;/li&gt;
+&lt;li&gt;Providing the capability to be implemented entirely in software and will run against EMC, non-EMC and commodity hardware.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/EMC-Vipr.jpg&#34; alt=&#34;&#34; title=&#34;EMC Vipr&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>What is Software Defined Storage</title>
