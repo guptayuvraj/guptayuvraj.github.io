@@ -7,7 +7,38 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Sun, 10 Apr 2016 00:00:00 UTC</updated>
+    <updated>Wed, 13 Apr 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>NexentaStor</title>
+      <link>http://guptayuvraj.github.io/post/NexentaStor/</link>
+      <pubDate>Wed, 13 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/NexentaStor/</guid>
+      <description>&lt;p&gt;Nexenta – NexentaStor:  delivers high-performance, ultra-scalable, cloud- and virtualization-optimized storage solutions. Nexenta supplies the software. You leverage your hardware. Does not provide object storage.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Delivers built-proof data integrity and unlimited scalability for Big Data- and Cloud-optimized storage solutions. Nexenta’s OpenStorage platform allows for a broader range of virtualization and cloud-computing services at a much lower cost.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;High-Availability Clustering.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Unlimited Snapshots &amp;amp; Clones:&lt;/strong&gt; NexentaStor uses copy on write (COW), this means live data is never overwritten; instead, it writes data to a new block before changing the data pointers and committing the write.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Inherent Virtualization&lt;/strong&gt; – NexentaStor supports all the mainstream virtualization vendors; Microsoft Hyper-V, Citrix Xen and VMware vSphere.
+Uses ZFS.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Recommended system Requirement for NexentaStor Community Edition:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;64 bit processor (32 bit not recommended for production).&lt;/p&gt;
+
+&lt;p&gt;2 GB RAM minimum for evaluation (recommend 4 to 8 GB), Production use 8 GB minimum plus 1 GB per 1 TB raw disk space minimum (depending on use-case more may be highly desirable), or 2 GB per 1 TB raw for high-end performance deployments. If planning to use deduplication, please contact for sizing assistance.&lt;/p&gt;
+
+&lt;p&gt;2 identical relatively small disks for high-availability system folder.&lt;/p&gt;
+
+&lt;p&gt;Additional drives/storage for data volumes&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>What is Desktop Virtualization</title>
