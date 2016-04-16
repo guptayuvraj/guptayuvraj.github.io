@@ -7,7 +7,45 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Mon, 04 Apr 2016 00:00:00 UTC</updated>
+    <updated>Sat, 16 Apr 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Open Stack Swift</title>
+      <link>http://guptayuvraj.github.io/post/OpenStackSwift/</link>
+      <pubDate>Sat, 16 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/OpenStackSwift/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;ELIMINATE VENDOR LOCK-IN&lt;/strong&gt; OpenStack Swift is open source.
+Change providers without changing your application.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;LOW COST&lt;/strong&gt; Choice of industry standard hardware that is available from multiple vendors.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Deployment Automation- Deployment of availability zones based on hardware.
+Centralized Management- Provides diagnostics, monitoring data, alerts to controller.
+Capacity Management- Orchestrates capacity additions and removals without interruption.
+Monitoring- Monitors 500+ data points per node and integration with ganglia and nagios.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hardware Overview:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Proxy Tier- Proxy nodes handles all incoming API requests. Once a proxy server receives a request, it will determine which storage node to connect to, based on the URL of the object. A minimum of two nodes should be deployed in the proxy tier for redundancy. The proxy tier also includes ssl-terminators and authentication services.&lt;/p&gt;
+
+&lt;p&gt;Storage Tier- When a client uploads data to SwiftStack, the proxy tier will write data in three different availability zones in the storage tier. For incoming read requests, one of the three replicas of the data will be served. Subsequently, each storage node and drive that is added to a Swift cluster will not only provide additional storage capacity, but will also increase the aggregate IO capacity of the cluster as there are more drives available to serve incoming read requests.&lt;/p&gt;
+
+&lt;p&gt;Networking- A typical SwiftStack deployment will have a front-facing ‘access’ network (to run the proxy and authentication services) and a back-end ‘storage’ network.  As there are three copies of each object, an incoming write is sent to three storage nodes. Therefore network capacity for writes needs to be considered in proportion to overall workload.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Recommended System Requirement:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Proxy Tier- Typically, Proxy servers are 1U systems with a minimum of 12 GB RAM. For small SwiftStack clusters, the storage services and proxy services can run on the same physical nodes.&lt;/p&gt;
+
+&lt;p&gt;Storage Tier- Storage nodes are typically higher ­density 2U, 3U or 4U nodes with 12-­‐36 SATA disks each. A good rule of thumb is approximately 1 GB of RAM for each TB of Disk.&lt;/p&gt;
+
+&lt;p&gt;Drives- 2TB or 3TB 7200 RPM SATA drives.&lt;/p&gt;
+
+&lt;p&gt;Networking- Storage nodes can be provisioned with 1GbE (single gigabit) or 10GbE network interface depending on expected workload and desired performance.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Understanding PaaS</title>
@@ -341,41 +379,6 @@ Why would anyone want to rely on another computer system to run programs and sto
       <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Cloud-Data-Specialist/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Specialist.jpg&#34; alt=&#34;&#34; title=&#34;Are you sure this is how we get data into the Cloud?&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cloud Enterprise Applications: 12 principles of operational readiness</title>
-      <link>http://guptayuvraj.github.io/post/Cloud-Enterprise-Operational-Readiness/</link>
-      <pubDate>Mon, 21 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
-      <guid>http://guptayuvraj.github.io/post/Cloud-Enterprise-Operational-Readiness/</guid>
-      <description>
-
-&lt;h1 id=&#34;enterprise-service-operational-principles:780d8bdc7e2b5b1e2903fcce2240231f&#34;&gt;Enterprise service operational principles&lt;/h1&gt;
-
-&lt;p&gt;These dozen statements describe how an enterprise service should be. If all these statements apply to my new enterprise service, I can happily stamp my operational approval on it.&lt;/p&gt;
-
-&lt;p&gt;I have provided a few examples to make these statements a little clearer, but I have not described the actions required to get there. As you can imagine, putting these principles into practice for enterprise services is complicated. It’s almost impossible to get everything right.&lt;/p&gt;
-
-&lt;p&gt;Many cloud innovatorprovide services in one or two of these areas, to ease an organization’s workload. You can pay Green Hat to provide cloud-based performance testing tools, Core Cloud Inspect to check security, and Cloudkick to monitor infrastructure. A few big players like EMC and Novell have enough tools to take all the responsibility. The bigger your wallet, the more responsibility you can avoid.&lt;/p&gt;
-
-&lt;h2 id=&#34;my-enterprise-service:780d8bdc7e2b5b1e2903fcce2240231f&#34;&gt;My enterprise service:&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Has been functionally tested&lt;/strong&gt;:- If a new business application has not yet been signed off by the guy paying the bills, I will waste my time carrying out operational tests.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Has capacity&lt;/strong&gt;:- Sysadmins may want to scale up the disk space for a storage service and the bandwidth for a video chat service. They may scale down to a pocket calculator for a monitoring service.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Is resilient&lt;/strong&gt;:- This is the world of High Availability: double up on single points of failure, improve code quality, and even if something does fail, make sure the service handles it gracefully.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Is recoverable&lt;/strong&gt;:- If the student deletes half the files or the computer room catches fire, service can be restored.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Is reliable&lt;/strong&gt;:- Customers use Internet services 24 hours a day, but an intranet may only be needed during office hours. An intranet that is down every night may still be perfectly reliable.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Is scalable&lt;/strong&gt;:- What if the new service has traffic spikes or gets really popular? I may need to scale out by adding more servers. Wading through treacle is not attractive.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Is monitored&lt;/strong&gt;:- The operational support people must be alerted immediately if someone breaks into the computer room, if upstream services disappear, and if a process goes berserk.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Is supportable&lt;/strong&gt;:- If an architect designs an Internet bank that only runs on one server, how pleased will customers be when an operator turns off the bank to upgrade the memory?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Is secure&lt;/strong&gt;:- Vulnerabilities get patched, an IDS (Intrusion Detection System) watches the network, and the security team have signed on the dotted line.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Has been pushed to the limit&lt;/strong&gt;:- The whole system has been thrashed, bottlenecks fixed and the system thrashed again and again. The service owner then knows how much performance can be squeezed out of her service.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Has integrity&lt;/strong&gt;:- The customer support people won’t be plagued by calls from customers whose data is inconsistent, whose files have disappeared, or whose transactions were duplicated.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Will operate within the SLA&lt;/strong&gt;:- The people sponsoring this service deserve to know how their investment is doing. The service builders automate the measurement and reports of the service level. Stakeholders can then help a failing service to succeed.&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     

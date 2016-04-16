@@ -7,7 +7,45 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Wed, 13 Apr 2016 00:00:00 UTC</updated>
+    <updated>Sat, 16 Apr 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Open Stack Swift</title>
+      <link>http://guptayuvraj.github.io/post/OpenStackSwift/</link>
+      <pubDate>Sat, 16 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/OpenStackSwift/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;ELIMINATE VENDOR LOCK-IN&lt;/strong&gt; OpenStack Swift is open source.
+Change providers without changing your application.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;LOW COST&lt;/strong&gt; Choice of industry standard hardware that is available from multiple vendors.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Deployment Automation- Deployment of availability zones based on hardware.
+Centralized Management- Provides diagnostics, monitoring data, alerts to controller.
+Capacity Management- Orchestrates capacity additions and removals without interruption.
+Monitoring- Monitors 500+ data points per node and integration with ganglia and nagios.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hardware Overview:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Proxy Tier- Proxy nodes handles all incoming API requests. Once a proxy server receives a request, it will determine which storage node to connect to, based on the URL of the object. A minimum of two nodes should be deployed in the proxy tier for redundancy. The proxy tier also includes ssl-terminators and authentication services.&lt;/p&gt;
+
+&lt;p&gt;Storage Tier- When a client uploads data to SwiftStack, the proxy tier will write data in three different availability zones in the storage tier. For incoming read requests, one of the three replicas of the data will be served. Subsequently, each storage node and drive that is added to a Swift cluster will not only provide additional storage capacity, but will also increase the aggregate IO capacity of the cluster as there are more drives available to serve incoming read requests.&lt;/p&gt;
+
+&lt;p&gt;Networking- A typical SwiftStack deployment will have a front-facing ‘access’ network (to run the proxy and authentication services) and a back-end ‘storage’ network.  As there are three copies of each object, an incoming write is sent to three storage nodes. Therefore network capacity for writes needs to be considered in proportion to overall workload.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Recommended System Requirement:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Proxy Tier- Typically, Proxy servers are 1U systems with a minimum of 12 GB RAM. For small SwiftStack clusters, the storage services and proxy services can run on the same physical nodes.&lt;/p&gt;
+
+&lt;p&gt;Storage Tier- Storage nodes are typically higher ­density 2U, 3U or 4U nodes with 12-­‐36 SATA disks each. A good rule of thumb is approximately 1 GB of RAM for each TB of Disk.&lt;/p&gt;
+
+&lt;p&gt;Drives- 2TB or 3TB 7200 RPM SATA drives.&lt;/p&gt;
+
+&lt;p&gt;Networking- Storage nodes can be provisioned with 1GbE (single gigabit) or 10GbE network interface depending on expected workload and desired performance.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>NexentaStor</title>
@@ -458,53 +496,6 @@ PaaS provides the entire infrastructure needed to run applications over the Inte
 &lt;p&gt;The same thing, to a certain extent, happens with infrastructure providers. In theory, if my application is properly designed to run on cloud instances, it should make no great difference to me if it is running on an Amazon, Rackspace, or anyone else’s cloud server. In fact, I should be able to run on whichever instance is the cheapest one at that time.&lt;/p&gt;
 
 &lt;p&gt;The cloud model, then, is much more consumer-friendly than any in-house model, either for software or for servers. The logic is similar to what happens in any other service: if I need to go to a dentist when I’m a child, I don’t have to purchase a dentist’s chair and instruments, and my dental records are not kept in a format that only that dentist will understand. If I want to change dentists in the future, all I have to do is take my records with me and visit another one. The same goes for the cloud: there is no upfront investment, and the information is more accessible, so any future migration is much easier.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Future Of Computing</title>
-      <link>http://guptayuvraj.github.io/post/Future-Of-Computing/</link>
-      <pubDate>Wed, 30 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
-      <guid>http://guptayuvraj.github.io/post/Future-Of-Computing/</guid>
-      <description>&lt;p&gt;A new service for students and consumers aims to bring a complete Windows experience on whatever device you own.&lt;/p&gt;
-
-&lt;p&gt;The future of computing may not lie in faster processors and larger hard drives. Pretty soon, your computer itself could move to the cloud — easy, affordable, accessible from anywhere and most importantly, from almost any device.&lt;/p&gt;
-
-&lt;p&gt;You could stop worrying about what kind of laptop to buy, how to maintain it or worry about how soon it’ll be obsolete. You could carry one device (maybe your existing smartphone) and use it as your go-to device for work, play &amp;amp; travel.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;HOW IT WORKS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Nivio can give you the full power (and flexibility) of a Windows 7 environment on just about any PC hardware or even a MAC — all within a web browser — thanks to desktop virtualisation. Your virtual desktop is placed on their servers and you can access it from anywhere, on any machine — the hardware doesn’t matter. You’ll get the same experience on MAC, PC or Linux as long as you have a stable broadband connection (3G, DSL or equivalent).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;WHAT IT MEANS FOR THE PC INDUSTRY&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This kind of innovation could be disruptive for the PC industry as a whole. Think about it — currently PC manufacturers are in a tizzy, trying to convince you that their machine is the best, the fastest and the most reliable. But the truth is, in an online world, the amount of gigahertz and gigabytes you have simply doesn’t matter! All the processing and all the number crunching will be done on remote servers.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;ACCESS FROM MOBILE DEVICES&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Nivio can also offer the full Windows operating system experience on your Android or iOS device. Since Nivio’s service relies on the cloud and not on hardware, you can get the same experience (using a free app) on a portable device. You can also use it on a 2G/EDGE network in an emergency.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;AN INTERESTING USE CASE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;“The idea is that you could just take your phone, attach a larger screen and a Bluetooth keyboard and it’ll become your desktop” explains Sachin Duggal, co-founder and ‘chief wizard’ of the UK and India-based enterprise.
-Nivio promises to ‘complete’ your existing device; give it a second life. They want to offer the full functionality of a PC on any device, so that you carry less devices, not multiple devices with each one suited to a different task. Their mission is to make affordable software and content available to anyone, on their fa-MAC vourite devices OS X , anywhere LION in the world.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;KEY ADVANTAGES&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The advantages of using Nivio are tremendous. We’ve already mentioned that it’s hardware independent. But the other main advantages are affordability, security, freedom from software piracy, and accessibility. In an essence, you’re renting all the software — Windows and whatever other programs you need — instead of buying them outright at high prices. All your files can be online — they offer 10GB of online storage for free with more available for a small fee. “Because the experience is purely utility based — it’s on/off in an instant. You don’t have to install software either; just select it and it’s available” says Sachin. “We’re fairly into the notion of bringing magic back to computing — because the user is subtracted from having to understand how it all works — it just works! This is very similar to other items that a consumer may use – a car, a TV or mobile phone. In a PC, a consumer traditionally has to understand a lot more about how it works, but we want to change that” he added.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;WHAT’S NEXT?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Since hardware requirements are minimal, you could have a complete operating system experience on just about any internet connected device, such as a TV, set top box, car A/V system or even a refrigerator! As of last evening, Nivio went live in the United States and will be available for Indian consumers by the end of March this year. To find out more, visit &lt;a href=&#34;http://in.nivio.com&#34;&gt;http://in.nivio.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A Quick Hands on Since your desktop resides on the cloud, the experience of using Nivio’s nDesktop is pretty similar, whether you access it from an iPhone, iPad or computer. When you login, you see the familiar Windows desktop. A session stays active for 3 hours after you disconnect — which means that if the power goes out, you can reconnect later within 3 hours and everything will be as you left it.&lt;/p&gt;
-
-&lt;p&gt;Using it on Mobile Devices On Android and iOS devices, you need an app called Pocket Cloud Pro that connects you to your Nivio nDesktop. Once connected, you’ll get the complete Windows 7 experience, complete with on-screen keyboard and right-click. You can also get the nDrive app that gives you access to your online storage. While the apps will be available on the respective US app stores from today, Indian consumers will get access to the apps (and the corresponding service) only by mid to end March 2012.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Similar Services&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Nivio is not the only one to offer cloud computing services. Citrix Systems, a US-based company offers the XenDesktop (a desktop virtualisation service, similar to Nivio’s) for enterprise customers. A similar offering by OnLive offers high resolution video gaming on hardware that was not originally supported. For instance, you could play a full PC game on a MAC or portable Android device. OnLive also offers a basic set top box that connects to your TV with accompanying gaming controller. This device effectively turns your computer into a gaming console. Since all the processing is done at the back end, the end user device just needs a fast internet connection and the ability to play HD video.&lt;/p&gt;
 </description>
     </item>
     
