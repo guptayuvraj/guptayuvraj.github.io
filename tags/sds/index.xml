@@ -7,7 +7,29 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Tue, 12 Apr 2016 00:00:00 UTC</updated>
+    <updated>Sun, 17 Apr 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>JedaNetwork</title>
+      <link>http://guptayuvraj.github.io/post/JedaNetwork/</link>
+      <pubDate>Sun, 17 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/JedaNetwork/</guid>
+      <description>&lt;p&gt;Jeda Networks game changing intelligent software product called the Fabric Network Controller (FNC) abstracts the complexity of a storage network into a software controller.&lt;/p&gt;
+
+&lt;p&gt;The Jeda FNC creates a high performance “storage network overlay” on top of an Ethernet fabric. This Software Defined Storage Network (SDSN) transforms the Ethernet fabric into a powerful and agile storage networking fabric. SDSNs solve the limitations of a fixed and rigid physical storage network—namely scalability, high cost, high complexity, and lack of agility&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Maximize Performance&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cut Management Costs-&lt;/strong&gt; mapping your SAN requirements to the physical Ethernet network&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No Hardware Lock-In&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The FNC has been successfully integrated with a number of multi-vendor 10Gb, 40Gb and 100 Gb Data Center Ethernet switches and as FNC is independent of the network hardware the FNC is software, it is network and access speed agnostic, so as speeds migrate to 100Gbs and beyond, the FNC will continue to work within these leaps of performance., it is 10, 40 and 100Gb Ethernet ready today.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Understanding about EMC Vipr- All in One</title>
