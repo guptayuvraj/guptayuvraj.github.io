@@ -7,7 +7,19 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Sun, 15 May 2016 00:00:00 UTC</updated>
+    <updated>Mon, 16 May 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Comparison Among Scale Out Storage Softwares</title>
+      <link>http://guptayuvraj.github.io/post/CompareSOS/</link>
+      <pubDate>Mon, 16 May 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/CompareSOS/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s compare various vendor offerings and the features provided by them categorized by the various categories according to which they are compared.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/ScaleOutStorageSW.jpg&#34; alt=&#34;&#34; title=&#34;Compare Scale Out Storage Softwares&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ScaleIOFeatures</title>
