@@ -7,7 +7,31 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Sun, 17 Apr 2016 00:00:00 UTC</updated>
+    <updated>Mon, 18 Apr 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>ScaleIOFeatures</title>
+      <link>http://guptayuvraj.github.io/post/ScaleIOFeatures/</link>
+      <pubDate>Mon, 18 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/ScaleIOFeatures/</guid>
+      <description>&lt;p&gt;ScaleIO ECS is a software-only solution that uses application hosts’ local disks.&lt;/p&gt;
+
+&lt;p&gt;Features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Simplified operation&lt;/strong&gt;- ECS enables IT administrator to manage the entire data center stack.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Avoid capacity planning&lt;/strong&gt;- ECS is elastic, enabling you to add, move, remove servers and capacity during I/O operations.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Self-healing&lt;/strong&gt;- It rebalances whenever capacity and/or servers are added.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Dynamic performance allocation&lt;/strong&gt;- It provides dynamic allocation based on applications’ needs.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Freedom of choice through hardware vendor lock-in elimination.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>JedaNetwork</title>
