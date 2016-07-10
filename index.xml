@@ -7,7 +7,50 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Fri, 22 Jul 2016 00:00:00 UTC</updated>
+    <updated>Sat, 23 Jul 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Cloud Computing Forecast</title>
+      <link>http://guptayuvraj.github.io/post/Cloud-Computing-Forecast/</link>
+      <pubDate>Sat, 23 Jul 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Forecast/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Public cloud market overall will grow 18.5 percent, to $131 billion, in 2017 from $111 billion in 2012.&lt;/li&gt;
+&lt;li&gt;By 2018, IDC forecasts that public cloud spending will more than double to $147.5 billion.&lt;/li&gt;
+&lt;li&gt;Global SaaS software revenues are forecasted to reach $106B in 2017, increasing 21% over projected 2016 spending levels.&lt;/li&gt;
+&lt;li&gt;Enterprise cloud subscription revenues are forecast to reach $67B by 2018, attaining a CAGR of 17.3% in the forecast period.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;By 2018, 59% of the total cloud workloads will be Software-as-a-Service (SaaS) workloads, up from 41% in 2013&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Forecast-SAAS.jpg&#34; alt=&#34;&#34; title=&#34;SaaS Forecast&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;$78.43B in SaaS revenue will be generated in 2015, increasing to $132.57 in 2020, attaining a compound annual growth rate (CAGR) of 9.14%&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Forecast-SAASRevenue.jpg&#34; alt=&#34;&#34; title=&#34;SaaS Revenue Forecast&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;42% of IT decision makers are planning to increase spending on cloud computing in 2015.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Cloud-Computing-Spend.png&#34; alt=&#34;&#34; title=&#34;Spend of Cloud Computing&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Spending on cloud computing infrastructure and platforms is expected to grow at a 30% CAGR from 2013 through 2018 compared with 5% growth for the overall enterprise IT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/IAAS-PAAS.png&#34; alt=&#34;&#34; title=&#34;Growth of IaaS &amp;amp; PaaS&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Security (36%), cloud computing (31%) and mobile devices (28%) are the top 3 initiatives IT executives are planning to have their organizations focus on over the next 12 months&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/SMAC.png&#34; alt=&#34;&#34; title=&#34;SMAC Growth Initiatives&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;By 2016 over 80% of enterprises globally will use IaaS, with investments in private cloud computing showing the greater growth.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/IAAS.png&#34; alt=&#34;&#34; title=&#34;IaaS adoption rate is high&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The SaaS Supply Chain Management (SCM) market is predicted to a $4.4B market by 2018, attaining a 19% CAGR from 2014 to 2018&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/SAAS-SCM.png&#34; alt=&#34;&#34; title=&#34;SaaS SCM&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cloud Computing Market Overview</title>
@@ -772,29 +815,6 @@ Uses ZFS.&lt;/p&gt;
 &lt;li&gt;Interoperability.&lt;/li&gt;
 &lt;li&gt;Management of Meta Data.&lt;/li&gt;
 &lt;li&gt;Higher Latency&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Benefits of Storage Virtualization</title>
-      <link>http://guptayuvraj.github.io/post/Benefits-Storage-Virtualization/</link>
-      <pubDate>Wed, 06 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
-      <guid>http://guptayuvraj.github.io/post/Benefits-Storage-Virtualization/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;Improved Storage Management in an IT environment&lt;/li&gt;
-&lt;li&gt;Better availability and estimation of downtime required with automated management.&lt;/li&gt;
-&lt;li&gt;Ability to migrate data while retaining  I/O access (Non disruptive data migration).&lt;/li&gt;
-&lt;li&gt;Reduce the number of SAN devices.&lt;/li&gt;
-&lt;li&gt;Decrease in Power consumed.&lt;/li&gt;
-&lt;li&gt;Time Saving.&lt;/li&gt;
-&lt;li&gt;Ease in Data Replication.&lt;/li&gt;
-&lt;li&gt;Easy backup, archiving and recovery tasks.&lt;/li&gt;
-&lt;li&gt;Expansion of Storage Capacity.&lt;/li&gt;
-&lt;li&gt;Easy Updates&lt;/li&gt;
-&lt;li&gt;Ability to increase Storage Volume Size in real time.&lt;/li&gt;
-&lt;li&gt;Increased loading and backup speed.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>

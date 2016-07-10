@@ -7,7 +7,50 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Fri, 22 Jul 2016 00:00:00 UTC</updated>
+    <updated>Sat, 23 Jul 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Cloud Computing Forecast</title>
+      <link>http://guptayuvraj.github.io/post/Cloud-Computing-Forecast/</link>
+      <pubDate>Sat, 23 Jul 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Forecast/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Public cloud market overall will grow 18.5 percent, to $131 billion, in 2017 from $111 billion in 2012.&lt;/li&gt;
+&lt;li&gt;By 2018, IDC forecasts that public cloud spending will more than double to $147.5 billion.&lt;/li&gt;
+&lt;li&gt;Global SaaS software revenues are forecasted to reach $106B in 2017, increasing 21% over projected 2016 spending levels.&lt;/li&gt;
+&lt;li&gt;Enterprise cloud subscription revenues are forecast to reach $67B by 2018, attaining a CAGR of 17.3% in the forecast period.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;By 2018, 59% of the total cloud workloads will be Software-as-a-Service (SaaS) workloads, up from 41% in 2013&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Forecast-SAAS.jpg&#34; alt=&#34;&#34; title=&#34;SaaS Forecast&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;$78.43B in SaaS revenue will be generated in 2015, increasing to $132.57 in 2020, attaining a compound annual growth rate (CAGR) of 9.14%&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Forecast-SAASRevenue.jpg&#34; alt=&#34;&#34; title=&#34;SaaS Revenue Forecast&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;42% of IT decision makers are planning to increase spending on cloud computing in 2015.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Cloud-Computing-Spend.png&#34; alt=&#34;&#34; title=&#34;Spend of Cloud Computing&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Spending on cloud computing infrastructure and platforms is expected to grow at a 30% CAGR from 2013 through 2018 compared with 5% growth for the overall enterprise IT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/IAAS-PAAS.png&#34; alt=&#34;&#34; title=&#34;Growth of IaaS &amp;amp; PaaS&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Security (36%), cloud computing (31%) and mobile devices (28%) are the top 3 initiatives IT executives are planning to have their organizations focus on over the next 12 months&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/SMAC.png&#34; alt=&#34;&#34; title=&#34;SMAC Growth Initiatives&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;By 2016 over 80% of enterprises globally will use IaaS, with investments in private cloud computing showing the greater growth.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/IAAS.png&#34; alt=&#34;&#34; title=&#34;IaaS adoption rate is high&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The SaaS Supply Chain Management (SCM) market is predicted to a $4.4B market by 2018, attaining a 19% CAGR from 2014 to 2018&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/SAAS-SCM.png&#34; alt=&#34;&#34; title=&#34;SaaS SCM&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cloud Computing Market Overview</title>
@@ -574,24 +617,6 @@ Nivio promises to ‘complete’ your existing device; give it a second life. Th
       <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Cloud-Help-Desk/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Help-Desk.jpg&#34; alt=&#34;&#34; title=&#34;Cloud Help Desk&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Basic Cloud Computing Architecture</title>
-      <link>http://guptayuvraj.github.io/post/Basic-Cloud-Computing-Architecture/</link>
-      <pubDate>Thu, 24 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
-      <guid>http://guptayuvraj.github.io/post/Basic-Cloud-Computing-Architecture/</guid>
-      <description>&lt;p&gt;When talking about a cloud computing system, it’s helpful to divide it into two sections: the front endand the back end. They connect to each other through a network, usually the Internet. The front end is the side the computer user, or client, sees. The back end is the “cloud” section of the system.&lt;/p&gt;
-
-&lt;p&gt;&lt;u&gt;&lt;strong&gt;The front end includes the client’s computer (or computer network) and the application required to access the cloud computing system.&lt;/strong&gt;&lt;/u&gt; Not all cloud computing systems have the same user interface. Services like Web-based e-mail programs leverage existing Web browsers like Internet Explorer or Firefox. Other systems have unique applications that provide network access to clients.&lt;/p&gt;
-
-&lt;p&gt;&lt;u&gt;&lt;strong&gt;On the back end of the system are the various computers, servers and data storage systems that create the “cloud” of computing services.&lt;/strong&gt;&lt;/u&gt; In theory, a cloud computing system could include practically any computer program you can imagine, from data processing to video games. Usually, each application will have its own dedicated server.&lt;/p&gt;
-
-&lt;p&gt;&lt;u&gt;&lt;strong&gt;A central server administers the system, monitoring traffic and client demands to ensure everything runs smoothly.&lt;/strong&gt;&lt;/u&gt; It follows a set of rules called protocols and uses a special kind of software called middleware. Middleware allows networked computers to communicate with each other. Most of the time, servers don’t run at full capacity. That means there’s unused processing power going to waste. It’s possible to fool a physical server into thinking it’s actually multiple servers, each running with its own independent operating system. The technique is called server virtualization. By maximizing the output of individual servers, server virtualization reduces the need for more physical machines.&lt;/p&gt;
-
-&lt;p&gt;If a cloud computing company has a lot of clients, there’s likely to be a high demand for a lot of storage space. Some companies require hundreds of digital storage devices. Cloud computing systems need at least twice the number of storage devices it requires to keep all its clients’ information stored. That’s because these devices, like all computers, occasionally break down. A cloud computing system must make a copy of all its clients’ information and store it on other devices. The copies enable the central server to access backup machines to retrieve data that otherwise would be unreachable. Making copies of data as a backup is called redundancy.&lt;/p&gt;
 </description>
     </item>
     
