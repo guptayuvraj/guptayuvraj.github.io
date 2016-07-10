@@ -7,7 +7,67 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Sat, 23 Jul 2016 00:00:00 UTC</updated>
+    <updated>Sun, 24 Jul 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Cloud Computing Future Trends</title>
+      <link>http://guptayuvraj.github.io/post/Cloud-Computing-Future-Trends/</link>
+      <pubDate>Sun, 24 Jul 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Future-Trends/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The rise of the hybrid cloud&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hybrid clouds feature an infrastructure that combines private cloud security with cost-effective, powerful and scalable public cloud attributes.
+IT executives get more choices for personalized solutions while big data advocates and security experts are still satisfied.
+As hybrid models become mainstream, more companies are likely to adopt this cloud deployment model.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Big data Analytics&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Many organizations are realizing that it may be much simpler and more beneficial to combine big data analytics with cloud computing than to choose one over the other&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Big data as a service&lt;/strong&gt; seems like one of the most practical options for big data analytics, as it is scalable and within the reach of any organisation, no matter its size or resources.&lt;/p&gt;
+
+&lt;p&gt;These cloud providers are also overcoming the technical barrier by transforming Hadoop from an open source platform to an enterprise-ready service, all without the need for a data scientist. &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Graphics as a Service&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Typically, running high-end graphics applications requires substantial hardware infrastructure investment.&lt;/p&gt;
+
+&lt;p&gt;However, cloud computing is changing this reality. There are a number of new cloud-based graphics technologies from prominent graphics companies, including NVIDIA and AMD that allow end users to run high-end graphic design applications with a simple HTML5 web browser.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Identity Management and Protection&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Security has always been a major concern with cloud computing. As more businesses move more information and data into cloud servers, this concern is more important than ever.&lt;/p&gt;
+
+&lt;p&gt;It is anticipated that over the few years, there will be identity management solutions based on new cloud based security paradigms.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Web-Powered Apps&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As efficiency and scalability are among the primary benefits of cloud computing, then it only makes sense to start developing cloud-based applications that are compatible with multiple platforms.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Standardization will take center-stage&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The cloud ecosystem today is characterized by a plethora of standards, mostly unique to service providers and therefore incompatible with other platforms.&lt;/p&gt;
+
+&lt;p&gt;Currently more than 160 different standards govern cloud computing systems. This situation has the potential to dampen the growth prospects of the cloud.&lt;/p&gt;
+
+&lt;p&gt;The shift towards common or open standards for cloud deployments will be central to the development of the cloud model, especially if features like interoperability and portability are to be realized.&lt;/p&gt;
+
+&lt;p&gt;Consortiums like the Open Data Center Alliance (ODCA), framed to focus attention on the crying need for a dependable framework to progress the evolution of organizational standards, that streamline the cloud journey, will grow in stature.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Cloud Computing Forecast</title>
@@ -442,24 +502,6 @@ Nivio promises to ‘complete’ your existing device; give it a second life. Th
       <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Cloud-Help-Desk/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Help-Desk.jpg&#34; alt=&#34;&#34; title=&#34;Cloud Help Desk&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Basic Cloud Computing Architecture</title>
-      <link>http://guptayuvraj.github.io/post/Basic-Cloud-Computing-Architecture/</link>
-      <pubDate>Thu, 24 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
-      <guid>http://guptayuvraj.github.io/post/Basic-Cloud-Computing-Architecture/</guid>
-      <description>&lt;p&gt;When talking about a cloud computing system, it’s helpful to divide it into two sections: the front endand the back end. They connect to each other through a network, usually the Internet. The front end is the side the computer user, or client, sees. The back end is the “cloud” section of the system.&lt;/p&gt;
-
-&lt;p&gt;&lt;u&gt;&lt;strong&gt;The front end includes the client’s computer (or computer network) and the application required to access the cloud computing system.&lt;/strong&gt;&lt;/u&gt; Not all cloud computing systems have the same user interface. Services like Web-based e-mail programs leverage existing Web browsers like Internet Explorer or Firefox. Other systems have unique applications that provide network access to clients.&lt;/p&gt;
-
-&lt;p&gt;&lt;u&gt;&lt;strong&gt;On the back end of the system are the various computers, servers and data storage systems that create the “cloud” of computing services.&lt;/strong&gt;&lt;/u&gt; In theory, a cloud computing system could include practically any computer program you can imagine, from data processing to video games. Usually, each application will have its own dedicated server.&lt;/p&gt;
-
-&lt;p&gt;&lt;u&gt;&lt;strong&gt;A central server administers the system, monitoring traffic and client demands to ensure everything runs smoothly.&lt;/strong&gt;&lt;/u&gt; It follows a set of rules called protocols and uses a special kind of software called middleware. Middleware allows networked computers to communicate with each other. Most of the time, servers don’t run at full capacity. That means there’s unused processing power going to waste. It’s possible to fool a physical server into thinking it’s actually multiple servers, each running with its own independent operating system. The technique is called server virtualization. By maximizing the output of individual servers, server virtualization reduces the need for more physical machines.&lt;/p&gt;
-
-&lt;p&gt;If a cloud computing company has a lot of clients, there’s likely to be a high demand for a lot of storage space. Some companies require hundreds of digital storage devices. Cloud computing systems need at least twice the number of storage devices it requires to keep all its clients’ information stored. That’s because these devices, like all computers, occasionally break down. A cloud computing system must make a copy of all its clients’ information and store it on other devices. The copies enable the central server to access backup machines to retrieve data that otherwise would be unreachable. Making copies of data as a backup is called redundancy.&lt;/p&gt;
 </description>
     </item>
     
