@@ -1,7 +1,7 @@
 +++
 date = "2016-07-25"
 draft = false
-title = "Overview of few Backup Solutions"
+title = "Overview of few Backup Solution"
 categories = ["Backup"]
 tags = ["EaseUS", "OOPS!","BackBlaze"]
 author = "Yuvraj Gupta"
