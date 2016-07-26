@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title> on Blog </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://guptayuvraj.github.io/</link>
+    <language>en-us</language>
+    <author>Yuvraj Gupta</author>
+    
+    <updated>Wed, 27 Jul 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Introduction to AngularJS</title>
+      <link>http://guptayuvraj.github.io/post/Introduction-to-AngularJS/</link>
+      <pubDate>Wed, 27 Jul 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Introduction-to-AngularJS/</guid>
+      <description>&lt;p&gt;AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries. &lt;/p&gt;
+
+&lt;p&gt;HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.&lt;/p&gt;
+
+&lt;p&gt;Other frameworks deal with HTML’s shortcomings by either abstracting away HTML, CSS, and/or JavaScript or by providing an imperative way for manipulating the DOM. Neither of these address the root problem that HTML was not designed for dynamic views.&lt;/p&gt;
+
+&lt;p&gt;Key Introductory Points of AngularJS:-&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Developed and maintained by Google&lt;/li&gt;
+&lt;li&gt;MVC Javascript Framework for Rich Web Application Development&lt;/li&gt;
+&lt;li&gt;Hot new front-end JavaScript framework&lt;/li&gt;
+&lt;li&gt;Rapidly develop powerful, responsive web apps&lt;/li&gt;
+&lt;li&gt;Philosophy similar to jQUery&lt;/li&gt;
+&lt;li&gt;Simplicity&lt;/li&gt;
+&lt;li&gt;Enhance HTML, work with it not around it&lt;/li&gt;
+&lt;li&gt;Testable, maintainable, extendable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;History of AngularJS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Developed in 2009 by MiškoHevery and Adam Abrons for commercial purposes, but later Angular as an open-source library.&lt;/p&gt;
+
+&lt;p&gt;Hevery, who works at Google, continues to develop and maintain the library. Version 1.0 released in December 2012.&lt;/p&gt;
+
+&lt;p&gt;What about WebToolkit?&lt;/p&gt;
+
+&lt;p&gt;WebToolkit compiles Java down to JavaScript and was used by the Google extensively. With the rise of HTML5, CSS3, and JavaScript, Google is changing directions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Structure of AngularJS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It follows the MVC Architecture i.e. Model, View and Controller.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Model&lt;/strong&gt;
+The data&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Controller&lt;/strong&gt;
+The behavior
+Modifying / updating the models&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;View&lt;/strong&gt;
+The interface
+How the data is presented to the user&lt;/p&gt;
+
+&lt;p&gt;Model and Controller uses JavaScript where as View uses HTML to present the data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Models&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Properties on the Controller’s $scope object&lt;/li&gt;
+&lt;li&gt;Standard JavaScript values&lt;/li&gt;
+&lt;li&gt;Can be used to separate the application into parts&lt;/li&gt;
+&lt;li&gt;Application module can include the other modules by listing them as dependencies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Controller&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Function that takes at least one parameter: $scope&lt;/li&gt;
+&lt;li&gt;Function is a constructor&lt;/li&gt;
+&lt;li&gt;Ex: function MyCtrl($scope) { … }&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;$scope&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is a JavaScript object&lt;/li&gt;
+&lt;li&gt;Contains data (i.e. models) and methods (i.e. functions)&lt;/li&gt;
+&lt;li&gt;Can add own properties
+$scope.&lt;my new property&gt; = &lt;value&gt;;&lt;/li&gt;
+&lt;li&gt;The $scope variable – Link your controllers and view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Views&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make use of special ng attributes (directives) on the HTML elements&lt;/li&gt;
+&lt;li&gt;ng-app
+
+&lt;ul&gt;
+&lt;li&gt;Determines which part of the page will use AngularJS&lt;/li&gt;
+&lt;li&gt;If given a value it will load that application module&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ng-controller
+
+&lt;ul&gt;
+&lt;li&gt;Determines which Javascript Controller should be used for that part of the page.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ng-model
+
+&lt;ul&gt;
+&lt;li&gt;Determines what model the value of an input field will be bound to&lt;/li&gt;
+&lt;li&gt;Used for two-way binding&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Dependency Injection&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pass the modules and services that you need as parameters&lt;/li&gt;
+&lt;li&gt;In the previous case $scope is a service that will be injected&lt;/li&gt;
+&lt;li&gt;Can be passed as an array of strings to the controller function as well&lt;/li&gt;
+&lt;li&gt;Prevents errors when performing modification&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;$http&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Used to handle Ajax calls&lt;/li&gt;
+&lt;li&gt;Wrappers around jQuery&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Features of AngularJS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Templating&lt;/li&gt;
+&lt;li&gt;Databinding&lt;/li&gt;
+&lt;li&gt;Routing&lt;/li&gt;
+&lt;li&gt;Follows MVC Architecture&lt;/li&gt;
+&lt;li&gt;Server-Side Communication&lt;/li&gt;
+&lt;li&gt;Dependency Injection&lt;/li&gt;
+&lt;li&gt;Extensibility (&amp;ldquo;Directives&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Allows for testing&lt;/li&gt;
+&lt;li&gt;Deep Linking (Map URL to route Definition)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Why AngularJS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Backed by Google- Actively maintained&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Angular is built and maintained by dedicated Google engineers.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AngularJS came about to standardize web application structure and provide a future template for how client-side apps should be developed.
+Because AngularJS is built by Google, you can be sure that you are dealing with  efficient and reliable code that will scale with your project.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This means you not only have a large open community to learn from, but you also have skilled, highly-available engineers tasked to help you get your Angular questions answered.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Comprehensive feature set&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Angular a complete solution for rapid front-end development.
+ &lt;/li&gt;
+&lt;li&gt;No other plugins or frameworks are necessary to build a data-driven web application.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;REST Easy&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Restful actions are quickly becoming the standard for communicating from the server to the client.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In one line of JavaScript, you can quickly talk to the server and get the data you need to interact with your web pages.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Extends HTML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Most websites built today are a giant series of &amp;lt;div&amp;gt; tags.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You need to create extensive and exhaustive CSS classes to express the intention of each object in the DOM.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;With Angular, you can operate your HTML like XML, giving you endless possibilities for tags and attributes.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Angular accomplishes this via its HTML compiler and the use of directives to trigger behaviors based on newly created syntax you write.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Makes HTML your Template&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;You can quickly grasp the bracket syntax of Angular&amp;rsquo;s templating engine, because it&amp;rsquo;s just HTML.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Angular traverses the DOM for these templates, which house the directives mentioned above.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The templates are then passed to the AngularJS compiler as DOM elements, which can be extended, executed or reused.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This is a key property which allows direct manipulation and extension of the DOM tree.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Enterprise-level Testing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;AngularJS requires no additional frameworks or plugins, including testing.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Easy in learning Angular&amp;rsquo;s unit-testing API which guides you through executing your tests in as close to the actual state of your production application as possible.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How Searching in a Site helps</title>
+      <link>http://guptayuvraj.github.io/post/Search-Site/</link>
+      <pubDate>Tue, 26 Jul 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Search-Site/</guid>
+      <description>&lt;p&gt;Site search is beneficial to e-commerce and content websites alike. A great site search     software can help you retain customers, increase sales, track under-performing pages and keywords and even more.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Site Search Benefits Your Consumers:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It satisfies the “I want it now” problem for today’s searchers&lt;/li&gt;
+&lt;li&gt;Consumers expect site search on today’s websites&lt;/li&gt;
+&lt;li&gt;Reduces bounce and exit rates and increases time on site&lt;/li&gt;
+&lt;li&gt;Can help suggest related content the customer is interested in but didn’t know to look for.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Great for E-Commerce&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On e-commerce sites, up to 30 % of users will use the search box and show intent to buy by typing in searches for product names, product codes and product categories. Great e-commerce sites utilize site search with added features that maximize on online shopper’s intent to buy. E-Commerce sites can use filtering options to narrow down “Clothing” to “Men’s” and then even further to “Dress Pants.”&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Improved Sales&lt;/li&gt;
+&lt;li&gt;Increased Time on Site&lt;/li&gt;
+&lt;li&gt;Customer Retention &amp;amp; Loyalty&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Allows Better Analytics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;How can you prove that site search is worthwhile? How can it help the site owner? The answer…. Analytics. Site search analysis feature that can help you dig deeper into the minds of your consumers and improve your site with your findings.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Overview of few Backup Solutions</title>
+      <link>http://guptayuvraj.github.io/post/Overview-Backup-Solutions/</link>
+      <pubDate>Mon, 25 Jul 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Overview-Backup-Solutions/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;EaseUS Todo Backup Home&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Easy to use.&lt;/li&gt;
+&lt;li&gt;Simple &amp;amp; Attractive UI&lt;/li&gt;
+&lt;li&gt;Easy Recovery Process&lt;/li&gt;
+&lt;li&gt;Completely free Software&lt;/li&gt;
+&lt;li&gt;Full of lot of functions such as file backup, disk clone, partition backup, recovery of images etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bad customer support&lt;/li&gt;
+&lt;li&gt;Will not restore to a larger than 2.2TB drive.&lt;/li&gt;
+&lt;li&gt;No encryption&lt;/li&gt;
+&lt;li&gt;Boot Recovery doesn’t support some USB drives.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Working of EaseUS Todo Backup Home Software:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Installation&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The installation is very easy.  It will state you can only use the software for non-commercial, personal use.  You’ll also specify the default backup folder (make sure it’s not on the same drive as your files to be backed up).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Backing Up&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The interface is easy to use and well laid out.  New users will have no trouble getting started.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Easeus-1.jpg&#34; alt=&#34;&#34; title=&#34;EaseUS&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Clicking “System Backup,” you’ll choose the partition you want to back up.  This will most likely be your C: drive.  EaseUS Todo Backup Free will already have the default backup folder set as the destination.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Easeus-2.jpg&#34; alt=&#34;&#34; title=&#34;EaseUS&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click Proceed, and in an hour or so you’ll have a working image of your hard drive.
+If you just want to backup a few files or folders, EaseUS Todo Backup Free can do that, too.  On the main screen, click “Data backup” and you can choose individual files and folders.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Restoring&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In order to restore, you’ll need to create a bootable disk.  You can do this from within the software.&lt;/p&gt;
+
+&lt;p&gt;Initially, EaseUS Todo Backup couldn’t locate my USB hard drive during recovery.  I found out this was because the bootable DVD didn’t have the correct USB driver for my hardware.  After contacting EaseUS they said the only solution would be to upgrade to Todo Backup Home edition, which supports creating a Win PE bootable disk and might have the correct drivers.&lt;/p&gt;
+
+&lt;p&gt;I eventually changed computers, which solved the problem.&lt;/p&gt;
+
+&lt;p&gt;So if you’re backing up to a USB drive, just be aware it might not be supported in the boot recovery mode.  Test it first and you’ll save yourself a headache.&lt;/p&gt;
+
+&lt;p&gt;The boot disk will let you choose to start EaseUS Todo Backup or continue booting Windows.  Once started, you’ll be given the option to recovery your data.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Easeus-3.jpg&#34; alt=&#34;&#34; title=&#34;Recovering C: Drive&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mount System Backups&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;System backups can be mounted, which can then be accessed like normal drives in Windows.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Disk/Partition Clone&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;EaseUS Todo Backup Free supports cloning your drives.  This is useful when you want to migrate your system to a new hard drive.&lt;/p&gt;
+
+&lt;p&gt;2.&lt;strong&gt;Oops! Backup&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Capable of running several backup jobs at same time.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Auto Versioning functionality&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Fast search facilities&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Intuitive Interface&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Backs up entire Windows user folder&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;No full disk imaging.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;No Boot Disk or Boot- Time recovery options.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lacks differential backups.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lack cloud storage&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Working of Oops! Backup Software:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Backing Up&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Right off the bat, Oops!Backup pops up a browser window, asking users to configure the software and gives an email address to ask any questions – a nice touch.
+When first started, the Setup Wizard will prompt you to create a backup plan, or restore your files (if you’re migrating to a new computer).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/OOPS-1.jpg&#34; alt=&#34;&#34; title=&#34;Setup Wizard&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Oops!Backup backs up the entire user folder&lt;/strong&gt; by default, which is great.  This takes all the guesswork out of choosing which files to back up.  It’s also something I’ve been saying all backup software should be doing – keep it simple!&lt;/p&gt;
+
+&lt;p&gt;Next, it automatically scans for connected drives, and gives a recommendation.  With my setup, it recommended my external hard drive which is exactly where I wanted my backups to be stored.&lt;/p&gt;
+
+&lt;p&gt;The default backup frequency is once every hour, hence the “Time Machine for Windows” slogan.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/OOPS-2.jpg&#34; alt=&#34;&#34; title=&#34;Backup Summary Screen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oops!Backup has a lot of advanced settings to choose from.  Here are the most important ones:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Plug and protect&amp;rdquo; to start backups automatically upon connecting the backup drive&lt;/li&gt;
+&lt;li&gt;Copy locked and open files&lt;/li&gt;
+&lt;li&gt;Automatic purging of old backups&lt;/li&gt;
+&lt;li&gt;Storage limit for old versions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Oops!Backup had no problems backing up all my user data.  When it was finished, any changes to my files were also backed up (once every hour, or when clicking the “Backup Now” button).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Restoring&lt;/strong&gt;
+I found restoring data to be very easy.  I was able to browse snapshots, find the data I wanted to restore, and with the click of a button restore my files.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/OOPS-3.jpg&#34; alt=&#34;&#34; title=&#34;Restore previous versions of File&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BackInTime Technology&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is what enables you to “travel back in time” to find and recover changes made to any file.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Silent File Versioning&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Oops!Backup works silently in the background, tracking changes you make to photos, MS Office documents, and other files.  When changes are detected it automatically backs up and versions them for you.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Plug and Protect&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Whenever you connect your backup drive, Oops!Backup will immediately start backing up any changes.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ReverseDelta Technology&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Basically, this only backs up changes to each version of an altered file, rather than the whole file each time it changes.  It also ensures that the latest version of a file is always a full backup, and no delta files will be required to rebuild it.  Why?  Because in most restore scenarios, the file you usually need is the latest one.  And the more delta files you need to go through to rebuild it, the higher the chances for errors.  This fixes that.  Another way to describe this is “reverse incremental.”&lt;/p&gt;
+
+&lt;p&gt;3.&lt;strong&gt;BackBlaze&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Cloud based Backup.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Fast backup speed.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Unlimited storage space.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Versioning.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Intuitive Backups.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Unlimited online backup.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;No support of mobile devices.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;No backup of network drives.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Restoring only using web interface.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Working of Backblaze Backup Software:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Backing Up&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After installing, Backblaze automatically scans your hard drive for files to back up.  It will also backup all connected USB drives at the time of the install (you can add more later).
+Backups are automatic and continuous; your files are backed up constantly throughout the day.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Backblaze-1.jpg&#34; alt=&#34;&#34; title=&#34;BackBlaze UI&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Backblaze also has an option to “Transfer Backup State.”  This lets you transfer your account to a new computer, without having to re-upload all your files again.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Restoring Files&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Option 1: Download Your Files&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When your computer crashes or you lose data, getting your files back is the first thing on your mind.  Fortunately, Backblaze makes this easy.&lt;/p&gt;
+
+&lt;p&gt;You can download your files through the web interface.  Your files will be compressed to a .zip before downloading, and for 100GB worth of data this will take about 4 days (according to my speed tests).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Backblaze-2.jpg&#34; alt=&#34;&#34; title=&#34;Download Files&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Option 2: Get Your Files Mailed to You&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have a large amount of data, it might be faster to have them mailed to you on a USB flash drive or external hard drive.
+The price for the USB flash drive is $99, and it holds a maximum of 53GB.  The external hard drive costs $189, and it holds a maximum of 3TB.
+Backblaze says it can take 2-3 days to mail the drive.  With overnight shipping, that’s up to 4 days before you can get your data back.  At this point it might be faster to download them, depending on your internet connection speed – something to keep in mind.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Preferences and Settings&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Although Backblaze is very good at picking the best backup plan, there are a ton of settings to customize if you want to.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Backblaze-3.jpg&#34; alt=&#34;&#34; title=&#34;Customize Settings&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Performance Settings&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Backblaze-4.jpg&#34; alt=&#34;&#34; title=&#34;Performance Settings&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scheduling Options&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Backblaze-5.jpg&#34; alt=&#34;&#34; title=&#34;Scheduling Settings&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Excluding Files&lt;/strong&gt;
+You can exclude folders, file types, and files over a certain size.  There are a lot of exclusions already set, mostly system files and other files you wouldn’t normally back up.
+The default max file size is 4GB.  This can be changed anywhere from 5MB to 25GB, or turned off with “no limit” (like I prefer).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Backblaze-6.jpg&#34; alt=&#34;&#34; title=&#34;File Exclusions&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How Long are Deleted Files Kept?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Deleted files are kept for 30 days.
+In other words: if you delete a file on your computer, you have 30 days to recover it before it’s deleted from the Backblaze servers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What About Multiple Versions of Files?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If a file changes, Backblaze will keep up to 34 versions.&lt;/p&gt;
+
+&lt;p&gt;Backblaze will backup:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;One version every hour, for the last 24 hours&lt;/li&gt;
+&lt;li&gt;One version every day, for the last 7 days&lt;/li&gt;
+&lt;li&gt;One version every week, for the last 4 weeks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This way, you can restore files even if they’ve been overwritten by newer files (such as a text document you’re working on).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing Future Trends</title>
+      <link>http://guptayuvraj.github.io/post/Cloud-Computing-Future-Trends/</link>
+      <pubDate>Sun, 24 Jul 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Future-Trends/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The rise of the hybrid cloud&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hybrid clouds feature an infrastructure that combines private cloud security with cost-effective, powerful and scalable public cloud attributes.
+IT executives get more choices for personalized solutions while big data advocates and security experts are still satisfied.
+As hybrid models become mainstream, more companies are likely to adopt this cloud deployment model.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Big data Analytics&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Many organizations are realizing that it may be much simpler and more beneficial to combine big data analytics with cloud computing than to choose one over the other&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Big data as a service&lt;/strong&gt; seems like one of the most practical options for big data analytics, as it is scalable and within the reach of any organisation, no matter its size or resources.&lt;/p&gt;
+
+&lt;p&gt;These cloud providers are also overcoming the technical barrier by transforming Hadoop from an open source platform to an enterprise-ready service, all without the need for a data scientist. &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Graphics as a Service&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Typically, running high-end graphics applications requires substantial hardware infrastructure investment.&lt;/p&gt;
+
+&lt;p&gt;However, cloud computing is changing this reality. There are a number of new cloud-based graphics technologies from prominent graphics companies, including NVIDIA and AMD that allow end users to run high-end graphic design applications with a simple HTML5 web browser.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Identity Management and Protection&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Security has always been a major concern with cloud computing. As more businesses move more information and data into cloud servers, this concern is more important than ever.&lt;/p&gt;
+
+&lt;p&gt;It is anticipated that over the few years, there will be identity management solutions based on new cloud based security paradigms.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Web-Powered Apps&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As efficiency and scalability are among the primary benefits of cloud computing, then it only makes sense to start developing cloud-based applications that are compatible with multiple platforms.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Standardization will take center-stage&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The cloud ecosystem today is characterized by a plethora of standards, mostly unique to service providers and therefore incompatible with other platforms.&lt;/p&gt;
+
+&lt;p&gt;Currently more than 160 different standards govern cloud computing systems. This situation has the potential to dampen the growth prospects of the cloud.&lt;/p&gt;
+
+&lt;p&gt;The shift towards common or open standards for cloud deployments will be central to the development of the cloud model, especially if features like interoperability and portability are to be realized.&lt;/p&gt;
+
+&lt;p&gt;Consortiums like the Open Data Center Alliance (ODCA), framed to focus attention on the crying need for a dependable framework to progress the evolution of organizational standards, that streamline the cloud journey, will grow in stature.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing Forecast</title>
+      <link>http://guptayuvraj.github.io/post/Cloud-Computing-Forecast/</link>
+      <pubDate>Sat, 23 Jul 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Forecast/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Public cloud market overall will grow 18.5 percent, to $131 billion, in 2017 from $111 billion in 2012.&lt;/li&gt;
+&lt;li&gt;By 2018, IDC forecasts that public cloud spending will more than double to $147.5 billion.&lt;/li&gt;
+&lt;li&gt;Global SaaS software revenues are forecasted to reach $106B in 2017, increasing 21% over projected 2016 spending levels.&lt;/li&gt;
+&lt;li&gt;Enterprise cloud subscription revenues are forecast to reach $67B by 2018, attaining a CAGR of 17.3% in the forecast period.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;By 2018, 59% of the total cloud workloads will be Software-as-a-Service (SaaS) workloads, up from 41% in 2013&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Forecast-SAAS.jpg&#34; alt=&#34;&#34; title=&#34;SaaS Forecast&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;$78.43B in SaaS revenue will be generated in 2015, increasing to $132.57 in 2020, attaining a compound annual growth rate (CAGR) of 9.14%&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Forecast-SAASRevenue.jpg&#34; alt=&#34;&#34; title=&#34;SaaS Revenue Forecast&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;42% of IT decision makers are planning to increase spending on cloud computing in 2015.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Cloud-Computing-Spend.png&#34; alt=&#34;&#34; title=&#34;Spend of Cloud Computing&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Spending on cloud computing infrastructure and platforms is expected to grow at a 30% CAGR from 2013 through 2018 compared with 5% growth for the overall enterprise IT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/IAAS-PAAS.png&#34; alt=&#34;&#34; title=&#34;Growth of IaaS &amp;amp; PaaS&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Security (36%), cloud computing (31%) and mobile devices (28%) are the top 3 initiatives IT executives are planning to have their organizations focus on over the next 12 months&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/SMAC.png&#34; alt=&#34;&#34; title=&#34;SMAC Growth Initiatives&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;By 2016 over 80% of enterprises globally will use IaaS, with investments in private cloud computing showing the greater growth.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/IAAS.png&#34; alt=&#34;&#34; title=&#34;IaaS adoption rate is high&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The SaaS Supply Chain Management (SCM) market is predicted to a $4.4B market by 2018, attaining a 19% CAGR from 2014 to 2018&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/SAAS-SCM.png&#34; alt=&#34;&#34; title=&#34;SaaS SCM&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing Market Overview</title>
+      <link>http://guptayuvraj.github.io/post/Cloud-Computing-Market-Overview/</link>
+      <pubDate>Fri, 22 Jul 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Market-Overview/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Cloud Market Overview&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The cloud marketplace is real; the cloud marketplace is now; and CSPs are well positioned to take advantage of this opportunity.&lt;/p&gt;
+
+&lt;p&gt;Enterprises are steadily shifting their IT spending to cloud services.
+While many are starting with hosted email and Web-based CRM applications, the adoption of Infrastructure-as-a-Service (IaaS) and Platforms-as-a-Service (PaaS) is increasing significantly.&lt;/p&gt;
+
+&lt;p&gt;Clearly, service providers able to offer cloud services that meet and satisfy the insatiable enterprise demand for cloud computing will reap sustained and predictable revenue and profitability.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cloud Computing Market Size (2013)&lt;/strong&gt;&lt;br /&gt;
+Overall Spending in Cloud Market    $131Bn&lt;/p&gt;
+
+&lt;p&gt;Overall Cloud Services Market       $30Bn&lt;/p&gt;
+
+&lt;p&gt;SaaS                                    $20-22 Bn&lt;/p&gt;
+
+&lt;p&gt;IaaS                                    $6  Bn&lt;/p&gt;
+
+&lt;p&gt;PaaS                                    $.5 Bn&lt;/p&gt;
+
+&lt;p&gt;Others/Misc                             $3 Bn&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why Need of Becoming CSP&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Extra Source of Revenue&lt;/strong&gt;
+Service Providers are finding revenues from their traditional services shrinking due to excessive competition.
+Value Added Services on top of their core services have provided them with the required extra revenue for many years but that is also leveling off.
+Cloud Computing offers itself as the candidate for the next wave of value added services providing support to their revenue and the bottom line.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Increasing Loyalty and Reducing Churn&lt;/strong&gt;
+Cloud Computing offers multiple reasons for the existing customers to stay longer because once they start using some cloud based services from one service provider, their stickiness and barrier to move away both increase significantly.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When previously it was just a matter of signing up with the new service provider, with cloud computing in the portfolio, they have an added ‘migration cost’ of their data involved in order to move away and a potential downtime of critical services during switchover.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Differentiation of Services&lt;/strong&gt;
+With many providers in the same market segment, cloud computing provides a way for service providers to differentiate their services from the competition.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Market Leadership&lt;/strong&gt;
+Service Providers offering cloud computing are seen as driving the market and providing leadership. With hundreds of services coming in the cloud computing space, the trend is going to continue for many years to come.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Low Capex&lt;/strong&gt;
+Offering Cloud Computing services is a low capex venture. With all larger software vendors offering service provider license agreements, the nature of business is basically pay as you grow with little CAPEX and OPEX directly related to revenue.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Monetization of Access Network&lt;/strong&gt;
+Access Network is very expensive and more so for wireless service providers because of increasing spectrum license costs among others. Cloud Computing offers an added range of high value services to be offered over the same access infrastructure, offering better avenues of monetization of the same network.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Extension of Technology&lt;/strong&gt;
+All Service Providers are technology driven industries and already have expertise in managing their core networks and running their operations uninterrupted and also have monitoring systems in place for their core services. Adding cloud computing to their offerings does not add any significant requirements for them in terms of expertise or equipment.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Higher Margins&lt;/strong&gt;
+Cloud Computing comes with multiple avenues in adding value. They could be in providing managed services, monitoring of services, maintenance and upgrades of services, different levels of support and so on. Such personalized services allow higher margins than base services which are now increasingly commoditized.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Factors Favouring and Challenging Cloud Adoption&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Cloud-Adoption.png&#34; alt=&#34;&#34; title=&#34;Cloud Adoptions Pros and Cons&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Enhancing Data Security in Cloud Computing</title>
+      <link>http://guptayuvraj.github.io/post/Enhancing-Data-Security-in-Cloud-Computing/</link>
+      <pubDate>Thu, 21 Jul 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Enhancing-Data-Security-in-Cloud-Computing/</guid>
+      <description>&lt;p&gt;This technical paper has been published in International Journal of Scientific Engineering &amp;amp; Research (IJSER) in the edition of Volume 3 Issue 12 December 2012.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ABSTRACT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Cloud Computing is a new mechanism to deliver products from producer to consumer in a very different and efficient style of computing. It has revolutionized not only the IT industry but has also revolutionized the hardware and software industry. It is growing leaps and bounds and has only bright sky ahead. But will you love to see a bright sky with embraces of black holes? Obviously you won’t, similarly security is the main issue which acts as a blackhole to the whole system of it specialists in this domain. The main mission of security is to limit access to the authorized person, who can see, modify only that data which they are associated with. When we talk about the security of data in Cloud Computing the vendor has to ensure assurance to convince the customer on the security issues. Organizations are using cloud computing for confidential issues for their business applications though guaranteeing the security is difficult. This paper is divided into different sections such as:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Introduction to Cloud&lt;/li&gt;
+&lt;li&gt;Benefits of Cloud&lt;/li&gt;
+&lt;li&gt;Cloud Data Security&lt;/li&gt;
+&lt;li&gt;Enhancement in Security&lt;/li&gt;
+&lt;li&gt;Conclusion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This paper will enlighten the various improved methods for dealing with data security in the domain of biometrics, cryptography, public key infrastructure and Cloud Standards in the venture of Cloud Computing. We will focus on the security enhancement of cryptography and biometrics by their combinations. This paper is aimed at being a reference point to understand the basic security ideas for the newcomers and intended to promote more activities and research in these critical and very important security issues which has to be addressed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Index Terms— Cloud Computing. Benefits of Cloud, Data Security, Enhancing Data Security, Cryptography, PKI, Biometrics, Cloud Data Security, Cloud Standards&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;INTRODUCTION&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Cloud Computing can be seen as the latest revolution in Information and Communication Technology. In Cloud IT services are abstracted from provided on demand as well as underlying infrastructure in a multi-tenant environment. Cloud enables on demand network access to a shared pool of computing resources (such as servers, applications, network, storage) that can be provisioned with minimal management effort. Cloud has the option of pay per use annuity payments wherein large upfront capital investment in IT infrastructure can be converted into smaller units based on requirement. The best starting point to think of the cloud is internet. User just logs in to his computing device. Cloud is a new computing paradigm that opens the door to bold new possibilities. Cloud will change the way the world works, plays, lives and learns. Enterprises have started moving their whole servers, applications on the cloud to ensure &lt;sup&gt;24&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt; access, improved customer experience, pay as per use which helps in cost cutting, interoperability and scalability. Cloud computing has taken it to new heights with flexible scalable computing to match industry demand while reducing capital expenditure.
+IT has dealt with 3 basic metrics:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Demand&lt;/li&gt;
+&lt;li&gt;Capacity&lt;/li&gt;
+&lt;li&gt;Performance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Fundamental tradeoff of it makes capacity comes from many resources. We can express it as:
+Processing Time=Workload/Resources. But cloud just changes this equation forever, as capacity is virtually unlimited provided you’re willing to pay as per use.
+Processing Time=Workload/ ∞.
+In other words this is a massive oversimplification as we can have as much performance we want until you’re paying for it.&lt;/p&gt;
+
+&lt;p&gt;2.&lt;strong&gt;BENEFITS OF CLOUD&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;2.1.  Accelerates your business by providing limitless scalability and transforming ideas with a greater speed into marketable services and products.&lt;/p&gt;
+
+&lt;p&gt;2.2.  Brings powerful IT resources to the world. Organizations across the globe can access information technologies which were earlier out of reach, computing infrastructure and world class applications are available without considerable investment up front.&lt;/p&gt;
+
+&lt;p&gt;2.3  Unlocks revenue potential and makes new business models available for any business.&lt;/p&gt;
+
+&lt;p&gt;2.4  Companies can now collaborate more efficiently to drive business value and innovations&lt;/p&gt;
+
+&lt;p&gt;2.5  Cloud reduces operating risks as well as improves information management. Protects sensitive information and simplifies disaster recovery.&lt;/p&gt;
+
+&lt;p&gt;2.6  Cloud transforms the economics of the industry from capital driven to pay-as you go. Costs are metered according to the requirements and usage. SLA guarantees the capabilities when you need them. There is greater utilization of the underlying infrastructure.&lt;/p&gt;
+
+&lt;p&gt;2.7  The core advantage of cloud computing is its ability to access high performance computing systems on the basis of sharing and time model.
+  2.8  Use of standard technology is encouraged and facilitated while delivering the latest technology and with full optimization of resources.&lt;/p&gt;
+
+&lt;p&gt;3.&lt;strong&gt;CLOUD DATA SECURITY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Security has emerged as the most important barrier to faster and widespread adoption of virtualization as well as cloud computing. It depends from person to person as well as industry to industry how they analyze the concept of security in Cloud Computing.
+The main questions while shifting to cloud are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;How secure is the data?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Where is the data?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Who has access?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Can you trust the company or third party?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;How much confidential will your data be?&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;How does cloud provider keep different clients data separated and inaccessible from other clients?&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Few answers regarding security discussed above:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;As the data is in the cloud different companies and countries have different requirements as well as controls placed on access because we may not realize that the data must reside in some physical location.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Every cloud provider should have all the agreements in writing to provide maximum transparency to provide the different level of security required by different customers.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Every cloud provider must have fixed service level agreements regarding various things such as data privacy, limit of third party access to the confidential data etc.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Access control is a key concern as insider attacks also possess a huge risk. Anyone who has been entrusted with proper authentication to the cloud could be a potential hacker. If anyone doubts this, consider in 2009 an insider was accused of planting a logic bomb on Fannie Mae servers, if launched it would have caused massive damage.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The standards have been defined to ensure that third parties have sufficient control in handling data. ISO 27001 and SAS 70 have been adapted to ensure maximum cloud security.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3.1  &lt;strong&gt;Common Mistake and Challenges in Cloud Security&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;3.1.1  Failing to use cryptography when cryptographic security is a viable option. Everything should be encrypted by default.&lt;/p&gt;
+
+&lt;p&gt;3.1.2  Failing to use cryptographically secured protocols when you have a choice. Using ftp, telnet or http rather than a secured version of these plaintext protocols is simply negligent.&lt;/p&gt;
+
+&lt;p&gt;3.1.3  Network packet sniffing is a pastime on many machines that take part in sending packets back and forth between your laptop and a cloud-based service. Although these protocols should have been retired long ago, they are still common and being available they are used. No cloud implementation should allow these.&lt;/p&gt;
+
+&lt;p&gt;3.1.4   Sending sensitive data in unencrypted e-mail. Sending passwords, pins, or other account data in unencrypted e-mail exposes that data in multiple places.&lt;/p&gt;
+
+&lt;p&gt;3.1.5  Hackers are a real concern for data management as per Cloud service providers; they can compromise the data which ranges from selling sensitive information to competitor or damage the businesses.&lt;/p&gt;
+
+&lt;p&gt;3.1.6  Attackers use bot attackers or botnets to perform distributed denial of service attacks through which we face blackout.&lt;/p&gt;
+
+&lt;p&gt;3.2  &lt;strong&gt;Benefits of Enhanced Security in Cloud&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;3.2.1  Reduced data loss: By maintaining the data on the cloud, employing strong access control and limiting a person download to only what they need, cloud computing would limit the amount of information that could potentially be lost.&lt;/p&gt;
+
+&lt;p&gt;3.2.2  Monitoring: By having data on the cloud it is easier to monitor the security from anywhere rather than worrying about the security of number of clients and servers.&lt;/p&gt;
+
+&lt;p&gt;3.2.3  Instant Swapover: we now don’t require spending hours trying to replicate the data or fix the breach incase of moving the data to another machine. Abstracting the hardware would allow it instantly.&lt;/p&gt;
+
+&lt;p&gt;3.2.4  Secure builds: With a cloud solution model we do not require to buy third party security software to secure our network, but these tools can be made into a complete package which would be available on pay per use and could enhance our system with the type of security which we will require. We can perform the patches and upgrades offline. It will enhance the ability to test the impact of our security changes in offline mode as well.&lt;/p&gt;
+
+&lt;p&gt;3.2.5  Improved software security: As the vendors would face a stiff competition and wouldn’t like to lose their business they would develop more efficient security software as the vendor knows the most efficient secured product will win the game.&lt;/p&gt;
+
+&lt;p&gt;3.2.6  Security testing: Security testing would become quite cheap as it will be shared and pooled among the cloud users for the SAAS providers. With cloud code scanning tools the code developed by developers would check the code for vulnerabilities.&lt;/p&gt;
+
+&lt;p&gt;4  &lt;strong&gt;Security Enhancement by Combining Biometrics to Cryptography&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A combination of cryptography and biometrics has immense scope of providing a higher security platform in various fields. The most important issue in cryptographic systems is the key management. Therefore in order to combine biometrics with cryptography we have to relate to the issue of how to combine biometrics along with cryptographic keys.
+The 3 important steps involved while combining biometrics with cryptography are biometrics key release, biometrics key generation and biometrics key binding. In key release mode, if the biometric matching is successful then only the user will be able to view the key. In key generation mode, we require the key of a cryptographic system which is being derived from the biometric template hence providing a platform for the security systems as the unique biometrics results in an unique key which is based on some feature or transform extraction. In the key binding mode, the system secures the user biometrics with the cryptographic key at the time of using it for the first time i.e. Enrollment. The key would only be displayed if all the user details match perfectly with the cryptographic keys. The key generation/ binding mode is very much secured as compared to key release mode because key release mode involves the key release and user authentication as two separate and different parts rather than involving a dual mode exchange by the user as well as the cryptography. The conventional cryptography systems depend on the accuracy of the matching of the key and do not require any complex pattern recognition. The key matching process should be very accurate and could not tolerate even smallest of error. As the biometrics are known to be not absolutely accurate and is known to be quite variable, therefore researchers face the challenge of bridging the gap between fuzziness of biometric matching and exactness of the cryptographic system with much higher accuracy rate.&lt;/p&gt;
+
+&lt;p&gt;4.1  &lt;strong&gt;Enhancement in Security with Biometrics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Types of Biometrics:&lt;/p&gt;
+
+&lt;p&gt;4.1.1  Fingerprint recognition: As fingerprints have been recognized as a primary and accurate method of identification. Authentication (1-to-1): matches a person’s identity to their respective biometrics with one or more security technologies (PKI token, password etc). It uses the ridge endings on a person finger to form minutiae. The number and location vary from finger to finger as well as from person to person.&lt;/p&gt;
+
+&lt;p&gt;4.1.2  Face recognition: The principle solely is the analysis of the shape, positioning and pattern of facial features.it is highly complex technology and largely software based. Its primary advantage is that it is hands free and a user identity is matched and confirmed by simply staring at the screen.&lt;/p&gt;
+
+&lt;p&gt;4.1.3  Iris recognition: It is based on the analysis of the iris of the eye, visible features (corona rings etc). It is regarded as the most safe, accurate biometrics technology and capable of performing 1-to-many matches without sacrificing the accuracy. It is a highly mature technology with a proven track record in number of applications.&lt;/p&gt;
+
+&lt;p&gt;4.1.4  Retina recognition: It is the pattern of blood vessels that emanate from the optic curve and disperse throughout the retina which depends on individuals. A retina scan cannot be faked as it is quite impossible to forge a human retina. It is highly accurate and has an error rate of 1 in 10,000,000.
+The application of biometrics cannot be uniform for each and every level of people. For different level of people we need entirely different type of technology which would be the best for them. We can conclude that:
+For Defence sector as it contains very sensitive information which they cannot afford to leak we must deploy retina recognition as well as iris recognition at different levels of their hierarchy organization.
+For Financial sector we must use the technology of face recognition as well as fingerprint recognition which could be more enhanced with the use of one time passwords for funds transfer, access to internet banking etc.
+For privacy of the emails we can have powerful email encryption as well as decryption tool which would insure data security and proper handling of sensitive information. At the login page passwords should be replaced with one time password for enhanced security.&lt;/p&gt;
+
+&lt;p&gt;4.2  &lt;strong&gt;Public Key Infrastructure (PKI)&lt;/strong&gt;
+It is used to secure data transmission and authentication system, secures privately exchanged data with the help of public keys and private keys which is obtained via a trusted authority. It uses encryption, digital signatures, digital certificates, decryption, certificate authorities, certificate revocation and storage.&lt;/p&gt;
+
+&lt;p&gt;4.2.1  &lt;strong&gt;Components of public key infrastructure are:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;4.2.1.1  Certification authority (CA):  The CA issues the certificate and is responsible for identifying correctness of the identity of the person and verifies the certificate and digitally signs it. It also generates key pairs.&lt;/p&gt;
+
+&lt;p&gt;4.2.1.2  Revocation: When a system publishes certificates there should be a system to let the people know when these certificates are invalid. The challenge to this is that a distributed denial of service attack on the directory or database of stored certificates might create appearance of a fake certificate.&lt;/p&gt;
+
+&lt;p&gt;4.2.1.3  Registration Authority: They are used by the CA to perform necessary identity checks regarding the person or company to prevent from forgery.&lt;/p&gt;
+
+&lt;p&gt;4.2.1.4  Certificate publishing method: It is the fundamental of PKI systems where certificates are published such as directories, databases, e-mails etc so that the user finds it.&lt;/p&gt;
+
+&lt;p&gt;4.2.1.5  Certificate management system: The management system through which certificates are published, renewed, temporary or permanently suspended or revoked.&lt;/p&gt;
+
+&lt;p&gt;PKI is the most evolved form but few things could be implemented:
+PKI should be embedded in every system which would automatically encrypt the data for the sender and decrypt the data for the receiver with the help of public or private keys.
+The keys could be enhanced with introduction of biometrics between the encryption and decryption process which would make it a complex structure to break upon.
+The encryption algorithm could be more rigid and strong.&lt;/p&gt;
+
+&lt;p&gt;5  &lt;strong&gt;Cloud Standards&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As the cloud computing is involving at a very high rate of speed though it is at an early stage of development. There is an urgent need of a global cloud computing standards but there is a risk of fragmentation and diffusion which could even make people wary of adopting it. For any business to move into cloud there is a need of high level of trust which is based on knowing exactly what profit will the business have, how it will get and when. Therefore a trusted set of standards are required which every service provider would adhere which would help bringing more and more companies in adopting cloud computing in a widespread manner. Standardization would allow greater flexibility for a company to move from one service provider to another. We need to consolidate more on various aspects of cloud such as cloud management, governance and security.
+We need different standards for different applications such as standards for cloud architecture, cloud applications, service oriented architecture, web services standards, web application frameworks etc.
+One of the major standard which is required is the adoption of a global it law which could be explained easily via an example:
+An ABC company in India has adopted cloud computing service with XYZ company as service provider located in Usa. If there is any dispute regarding any security breach with respect to data or privacy then who would be responsible? Where will the legal case be fought? What outcome will it have on company’s reputation? What effect will it have on world economy? Who would pay or bear the compensation of the customer? If the data is attacked where will ransoms come to for threats?
+These thoughts would ponder but one of the trickiest question to answer is where the case would be fought? Whether it would be in India or USA, whether it will be fought according to USA laws or Indian laws. Nothing has been definite and part of Global Standards, for this it requires a strong global law which would reduce dispute between 2 countries and service of cloud computing would flow more easily.&lt;/p&gt;
+
+&lt;p&gt;6  &lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Currently cloud computing is at the starting stage. As an enterprise realizes its benefits over a period, usage of cloud is expected to increase and increase. Cloud would facilitate delivery of more and more cost effective it services. Cloud computing is a rapidly evolving model with new capabilities, innovations and updates being regularly announced and has to be utilized to gain maximum yield. We need to address to the challenges of security to turn it from weakness to strength with the help of advancements in cryptography, biometrics, PKI and Cloud Standards. Cloud Service Providers must safeguard the security and privacy of personal data which they host of their customers. The adoption of cloud system users must be reassured that privacy and security is not compromised. Responsible Management of data is the most central part of creating the trust as without trust enterprises would be reluctant in adopting cloud based services. The advantages of cloud computing - its ability to bring powerful IT resources and world class applications with low investment cost, store data in remote places, interoperability and resource pooling. In this paper security mistakes, challenges and benefits which are currently faced in Cloud Computing industry has been addressed and highlighted. Managing security is one of those aspects where a great deal of investment and research must take place for evolving this technology. The other aspect is the standardizing of Cloud Computing security standards for data security, data management, protocols etc. Cloud Computing has the potential of being the frontrunner in building up of a secured and economically viable IT solution. The cloud needs to target small and medium size companies for migrating their businesses to the cloud which would reduce costs and would give them the opportunity to access technologies and applications which were earlier beyond the reach of organizations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Corporate Communication and Crisis Management</title>
+      <link>http://guptayuvraj.github.io/post/Corporate-Communication-and-Crisis-Management/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Corporate-Communication-and-Crisis-Management/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;ABSTRACT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In today‘s rapidly changing business environment almost every company experiences crisis. Though many of them never try to overcome. Crisis problems are generally not solved in the primary state and are usually chaotic, without any strategic management plans. The situation gets worse when the companies employees as well as internal and external environment have to be informed. Therefore it is necessary to represent the organization realistically to train the specialists of knowledge management. The situation does not become easier because of the negative approach towards crisis though crisis management can bring positive results in an organization. One of them is efficient conflict management during crisis period.  Secondly it will also help the individual to enhance his communication skills that are capable of handling the emotions in   pressure situations, which sometimes becomes a daunting task. Moreover in present era of globalization where companies are experiencing the transformational changes such as incorporation, international capital appearance, wide geography of the companies, mobility of employees, global crisis, there is a need to manage communication process in business to generate communication ideas for crisis prevention and management. Therefore in this changing context crisis management process should be re-evaluated in the theoretical as well as applied form for the efficient crisis management plans.&lt;/p&gt;
+
+&lt;p&gt;In this context efficient Corporate Communication
+Problems still remains relevant in social, economic and Managerial aspects.
+The structure of the paper:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;In the first part Corporate Communication concept Has been based up emphasizing the importance of corporate Communication in the management science structure;&lt;/li&gt;
+&lt;li&gt;In the second part the process of crisis planning and Strategic management has been discussed;&lt;/li&gt;
+&lt;li&gt;In the third part practical recommendations have been defined – “Plan of Efficient Crisis Communication.”&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;INTRODUCTION&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Depending on the organization Corporate Communication includes: public relations; crisis and emergency communication; corporate citizenship; reputation
+management; community relations; media relations; investor relations; employee relations; government relations; marketing communication; management communication; corporate branding and image building; advertising.
+Modern world has shrunk in terms of transnational communication owing to the revolution in technology. Satellite communication brings any event happening in any part of the world, to the living rooms of the people, watching in any part of the globe. This means that when unexpected natural or other forms of disaster strike, communication has to be given quickly and suitably, but with little or no preparedness for it. Crisis communication involves a quick, meaningful and accurate description of the event that has occurred.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Corporate communication is a very vital part of modern day business.&lt;/strong&gt;
+&lt;strong&gt;EFFECTIVE DECISION= QUALITY THINKING X ACCEPTANCE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/3E.png&#34; alt=&#34;&#34; title=&#34;3E&#39;s&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ENFORCED&lt;/strong&gt; is that information that has to be communicated by a government directive.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EXPECTED&lt;/strong&gt; information refers to those messages that the customers/ clients would like to know about. This is not a mandatory piece of communication. So many organizations are frequently guilty of lapses on this count.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EXPEDIENT&lt;/strong&gt; information is that which the company would like the customer to know. The company mission statement, its commitment in terms of products, services, employment, quality, value for money, concern with the environment are some of the matters that every company wishes that others should know about.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Corporate lessons&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To be sitting and doing nothing you must be sitting very, very high up which signifies in order to move in the organization a person must possess good communication skills.&lt;/li&gt;
+&lt;li&gt;Questioning for clarification and understanding.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Errors in the field of business communication&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Finishing others sentences&lt;/li&gt;
+&lt;li&gt;Preparing our response before someone is done speaking&lt;/li&gt;
+&lt;li&gt;Filtering content based on the speaker&lt;/li&gt;
+&lt;li&gt;Speaking for others (we&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;Jumping to conclusions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As a classic example of an individual perfect cooperative communication skill we are going to introduce a new term: &lt;strong&gt;INTRAPRENEURSHIP&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Intrapreneurship is the act of behaving like an entrepreneur, except within a larger organization.&lt;/li&gt;
+&lt;li&gt;An intrepreneur or intrapreneur is a person who has an entrepreneur skill set but works within an organization, enterprise, or venture. This could be within an organization that seeks the dynamism of forward thinking employees or incubation companies.&lt;/li&gt;
+&lt;li&gt;A successful intrepreneur must possess good communication skills so that he is capable of convincing the top authorities in order to form a capable highly specific technical team. (Being the boss under the boss  &amp;hellip; boss of one self).&lt;/li&gt;
+&lt;li&gt;Real testing of the communication skills of an entrepreneur are tested I the crisis situation of the corporation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Communication is the pipeline of any corporation. However its influence is not fully recognized and hardly ever exploited, meaningfully. Most companies choose to communicate extensively only under certain pressure conditions like crisis.&lt;/p&gt;
+
+&lt;p&gt;The basic reasons for crisis to occur are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Fierce Competition:&lt;/strong&gt; Competition means threat to survival. During this race for survival some organizations tend to become liable towards financial damage. This results in frantic attempts to communicate. Communication at all levels becomes necessary. Since messages are initiated at the time of crisis there is a fire fighting quality to it sometimes distortions are likely to occur because the communication is hurried and intended to tide over a particular set of difficulties.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Change:&lt;/strong&gt; Companies involved in any form of change have to engage in a lot of communication in order to facilitate the change process. Change is almost always resisted. So communication is the only tool that could help smoothen change or transition. Communicating under the pressure of change is fraught with several difficulties.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Change.png&#34; alt=&#34;&#34; title=&#34;Change&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rumors:&lt;/strong&gt; When cooperation are not very communicative, rumours and smear campaigns can take over. They travel very fast and wide because the grapevine is active. Such channels are vague enough to fuel misinformation, rapidly and wildly. If communication is not under way soon the consequences could be very damaging to the organization.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Almost all corporations face crisis situations, but these situations can actually serve to build the public&amp;rsquo;s trust with the company if they are handled correctly. A company builds this trust by how it communicates to the public about the situation. This kind of communication is called corporate crisis communication.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Crisis as Opportunity&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;To address such shareholder impact, management must move from a mindset that manages crisis to one that generates crisis leadership.  Research shows that organizational contributory factors affect the tendency of executives to adopt an effective &amp;ldquo;crisis as opportunity&amp;rdquo; mindset.  Since pressure is both a precipitator and consequence of crisis, leaders who perform well under pressure can effectively guide the organization through such crisis.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Most executives focus on communications and public relations as a reactive strategy. While the company’s reputation with shareholders, financial well-being, and survival are all at stake, potential damage to reputation can result from the actual management of the crisis issue. Additionally, companies may stagnate as their risk management group identifies whether a crisis is sufficiently “statistically significant”.  Crisis leadership, on the other hand, immediately addresses both the damage and implications for the company’s present and future conditions, as well as opportunities for improvement. &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In order to completely understand the importance of effective crisis communication, let us examine through case studies:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Johnson &amp;amp; Johnson’s response to the Tylenol incident –1982&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;An unknown terrorist spiked Tylenol capsules with cyanide which resulted in seven deaths. Media coverage made it clear that J&amp;amp;J had no control over this post manufacture product tampering, suppressing any Could counterfactuals. The actions taken by J&amp;amp;J were considered as highly effective:&lt;/p&gt;
+
+&lt;p&gt;The company recalled extra-strength Tylenol from all store shelves across the country, offered a reward for the murderer, and introduced a tamper resistant package.&lt;/p&gt;
+
+&lt;p&gt;The features that made Johnson &amp;amp; Johnson&amp;rsquo;s handling of the crisis a success included the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;They acted quickly, with complete openness about what had happened, and immediately sought to remove any source of danger based on the worst case scenario - not waiting for evidence to see whether the contamination might be more widespread&lt;/li&gt;
+&lt;li&gt;Having acted quickly, they then sought to ensure that measures were taken which would prevent as far as possible a recurrence of the problem&lt;/li&gt;
+&lt;li&gt;They showed themselves to be prepared to bear the short term cost in the name of consumer safety. That more than anything else established a basis for trust with their customers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Airport Control Tower&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The airport control tower alerts its own Crash/Fire rescue units and requests that the local emergency service provide backup rescue assistance in fire, medical, welfare and research and rescue capabilities and informing also the airline company about the crisis.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Intentional Act Of Terrorism&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;An example of powerful and successful crisis management came on September 11, 2001. The world watched heroes &amp;ndash; firefighters, police officers, medical personnel, and rescue workers &amp;ndash; respond to the unimaginable disaster. Skills they learned and practiced in hundreds of different crises prepared them for the ultimate challenge. The many teams became one team, and their enormous courage, passion, planning, preparation, and total commitment inspired the country and the world. They gave us the ultimate example of crisis management on a massive, global scale, and the lessons learned from their response to September 11 apply to whatever crisis leaders may face on any scale in any organization. Some of us who have had the uncoveted experience of managing a crisis in a complex and far-flung organization know from that experience there are some essential steps to be taken by an organization, regardless of size or sector, long before disaster strikes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;STYLES OF CORPORATE COMMUNICATION AND CRISIS MANAGEMENT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;WHITE HAT:&lt;/strong&gt; deals with information in neutral situation&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is available&lt;/li&gt;
+&lt;li&gt;What is needed&lt;/li&gt;
+&lt;li&gt;How to obtain&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;RED HAT:&lt;/strong&gt; deals with feelings&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is my gut reaction&lt;/li&gt;
+&lt;li&gt;Do I like the way it is being done&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;BLACK HAT:&lt;/strong&gt; reviews things in critical situations&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Why it won’t work&lt;/li&gt;
+&lt;li&gt;Why we need to be cautious&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;YELLOW HAT:&lt;/strong&gt; deals with logical benefits in optimistic situations&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It would work if…..&lt;/li&gt;
+&lt;li&gt;The positive side of this issue is…..&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;GREEN HAT:&lt;/strong&gt; generates alternatives in creative situations&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Care we do differently&lt;/li&gt;
+&lt;li&gt;Could there be any other approach&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;MODEL OF CRISIS COMMUNICATION PLAN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/Model-CrisisCommunication.png&#34; alt=&#34;&#34; title=&#34;Model of Crisis Communication&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Six Steps to Preparing an Effective Corporate Communication Plan at the moment of crisis&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/6Steps.png&#34; alt=&#34;&#34; title=&#34;6 SSteps to prepare for Effective Corporate Communication Plan&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CONCLUSION&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Corporate Communication offers strategic management functions. Depending on the organization, Corporate Communication includes: public relations; crisis and emergency communication; corporate citizenship; reputation management; community relations; media relations; investor relations; employee relations; government relations; marketing communication management communication; corporate branding and image building; advertising. Generalizing and conceptually basing it can be claimed that successful professional development of the next generation of Corporate Communication executives will focus on
+Understanding of Corporate Communication functions and on strategic implementation capabilities.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Model of Crisis&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Communication Plan emphasizes the six stages of Preparation:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The mission of organization&lt;/li&gt;
+&lt;li&gt;The Stakeholders of organization&lt;/li&gt;
+&lt;li&gt;The specialists of Communication and the place of special operations Center&lt;/li&gt;
+&lt;li&gt;The role of crisis communication team&lt;/li&gt;
+&lt;li&gt;The Composition of crisis communication team&lt;/li&gt;
+&lt;li&gt;The control Of crisis communication plan.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To be able to properly get prepared for a Crisis Planning and Strategy Management processes, both scholarly discussions and practical solutions are necessary. Action planning enables management to not only evaluate the dynamics within a business environment, but also evaluate similar changes related issues. In this way, action planning may be helpful in integrating the constituent parts of a strategy process and developing the crisis management perspectives.&lt;/p&gt;
+
+&lt;p&gt;Crisis Management requires collaboration with systems, efficient internal and external communication, setting the persons and their roles expressed by special duties and responsibilities, effective collective decision making, control and collaboration responsibility.&lt;/p&gt;
+
+&lt;p&gt;Another important element is the managers’ ability to communicate with the media representatives in crisis situations. The managers have to be prepared what to
+Say, ho w to present information in order not to Damage the company’s reputation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comparison Among Scale Out Storage Softwares</title>
+      <link>http://guptayuvraj.github.io/post/CompareSOS/</link>
+      <pubDate>Mon, 16 May 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/CompareSOS/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s compare various vendor offerings and the features provided by them categorized by the various categories according to which they are compared.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/ScaleOutStorageSW.jpg&#34; alt=&#34;&#34; title=&#34;Compare Scale Out Storage Softwares&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ScaleIOFeatures</title>
+      <link>http://guptayuvraj.github.io/post/ScaleIOFeatures/</link>
+      <pubDate>Sun, 15 May 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/ScaleIOFeatures/</guid>
+      <description>&lt;p&gt;ScaleIO ECS is a software-only solution that uses application hosts’ local disks.&lt;/p&gt;
+
+&lt;p&gt;Features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Simplified operation&lt;/strong&gt;- ECS enables IT administrator to manage the entire data center stack.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Avoid capacity planning&lt;/strong&gt;- ECS is elastic, enabling you to add, move, remove servers and capacity during I/O operations.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Self-healing&lt;/strong&gt;- It rebalances whenever capacity and/or servers are added.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Dynamic performance allocation&lt;/strong&gt;- It provides dynamic allocation based on applications’ needs.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Freedom of choice through hardware vendor lock-in elimination.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JedaNetwork</title>
+      <link>http://guptayuvraj.github.io/post/JedaNetwork/</link>
+      <pubDate>Sun, 17 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/JedaNetwork/</guid>
+      <description>&lt;p&gt;Jeda Networks game changing intelligent software product called the Fabric Network Controller (FNC) abstracts the complexity of a storage network into a software controller.&lt;/p&gt;
+
+&lt;p&gt;The Jeda FNC creates a high performance “storage network overlay” on top of an Ethernet fabric. This Software Defined Storage Network (SDSN) transforms the Ethernet fabric into a powerful and agile storage networking fabric. SDSNs solve the limitations of a fixed and rigid physical storage network—namely scalability, high cost, high complexity, and lack of agility&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Maximize Performance&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cut Management Costs-&lt;/strong&gt; mapping your SAN requirements to the physical Ethernet network&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No Hardware Lock-In&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The FNC has been successfully integrated with a number of multi-vendor 10Gb, 40Gb and 100 Gb Data Center Ethernet switches and as FNC is independent of the network hardware the FNC is software, it is network and access speed agnostic, so as speeds migrate to 100Gbs and beyond, the FNC will continue to work within these leaps of performance., it is 10, 40 and 100Gb Ethernet ready today.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Open Stack Swift</title>
+      <link>http://guptayuvraj.github.io/post/OpenStackSwift/</link>
+      <pubDate>Sat, 16 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/OpenStackSwift/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;ELIMINATE VENDOR LOCK-IN&lt;/strong&gt; OpenStack Swift is open source.
+Change providers without changing your application.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;LOW COST&lt;/strong&gt; Choice of industry standard hardware that is available from multiple vendors.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Deployment Automation- Deployment of availability zones based on hardware.
+Centralized Management- Provides diagnostics, monitoring data, alerts to controller.
+Capacity Management- Orchestrates capacity additions and removals without interruption.
+Monitoring- Monitors 500+ data points per node and integration with ganglia and nagios.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hardware Overview:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Proxy Tier- Proxy nodes handles all incoming API requests. Once a proxy server receives a request, it will determine which storage node to connect to, based on the URL of the object. A minimum of two nodes should be deployed in the proxy tier for redundancy. The proxy tier also includes ssl-terminators and authentication services.&lt;/p&gt;
+
+&lt;p&gt;Storage Tier- When a client uploads data to SwiftStack, the proxy tier will write data in three different availability zones in the storage tier. For incoming read requests, one of the three replicas of the data will be served. Subsequently, each storage node and drive that is added to a Swift cluster will not only provide additional storage capacity, but will also increase the aggregate IO capacity of the cluster as there are more drives available to serve incoming read requests.&lt;/p&gt;
+
+&lt;p&gt;Networking- A typical SwiftStack deployment will have a front-facing ‘access’ network (to run the proxy and authentication services) and a back-end ‘storage’ network.  As there are three copies of each object, an incoming write is sent to three storage nodes. Therefore network capacity for writes needs to be considered in proportion to overall workload.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Recommended System Requirement:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Proxy Tier- Typically, Proxy servers are 1U systems with a minimum of 12 GB RAM. For small SwiftStack clusters, the storage services and proxy services can run on the same physical nodes.&lt;/p&gt;
+
+&lt;p&gt;Storage Tier- Storage nodes are typically higher ­density 2U, 3U or 4U nodes with 12-­‐36 SATA disks each. A good rule of thumb is approximately 1 GB of RAM for each TB of Disk.&lt;/p&gt;
+
+&lt;p&gt;Drives- 2TB or 3TB 7200 RPM SATA drives.&lt;/p&gt;
+
+&lt;p&gt;Networking- Storage nodes can be provisioned with 1GbE (single gigabit) or 10GbE network interface depending on expected workload and desired performance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NexentaStor</title>
+      <link>http://guptayuvraj.github.io/post/NexentaStor/</link>
+      <pubDate>Wed, 13 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/NexentaStor/</guid>
+      <description>&lt;p&gt;Nexenta – NexentaStor:  delivers high-performance, ultra-scalable, cloud- and virtualization-optimized storage solutions. Nexenta supplies the software. You leverage your hardware. Does not provide object storage.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Delivers built-proof data integrity and unlimited scalability for Big Data- and Cloud-optimized storage solutions. Nexenta’s OpenStorage platform allows for a broader range of virtualization and cloud-computing services at a much lower cost.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;High-Availability Clustering.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Unlimited Snapshots &amp;amp; Clones:&lt;/strong&gt; NexentaStor uses copy on write (COW), this means live data is never overwritten; instead, it writes data to a new block before changing the data pointers and committing the write.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Inherent Virtualization&lt;/strong&gt; – NexentaStor supports all the mainstream virtualization vendors; Microsoft Hyper-V, Citrix Xen and VMware vSphere.
+Uses ZFS.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Recommended system Requirement for NexentaStor Community Edition:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;64 bit processor (32 bit not recommended for production).&lt;/p&gt;
+
+&lt;p&gt;2 GB RAM minimum for evaluation (recommend 4 to 8 GB), Production use 8 GB minimum plus 1 GB per 1 TB raw disk space minimum (depending on use-case more may be highly desirable), or 2 GB per 1 TB raw for high-end performance deployments. If planning to use deduplication, please contact for sizing assistance.&lt;/p&gt;
+
+&lt;p&gt;2 identical relatively small disks for high-availability system folder.&lt;/p&gt;
+
+&lt;p&gt;Additional drives/storage for data volumes&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Understanding about EMC Vipr- All in One</title>
+      <link>http://guptayuvraj.github.io/post/EMC-Vipr/</link>
+      <pubDate>Tue, 12 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/EMC-Vipr/</guid>
+      <description>&lt;p&gt;EMC ViPR will purely provide the Control Plane. It discovers storage, creates virtual storage pools, and provisions those pools to the application. Only by separating the data center from its underlying hardware can IT truly deliver resources as customizable, on-demand services. ViPR is able to support IT services in a heterogeneous storage environment while retaining and extending the value of underlying arrays. It perform functions like “in-place” analytics. Abstracting, pooling and automating the infrastructure. It supports open API including Amazon Simple storage service (S3), Open stack Swift &amp;amp; Atmos to completely free data and applications from storage dependencies.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Managing both storage infrastructure (called the Control Plane) and the data stored within that infrastructure (called the Data Plane).&lt;/li&gt;
+&lt;li&gt;Decoupling the Control Plane from the Data Plane, allowing the use of both together — or enabling customers to use only the Control Plane to manage the underlying intelligence of the storage arrays through policy-based automation. This is a radical departure from prior attempts to virtualize storage.&lt;/li&gt;
+&lt;li&gt;Offering the ability to view objects as files and provides file access performance without the latency inherent to object storage.&lt;/li&gt;
+&lt;li&gt;Providing the capability to be implemented entirely in software and will run against EMC, non-EMC and commodity hardware.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/EMC-Vipr.jpg&#34; alt=&#34;&#34; title=&#34;EMC Vipr&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What is Software Defined Storage</title>
+      <link>http://guptayuvraj.github.io/post/What-is-Software-Defined-Storage/</link>
+      <pubDate>Mon, 11 Apr 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/What-is-Software-Defined-Storage/</guid>
+      <description>&lt;p&gt;The concept behind software-defined storage seems very appealing: a single point of data services, like volume management and snapshots, form a single console while using &lt;strong&gt;practically anyone’s disk hardware.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As a pillar in the SDDC stack, Software Defined Storage (SDS) pools hardware storage resources and allows them to be programmatically defined in software. All the programming that controls storage-related tasks exists solely in software. The software could exist on a server or could be part of an operating system (OS) or a hypervisor. Provides flexible management at a much more granular level. Deployed Provision through S/W.&lt;/p&gt;
+
+&lt;p&gt;SDS forms a part of a broader software-defined data center (SDDC) concept wherein all the virtualized storage, server, networking and security resources required by an application can be defined by software and provisioned automatically. This design provides the means for storage services to be deployed on a wide range of hardware spanning vendor optimized to commodity to cloud.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

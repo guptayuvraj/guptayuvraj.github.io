@@ -1,0 +1,379 @@
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Introduction to AngularJS - Blog</title>
+	<meta name="author" content="map[name:Yuvraj Gupta email:gupta.yuvraj@gmail.com]">
+
+	
+	
+	<meta name="description" content="">
+	
+
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<link href='/index.xml' rel="alternate" title="Blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://guptayuvraj.github.io/post/Introduction-to-AngularJS/">
+	<link href="http://guptayuvraj.github.io/favicon.png" rel="shortcut icon">
+	<link href="http://guptayuvraj.github.io/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="http://guptayuvraj.github.io/css/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+  
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-75311692-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+	
+	
+	<script src="http://guptayuvraj.github.io/js/md5.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5('gupta.yuvraj@gmail.com') + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+		});
+	</script>
+	
+	
+</div>
+<h1>Yuvraj Gupta</h1>
+<div class="subtitle">
+<b><big>Author | Techie | Gadget Freak | Sports Freak | Foodie  </b></big>
+</div>
+
+<nav id="main-nav"><ul class="main">
+    <li><a href="/">Blog</a></li>
+    <li><a href="/post/">Archives</a></li>
+</ul>
+
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+			<a class="email" href='mailto:gupta.yuvraj@gmail.com' title="Email">Email</a>
+		
+		
+			<a class="facebook" href='http://www.facebook.com/gupta.yuvraj' title="Facebook">Facebook</a>
+		
+		
+		
+			<a class="twitter" href='http://twitter.com/yuvrajgupta14' title="Twitter">Twitter</a>
+		
+		
+			<a class="github" href='https://github.com/guptayuvraj' title="GitHub">GitHub</a>
+		
+		
+		
+		  <a class="stackoverflow" href='http://stackoverflow.com/users/3678433/yuvraj-gupta' title="StackOverflow"></a>
+		
+		
+			<a class="linkedin" href='http://www.linkedin.com/in/guptayuvraj' title="LinkedIn">LinkedIn</a>
+		
+		
+		
+		
+		
+		
+			<a class="quora" href='https://quora.com/Yuvraj-Gupta-1' title="Quora">Quora</a>
+		
+		
+    	
+    	
+			<a class="rss" href='/index.xml' title="RSS">RSS</a>
+		
+
+	</div>
+</nav>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner">
+					<div itemscope itemtype="http://schema.org/Blog">
+					<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="title" itemprop="name">Introduction to AngularJS</h1>
+	<div class="entry-content" itemprop="articleBody"><p>AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries. </p>
+
+<p>HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.</p>
+
+<p>Other frameworks deal with HTML’s shortcomings by either abstracting away HTML, CSS, and/or JavaScript or by providing an imperative way for manipulating the DOM. Neither of these address the root problem that HTML was not designed for dynamic views.</p>
+
+<p>Key Introductory Points of AngularJS:-</p>
+
+<ul>
+<li>Developed and maintained by Google</li>
+<li>MVC Javascript Framework for Rich Web Application Development</li>
+<li>Hot new front-end JavaScript framework</li>
+<li>Rapidly develop powerful, responsive web apps</li>
+<li>Philosophy similar to jQUery</li>
+<li>Simplicity</li>
+<li>Enhance HTML, work with it not around it</li>
+<li>Testable, maintainable, extendable</li>
+</ul>
+
+<p><strong>History of AngularJS</strong></p>
+
+<p>Developed in 2009 by MiškoHevery and Adam Abrons for commercial purposes, but later Angular as an open-source library.</p>
+
+<p>Hevery, who works at Google, continues to develop and maintain the library. Version 1.0 released in December 2012.</p>
+
+<p>What about WebToolkit?</p>
+
+<p>WebToolkit compiles Java down to JavaScript and was used by the Google extensively. With the rise of HTML5, CSS3, and JavaScript, Google is changing directions.</p>
+
+<p><strong>Structure of AngularJS</strong></p>
+
+<p>It follows the MVC Architecture i.e. Model, View and Controller.</p>
+
+<p><strong>Model</strong>
+The data</p>
+
+<p><strong>Controller</strong>
+The behavior
+Modifying / updating the models</p>
+
+<p><strong>View</strong>
+The interface
+How the data is presented to the user</p>
+
+<p>Model and Controller uses JavaScript where as View uses HTML to present the data.</p>
+
+<p><strong>Models</strong></p>
+
+<ul>
+<li>Properties on the Controller’s $scope object</li>
+<li>Standard JavaScript values</li>
+<li>Can be used to separate the application into parts</li>
+<li>Application module can include the other modules by listing them as dependencies</li>
+</ul>
+
+<p><strong>Controller</strong></p>
+
+<ul>
+<li>Function that takes at least one parameter: $scope</li>
+<li>Function is a constructor</li>
+<li>Ex: function MyCtrl($scope) { … }</li>
+</ul>
+
+<p><strong>$scope</strong></p>
+
+<ul>
+<li>It is a JavaScript object</li>
+<li>Contains data (i.e. models) and methods (i.e. functions)</li>
+<li>Can add own properties
+$scope.<my new property> = <value>;</li>
+<li>The $scope variable – Link your controllers and view</li>
+</ul>
+
+<p><strong>Views</strong></p>
+
+<ul>
+<li>Make use of special ng attributes (directives) on the HTML elements</li>
+<li>ng-app
+
+<ul>
+<li>Determines which part of the page will use AngularJS</li>
+<li>If given a value it will load that application module</li>
+</ul></li>
+<li>ng-controller
+
+<ul>
+<li>Determines which Javascript Controller should be used for that part of the page.</li>
+</ul></li>
+<li>ng-model
+
+<ul>
+<li>Determines what model the value of an input field will be bound to</li>
+<li>Used for two-way binding</li>
+</ul></li>
+</ul>
+
+<p><strong>Dependency Injection</strong></p>
+
+<ul>
+<li>Pass the modules and services that you need as parameters</li>
+<li>In the previous case $scope is a service that will be injected</li>
+<li>Can be passed as an array of strings to the controller function as well</li>
+<li>Prevents errors when performing modification</li>
+</ul>
+
+<p><strong>$http</strong></p>
+
+<ul>
+<li>Used to handle Ajax calls</li>
+<li>Wrappers around jQuery</li>
+</ul>
+
+<p><strong>Features of AngularJS</strong></p>
+
+<ul>
+<li>Templating</li>
+<li>Databinding</li>
+<li>Routing</li>
+<li>Follows MVC Architecture</li>
+<li>Server-Side Communication</li>
+<li>Dependency Injection</li>
+<li>Extensibility (&ldquo;Directives&rdquo;)</li>
+<li>Allows for testing</li>
+<li>Deep Linking (Map URL to route Definition)</li>
+</ul>
+
+<p><strong>Why AngularJS</strong></p>
+
+<ul>
+<li><p><strong>Backed by Google- Actively maintained</strong></p>
+
+<ul>
+<li><p>Angular is built and maintained by dedicated Google engineers.</p></li>
+
+<li><p>AngularJS came about to standardize web application structure and provide a future template for how client-side apps should be developed.
+Because AngularJS is built by Google, you can be sure that you are dealing with  efficient and reliable code that will scale with your project.</p></li>
+</ul></li>
+</ul>
+
+<p>This means you not only have a large open community to learn from, but you also have skilled, highly-available engineers tasked to help you get your Angular questions answered.</p>
+
+<ul>
+<li><p><strong>Comprehensive feature set</strong></p>
+
+<ul>
+<li>Angular a complete solution for rapid front-end development.
+ </li>
+<li>No other plugins or frameworks are necessary to build a data-driven web application.</li>
+</ul></li>
+
+<li><p><strong>REST Easy</strong></p>
+
+<ul>
+<li><p>Restful actions are quickly becoming the standard for communicating from the server to the client.</p></li>
+
+<li><p>In one line of JavaScript, you can quickly talk to the server and get the data you need to interact with your web pages.</p></li>
+</ul></li>
+
+<li><p><strong>Extends HTML</strong></p>
+
+<ul>
+<li><p>Most websites built today are a giant series of &lt;div&gt; tags.</p></li>
+
+<li><p>You need to create extensive and exhaustive CSS classes to express the intention of each object in the DOM.</p></li>
+
+<li><p>With Angular, you can operate your HTML like XML, giving you endless possibilities for tags and attributes.</p></li>
+
+<li><p>Angular accomplishes this via its HTML compiler and the use of directives to trigger behaviors based on newly created syntax you write.</p></li>
+</ul></li>
+
+<li><p><strong>Makes HTML your Template</strong></p>
+
+<ul>
+<li><p>You can quickly grasp the bracket syntax of Angular&rsquo;s templating engine, because it&rsquo;s just HTML.</p></li>
+
+<li><p>Angular traverses the DOM for these templates, which house the directives mentioned above.</p></li>
+
+<li><p>The templates are then passed to the AngularJS compiler as DOM elements, which can be extended, executed or reused.</p></li>
+
+<li><p>This is a key property which allows direct manipulation and extension of the DOM tree.</p></li>
+</ul></li>
+
+<li><p><strong>Enterprise-level Testing</strong></p>
+
+<ul>
+<li><p>AngularJS requires no additional frameworks or plugins, including testing.</p></li>
+
+<li><p>Easy in learning Angular&rsquo;s unit-testing API which guides you through executing your tests in as close to the actual state of your production application as possible.</p></li>
+</ul></li>
+</ul>
+</div></article>
+					
+						<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size=''></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	
+	</div>
+	
+  	<script type="text/javascript" src='http://s7.addthis.com/js/250/addthis_widget.js#pubid=true'></script>
+  	
+</div>
+
+					
+					
+					<section id="comment">
+					    <h1 class="title">Comments</h1>
+					    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+					</section>
+					
+					
+
+<script type="text/javascript">
+    
+    var disqus_shortname = 'yuvrajgupta';
+
+    
+    
+
+    
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+    
+</script>
+
+
+				    </div>
+				</div>
+			</div>
+			<footer id="footer" class="inner">Copyright &copy; 2016
+
+    Yuvraj Gupta
+
+<script src="http://guptayuvraj.github.io/js/slash.js"></script>
+<script src="http://guptayuvraj.github.io/js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script>
+</footer>
+		</div>
+	</div>
+	
+</body>
+</html>

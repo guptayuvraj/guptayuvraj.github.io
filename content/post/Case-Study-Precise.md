@@ -1,0 +1,24 @@
++++
+date = "2016-04-01"
+draft = false
+title = "Case Study Precise"
+categories = ["Cloud Computing","Case Study"]
+tags = ["Cloud", "Computing","Precise","Case","Study"]
+author = "Yuvraj Gupta"
++++
+	
+Precise(a developer of application performance management systems), was spun out of its parent company Symantec and into a private company. Suddenly, we had 1,000 customers to support, and a limited IT department. Symantec offered to sell us licenses for SAP and other enterprise software packages that we had been using. But in our new structure, we needed applications that were scaled down and easier to support. We ditched the world of licensed software and annual commitments to large capital expenses on equipment — the traditional way of doing IT — in favor of cloud, SaaS and virtualization.
+
+As a midsize company with more than 200 employees, it was a tectonic shift. But after a year-long migration of our IT infrastructure and applications to the cloud, we shaved more than $2 million, or 70 percent, from our annual IT budget. Here’s how we did it.
+
+Our first priority was to find a solution to support our customers, so we chose Salesforce and NetSuite for the front and back-office solutions. It took a single data analyst a mere five hours to migrate all of our data from SAP to the new systems. For customer support, we chose Drupal and for marketing we chose Marketo — both of which were seamlessly integrated using WebSphere Cast Iron Cloud Integration.
+
+Next up, we had to deal with the Microsoft Exchange servers that we’d inherited from Symantec. Microsoft Exchange can be a bear to support with a slim staff, so we opted forGoogle Mail instead. The e-mail migration took about five days, and later we also moved from Microsoft  SharePoint  Sites for collaboration. The cool thing is, employees don’t have to do everything on Google. They can still access their favorite Microsoft Office applications, such as Excel, or use Outlook front-end if they wish.
+
+We also went through a major server virtualization project in engineering — chopping off about 60 percent of our server expenses — and switched to AT&T fiber for networking and adopted VoIP for telephony.
+
+None of the technologies that I’ve mentioned are new or even groundbreaking. But the fact that we could adopt all of them in a short period of time, integrate them using a single data analyst and realize such financial benefits is astounding. Even five years ago, small and midsize companies couldn’t afford state-of-the-art technologies to run their businesses. That’s all changed — and the playing field for IT sophistication has leveled out.
+
+Not only is using newer, Web technologies more affordable, but they’re also more reliable. That’s been the case at Precise, at least. We haven’t had any issues from moving to a SaaS environment. We didn’t spend a bunch of money on hordes of consultants to get everything in place. It really was that simple. I give credit to our former IT director, Sharon Cohen, for choosing the right strategy and the right partners — that’s key.
+
+Our transition to the cloud means that today we spend less time managing all the plumbing and more time working on our own products. We’re even looking at deploying cloud-based systems for R & D. And let’s not forget, we are saving more than $2 million per year. That’s the kind of money companies of our size, which comprise the bulk of the U.S. economy, can really put to good use. We can use those savings to hire strategic new employees or bring new features and services to our customers. For midsize companies, there’s no doubt:  rip out your on-premise software apps, go SaaS and adopt the cloud across the board.
