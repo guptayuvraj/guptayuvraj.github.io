@@ -7,203 +7,63 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Wed, 27 Jul 2016 00:00:00 UTC</updated>
+    <updated>Thu, 28 Jul 2016 00:00:00 UTC</updated>
     
     <item>
-      <title>Introduction to AngularJS</title>
-      <link>http://guptayuvraj.github.io/post/Introduction-to-AngularJS/</link>
-      <pubDate>Wed, 27 Jul 2016 00:00:00 UTC</pubDate>
+      <title>Cloud Gaming Social Network</title>
+      <link>http://guptayuvraj.github.io/post/Cloud-Gaming-Social-Network/</link>
+      <pubDate>Thu, 28 Jul 2016 00:00:00 UTC</pubDate>
       <author>Yuvraj Gupta</author>
-      <guid>http://guptayuvraj.github.io/post/Introduction-to-AngularJS/</guid>
-      <description>&lt;p&gt;AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries. &lt;/p&gt;
+      <guid>http://guptayuvraj.github.io/post/Cloud-Gaming-Social-Network/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.&lt;/p&gt;
+&lt;p&gt;Cloud Gaming Social Network refers to 3 terms i.e. Online Gaming, Social Network and Cloud Computing. It refers to building a platform wherein users can play any type of game online and pay as per usage. It will have a built-in social network wherein users can connect with fellow-players.&lt;/p&gt;
 
-&lt;p&gt;Other frameworks deal with HTML’s shortcomings by either abstracting away HTML, CSS, and/or JavaScript or by providing an imperative way for manipulating the DOM. Neither of these address the root problem that HTML was not designed for dynamic views.&lt;/p&gt;
+&lt;p&gt;It innovates the Gaming Social Network which would host all games ranging from flash games to arcade games and reaching upto high end games based on Cloud &amp;amp; Virtualization Technology.
+Since Social Network, Online Gaming &amp;amp; Cloud Computing are hot trending technologies. Combining all these new technologies would lead to a whole new area of opportunities for employment and research in this new sector of gaming. It would enable people to play any game for free, just requiring an internet connection of minimum specified bandwidth required for the game.&lt;/p&gt;
 
-&lt;p&gt;Key Introductory Points of AngularJS:-&lt;/p&gt;
+&lt;p&gt;This sector uses many computer technologies in order to enhance its output and Cloud Computing is the technology which can blur up the line between real and virtual world.
+The main objective is to enable people to play any game for free by just requiring an internet connection which would include support for multiplayer games.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problems faced by Customers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Solving the following issues faced by customers in the Gaming Sector:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Developed and maintained by Google&lt;/li&gt;
-&lt;li&gt;MVC Javascript Framework for Rich Web Application Development&lt;/li&gt;
-&lt;li&gt;Hot new front-end JavaScript framework&lt;/li&gt;
-&lt;li&gt;Rapidly develop powerful, responsive web apps&lt;/li&gt;
-&lt;li&gt;Philosophy similar to jQUery&lt;/li&gt;
-&lt;li&gt;Simplicity&lt;/li&gt;
-&lt;li&gt;Enhance HTML, work with it not around it&lt;/li&gt;
-&lt;li&gt;Testable, maintainable, extendable&lt;/li&gt;
+&lt;li&gt;Purchasing games is a costly affair.&lt;/li&gt;
+&lt;li&gt;Requirements specified for every games.&lt;/li&gt;
+&lt;li&gt;Privacy is High.&lt;/li&gt;
+&lt;li&gt;Cost of Upgradation is high.&lt;/li&gt;
+&lt;li&gt;Need of buying games for different people in order to play in multiplayer mode.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;History of AngularJS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Developed in 2009 by MiškoHevery and Adam Abrons for commercial purposes, but later Angular as an open-source library.&lt;/p&gt;
-
-&lt;p&gt;Hevery, who works at Google, continues to develop and maintain the library. Version 1.0 released in December 2012.&lt;/p&gt;
-
-&lt;p&gt;What about WebToolkit?&lt;/p&gt;
-
-&lt;p&gt;WebToolkit compiles Java down to JavaScript and was used by the Google extensively. With the rise of HTML5, CSS3, and JavaScript, Google is changing directions.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Structure of AngularJS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;It follows the MVC Architecture i.e. Model, View and Controller.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Model&lt;/strong&gt;
-The data&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Controller&lt;/strong&gt;
-The behavior
-Modifying / updating the models&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;View&lt;/strong&gt;
-The interface
-How the data is presented to the user&lt;/p&gt;
-
-&lt;p&gt;Model and Controller uses JavaScript where as View uses HTML to present the data.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Models&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solutions of Customers Problem&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Properties on the Controller’s $scope object&lt;/li&gt;
-&lt;li&gt;Standard JavaScript values&lt;/li&gt;
-&lt;li&gt;Can be used to separate the application into parts&lt;/li&gt;
-&lt;li&gt;Application module can include the other modules by listing them as dependencies&lt;/li&gt;
+&lt;li&gt;Free from privacy.&lt;/li&gt;
+&lt;li&gt;Seamless meeting of people with similar preferences of games.&lt;/li&gt;
+&lt;li&gt;Easy to play multiplayer games with people across the world.&lt;/li&gt;
+&lt;li&gt;No need of upgrading the hardware to play any game.&lt;/li&gt;
+&lt;li&gt;No need of downloading any game.&lt;/li&gt;
+&lt;li&gt;Reduce use of torrents for downloading premium games for free.&lt;/li&gt;
+&lt;li&gt;Can emulate PC games to optimize it for playing high end games from a console such as Smartphones etc.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Controller&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What other Benefits&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Function that takes at least one parameter: $scope&lt;/li&gt;
-&lt;li&gt;Function is a constructor&lt;/li&gt;
-&lt;li&gt;Ex: function MyCtrl($scope) { … }&lt;/li&gt;
+&lt;li&gt;Collaborating people to form a circle of friends across the globe having similar preferences of games.&lt;/li&gt;
+&lt;li&gt;Easy accessibility of all types of games in a simple customized UI for the gamers.&lt;/li&gt;
+&lt;li&gt;No specifications required for playing any type of games, just requiring an internet connection.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;$scope&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;It is a JavaScript object&lt;/li&gt;
-&lt;li&gt;Contains data (i.e. models) and methods (i.e. functions)&lt;/li&gt;
-&lt;li&gt;Can add own properties
-$scope.&lt;my new property&gt; = &lt;value&gt;;&lt;/li&gt;
-&lt;li&gt;The $scope variable – Link your controllers and view&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Views&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Make use of special ng attributes (directives) on the HTML elements&lt;/li&gt;
-&lt;li&gt;ng-app
-
-&lt;ul&gt;
-&lt;li&gt;Determines which part of the page will use AngularJS&lt;/li&gt;
-&lt;li&gt;If given a value it will load that application module&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ng-controller
-
-&lt;ul&gt;
-&lt;li&gt;Determines which Javascript Controller should be used for that part of the page.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ng-model
-
-&lt;ul&gt;
-&lt;li&gt;Determines what model the value of an input field will be bound to&lt;/li&gt;
-&lt;li&gt;Used for two-way binding&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Dependency Injection&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Pass the modules and services that you need as parameters&lt;/li&gt;
-&lt;li&gt;In the previous case $scope is a service that will be injected&lt;/li&gt;
-&lt;li&gt;Can be passed as an array of strings to the controller function as well&lt;/li&gt;
-&lt;li&gt;Prevents errors when performing modification&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;$http&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Used to handle Ajax calls&lt;/li&gt;
-&lt;li&gt;Wrappers around jQuery&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Features of AngularJS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Templating&lt;/li&gt;
-&lt;li&gt;Databinding&lt;/li&gt;
-&lt;li&gt;Routing&lt;/li&gt;
-&lt;li&gt;Follows MVC Architecture&lt;/li&gt;
-&lt;li&gt;Server-Side Communication&lt;/li&gt;
-&lt;li&gt;Dependency Injection&lt;/li&gt;
-&lt;li&gt;Extensibility (&amp;ldquo;Directives&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;Allows for testing&lt;/li&gt;
-&lt;li&gt;Deep Linking (Map URL to route Definition)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Why AngularJS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Backed by Google- Actively maintained&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Angular is built and maintained by dedicated Google engineers.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;AngularJS came about to standardize web application structure and provide a future template for how client-side apps should be developed.
-Because AngularJS is built by Google, you can be sure that you are dealing with  efficient and reliable code that will scale with your project.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This means you not only have a large open community to learn from, but you also have skilled, highly-available engineers tasked to help you get your Angular questions answered.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Comprehensive feature set&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Angular a complete solution for rapid front-end development.
- &lt;/li&gt;
-&lt;li&gt;No other plugins or frameworks are necessary to build a data-driven web application.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;REST Easy&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Restful actions are quickly becoming the standard for communicating from the server to the client.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;In one line of JavaScript, you can quickly talk to the server and get the data you need to interact with your web pages.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Extends HTML&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Most websites built today are a giant series of &amp;lt;div&amp;gt; tags.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;You need to create extensive and exhaustive CSS classes to express the intention of each object in the DOM.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;With Angular, you can operate your HTML like XML, giving you endless possibilities for tags and attributes.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Angular accomplishes this via its HTML compiler and the use of directives to trigger behaviors based on newly created syntax you write.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Makes HTML your Template&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;You can quickly grasp the bracket syntax of Angular&amp;rsquo;s templating engine, because it&amp;rsquo;s just HTML.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Angular traverses the DOM for these templates, which house the directives mentioned above.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The templates are then passed to the AngularJS compiler as DOM elements, which can be extended, executed or reused.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;This is a key property which allows direct manipulation and extension of the DOM tree.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Enterprise-level Testing&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;AngularJS requires no additional frameworks or plugins, including testing.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Easy in learning Angular&amp;rsquo;s unit-testing API which guides you through executing your tests in as close to the actual state of your production application as possible.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Gamers can access and play all the genres of games for free by just requiring Internet Connection without the need of even thinking about minimal specification required in running of a game.&lt;/li&gt;
+&lt;li&gt;Gamers can collaborate to form a community within a circle and groups in social network to get along with gamers having interest in same games.&lt;/li&gt;
+&lt;li&gt;The future scope is emulating PC games to optimize it for playing high end games from a console such as Smartphones, XBOX 360, Play Station 3 etc.&lt;/li&gt;
+&lt;li&gt;Piracy will be reduced upto 200 %.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
