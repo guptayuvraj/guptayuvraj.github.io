@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Big Data on Blog </title>
+      <title>Testing on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/tags/big-data/</link>
+    <link>http://guptayuvraj.github.io/tags/testing/</link>
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
@@ -123,66 +123,6 @@
 &lt;p&gt;At the end of this blog you understand the various scenarios which can be tested in Big Data domain.  You know what is Big Data and why do we require Big Data Testing. It made you aware of the Big Data architecture with brief explanation of its components. Lastly few tools were mentioned which are used within the Big Data System.&lt;/p&gt;
 
 &lt;p&gt;In the next blog we will look at a use-case for a practical scenario as an example for Big Data Testing. It will cover the problem statement followed by testing via traditional method and importance of creating/using automation script to automate testing in Big Data domain.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cloud Computing Future Trends</title>
-      <link>http://guptayuvraj.github.io/post/Cloud-Computing-Future-Trends/</link>
-      <pubDate>Sun, 24 Jul 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
-      <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Future-Trends/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;The rise of the hybrid cloud&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Hybrid clouds feature an infrastructure that combines private cloud security with cost-effective, powerful and scalable public cloud attributes.
-IT executives get more choices for personalized solutions while big data advocates and security experts are still satisfied.
-As hybrid models become mainstream, more companies are likely to adopt this cloud deployment model.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Big data Analytics&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Many organizations are realizing that it may be much simpler and more beneficial to combine big data analytics with cloud computing than to choose one over the other&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Big data as a service&lt;/strong&gt; seems like one of the most practical options for big data analytics, as it is scalable and within the reach of any organisation, no matter its size or resources.&lt;/p&gt;
-
-&lt;p&gt;These cloud providers are also overcoming the technical barrier by transforming Hadoop from an open source platform to an enterprise-ready service, all without the need for a data scientist. &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Graphics as a Service&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Typically, running high-end graphics applications requires substantial hardware infrastructure investment.&lt;/p&gt;
-
-&lt;p&gt;However, cloud computing is changing this reality. There are a number of new cloud-based graphics technologies from prominent graphics companies, including NVIDIA and AMD that allow end users to run high-end graphic design applications with a simple HTML5 web browser.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Identity Management and Protection&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Security has always been a major concern with cloud computing. As more businesses move more information and data into cloud servers, this concern is more important than ever.&lt;/p&gt;
-
-&lt;p&gt;It is anticipated that over the few years, there will be identity management solutions based on new cloud based security paradigms.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Web-Powered Apps&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;As efficiency and scalability are among the primary benefits of cloud computing, then it only makes sense to start developing cloud-based applications that are compatible with multiple platforms.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Standardization will take center-stage&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The cloud ecosystem today is characterized by a plethora of standards, mostly unique to service providers and therefore incompatible with other platforms.&lt;/p&gt;
-
-&lt;p&gt;Currently more than 160 different standards govern cloud computing systems. This situation has the potential to dampen the growth prospects of the cloud.&lt;/p&gt;
-
-&lt;p&gt;The shift towards common or open standards for cloud deployments will be central to the development of the cloud model, especially if features like interoperability and portability are to be realized.&lt;/p&gt;
-
-&lt;p&gt;Consortiums like the Open Data Center Alliance (ODCA), framed to focus attention on the crying need for a dependable framework to progress the evolution of organizational standards, that streamline the cloud journey, will grow in stature.&lt;/p&gt;
 </description>
     </item>
     
