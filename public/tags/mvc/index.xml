@@ -7,15 +7,15 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Wed, 27 Jul 2016 00:00:00 UTC</updated>
+    <updated>Thu, 28 Jul 2016 00:00:00 UTC</updated>
     
     <item>
       <title>Introduction to AngularJS</title>
       <link>http://guptayuvraj.github.io/post/Introduction-to-AngularJS/</link>
-      <pubDate>Wed, 27 Jul 2016 00:00:00 UTC</pubDate>
+      <pubDate>Thu, 28 Jul 2016 00:00:00 UTC</pubDate>
       <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Introduction-to-AngularJS/</guid>
-      <description>&lt;p&gt;AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries. &lt;/p&gt;
+      <description>&lt;p&gt;AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries.&lt;/p&gt;
 
 &lt;p&gt;HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.&lt;/p&gt;
 
@@ -160,9 +160,9 @@ Because AngularJS is built by Google, you can be sure that you are dealing with 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Comprehensive feature set&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Angular a complete solution for rapid front-end development.
- &lt;/li&gt;
-&lt;li&gt;No other plugins or frameworks are necessary to build a data-driven web application.&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Angular a complete solution for rapid front-end development.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;No other plugins or frameworks are necessary to build a data-driven web application.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;REST Easy&lt;/strong&gt;&lt;/p&gt;
@@ -188,7 +188,7 @@ Because AngularJS is built by Google, you can be sure that you are dealing with 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Makes HTML your Template&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;You can quickly grasp the bracket syntax of Angular&amp;rsquo;s templating engine, because it&amp;rsquo;s just HTML.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You can quickly grasp the bracket syntax of Angular&amp;rsquo;s templating engine, because it&amp;rsquo;s just HTML.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Angular traverses the DOM for these templates, which house the directives mentioned above.&lt;/p&gt;&lt;/li&gt;
 

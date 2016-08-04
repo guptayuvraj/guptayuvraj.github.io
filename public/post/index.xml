@@ -282,6 +282,205 @@ occurred? Is it data loss? Is the file deleted during disaster? Is the data misp
     </item>
     
     <item>
+      <title>Introduction to AngularJS</title>
+      <link>http://guptayuvraj.github.io/post/Introduction-to-AngularJS/</link>
+      <pubDate>Thu, 28 Jul 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Introduction-to-AngularJS/</guid>
+      <description>&lt;p&gt;AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries.&lt;/p&gt;
+
+&lt;p&gt;HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.&lt;/p&gt;
+
+&lt;p&gt;Other frameworks deal with HTML’s shortcomings by either abstracting away HTML, CSS, and/or JavaScript or by providing an imperative way for manipulating the DOM. Neither of these address the root problem that HTML was not designed for dynamic views.&lt;/p&gt;
+
+&lt;p&gt;Key Introductory Points of AngularJS:-&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Developed and maintained by Google&lt;/li&gt;
+&lt;li&gt;MVC Javascript Framework for Rich Web Application Development&lt;/li&gt;
+&lt;li&gt;Hot new front-end JavaScript framework&lt;/li&gt;
+&lt;li&gt;Rapidly develop powerful, responsive web apps&lt;/li&gt;
+&lt;li&gt;Philosophy similar to jQUery&lt;/li&gt;
+&lt;li&gt;Simplicity&lt;/li&gt;
+&lt;li&gt;Enhance HTML, work with it not around it&lt;/li&gt;
+&lt;li&gt;Testable, maintainable, extendable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;History of AngularJS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Developed in 2009 by MiškoHevery and Adam Abrons for commercial purposes, but later Angular as an open-source library.&lt;/p&gt;
+
+&lt;p&gt;Hevery, who works at Google, continues to develop and maintain the library. Version 1.0 released in December 2012.&lt;/p&gt;
+
+&lt;p&gt;What about WebToolkit?&lt;/p&gt;
+
+&lt;p&gt;WebToolkit compiles Java down to JavaScript and was used by the Google extensively. With the rise of HTML5, CSS3, and JavaScript, Google is changing directions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Structure of AngularJS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It follows the MVC Architecture i.e. Model, View and Controller.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Model&lt;/strong&gt;
+The data&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Controller&lt;/strong&gt;
+The behavior
+Modifying / updating the models&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;View&lt;/strong&gt;
+The interface
+How the data is presented to the user&lt;/p&gt;
+
+&lt;p&gt;Model and Controller uses JavaScript where as View uses HTML to present the data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Models&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Properties on the Controller’s $scope object&lt;/li&gt;
+&lt;li&gt;Standard JavaScript values&lt;/li&gt;
+&lt;li&gt;Can be used to separate the application into parts&lt;/li&gt;
+&lt;li&gt;Application module can include the other modules by listing them as dependencies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Controller&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Function that takes at least one parameter: $scope&lt;/li&gt;
+&lt;li&gt;Function is a constructor&lt;/li&gt;
+&lt;li&gt;Ex: function MyCtrl($scope) { … }&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;$scope&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is a JavaScript object&lt;/li&gt;
+&lt;li&gt;Contains data (i.e. models) and methods (i.e. functions)&lt;/li&gt;
+&lt;li&gt;Can add own properties
+$scope.&lt;my new property&gt; = &lt;value&gt;;&lt;/li&gt;
+&lt;li&gt;The $scope variable – Link your controllers and view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Views&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Make use of special ng attributes (directives) on the HTML elements&lt;/li&gt;
+&lt;li&gt;ng-app
+
+&lt;ul&gt;
+&lt;li&gt;Determines which part of the page will use AngularJS&lt;/li&gt;
+&lt;li&gt;If given a value it will load that application module&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ng-controller
+
+&lt;ul&gt;
+&lt;li&gt;Determines which Javascript Controller should be used for that part of the page.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ng-model
+
+&lt;ul&gt;
+&lt;li&gt;Determines what model the value of an input field will be bound to&lt;/li&gt;
+&lt;li&gt;Used for two-way binding&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Dependency Injection&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pass the modules and services that you need as parameters&lt;/li&gt;
+&lt;li&gt;In the previous case $scope is a service that will be injected&lt;/li&gt;
+&lt;li&gt;Can be passed as an array of strings to the controller function as well&lt;/li&gt;
+&lt;li&gt;Prevents errors when performing modification&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;$http&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Used to handle Ajax calls&lt;/li&gt;
+&lt;li&gt;Wrappers around jQuery&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Features of AngularJS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Templating&lt;/li&gt;
+&lt;li&gt;Databinding&lt;/li&gt;
+&lt;li&gt;Routing&lt;/li&gt;
+&lt;li&gt;Follows MVC Architecture&lt;/li&gt;
+&lt;li&gt;Server-Side Communication&lt;/li&gt;
+&lt;li&gt;Dependency Injection&lt;/li&gt;
+&lt;li&gt;Extensibility (&amp;ldquo;Directives&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Allows for testing&lt;/li&gt;
+&lt;li&gt;Deep Linking (Map URL to route Definition)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Why AngularJS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Backed by Google- Actively maintained&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Angular is built and maintained by dedicated Google engineers.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AngularJS came about to standardize web application structure and provide a future template for how client-side apps should be developed.
+Because AngularJS is built by Google, you can be sure that you are dealing with  efficient and reliable code that will scale with your project.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This means you not only have a large open community to learn from, but you also have skilled, highly-available engineers tasked to help you get your Angular questions answered.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Comprehensive feature set&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Angular a complete solution for rapid front-end development.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;No other plugins or frameworks are necessary to build a data-driven web application.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;REST Easy&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Restful actions are quickly becoming the standard for communicating from the server to the client.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In one line of JavaScript, you can quickly talk to the server and get the data you need to interact with your web pages.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Extends HTML&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Most websites built today are a giant series of &amp;lt;div&amp;gt; tags.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You need to create extensive and exhaustive CSS classes to express the intention of each object in the DOM.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;With Angular, you can operate your HTML like XML, giving you endless possibilities for tags and attributes.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Angular accomplishes this via its HTML compiler and the use of directives to trigger behaviors based on newly created syntax you write.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Makes HTML your Template&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;You can quickly grasp the bracket syntax of Angular&amp;rsquo;s templating engine, because it&amp;rsquo;s just HTML.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Angular traverses the DOM for these templates, which house the directives mentioned above.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The templates are then passed to the AngularJS compiler as DOM elements, which can be extended, executed or reused.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;This is a key property which allows direct manipulation and extension of the DOM tree.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Enterprise-level Testing&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;AngularJS requires no additional frameworks or plugins, including testing.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Easy in learning Angular&amp;rsquo;s unit-testing API which guides you through executing your tests in as close to the actual state of your production application as possible.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Cloud Gaming Social Network</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Gaming-Social-Network/</link>
       <pubDate>Wed, 27 Jul 2016 00:00:00 UTC</pubDate>
@@ -1271,37 +1470,6 @@ Monitoring- Monitors 500+ data points per node and integration with ganglia and 
 &lt;p&gt;Drives- 2TB or 3TB 7200 RPM SATA drives.&lt;/p&gt;
 
 &lt;p&gt;Networking- Storage nodes can be provisioned with 1GbE (single gigabit) or 10GbE network interface depending on expected workload and desired performance.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>NexentaStor</title>
-      <link>http://guptayuvraj.github.io/post/NexentaStor/</link>
-      <pubDate>Wed, 13 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
-      <guid>http://guptayuvraj.github.io/post/NexentaStor/</guid>
-      <description>&lt;p&gt;Nexenta – NexentaStor:  delivers high-performance, ultra-scalable, cloud- and virtualization-optimized storage solutions. Nexenta supplies the software. You leverage your hardware. Does not provide object storage.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Delivers built-proof data integrity and unlimited scalability for Big Data- and Cloud-optimized storage solutions. Nexenta’s OpenStorage platform allows for a broader range of virtualization and cloud-computing services at a much lower cost.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;High-Availability Clustering.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Unlimited Snapshots &amp;amp; Clones:&lt;/strong&gt; NexentaStor uses copy on write (COW), this means live data is never overwritten; instead, it writes data to a new block before changing the data pointers and committing the write.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Inherent Virtualization&lt;/strong&gt; – NexentaStor supports all the mainstream virtualization vendors; Microsoft Hyper-V, Citrix Xen and VMware vSphere.
-Uses ZFS.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Recommended system Requirement for NexentaStor Community Edition:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;64 bit processor (32 bit not recommended for production).&lt;/p&gt;
-
-&lt;p&gt;2 GB RAM minimum for evaluation (recommend 4 to 8 GB), Production use 8 GB minimum plus 1 GB per 1 TB raw disk space minimum (depending on use-case more may be highly desirable), or 2 GB per 1 TB raw for high-end performance deployments. If planning to use deduplication, please contact for sizing assistance.&lt;/p&gt;
-
-&lt;p&gt;2 identical relatively small disks for high-availability system folder.&lt;/p&gt;
-
-&lt;p&gt;Additional drives/storage for data volumes&lt;/p&gt;
 </description>
     </item>
     
