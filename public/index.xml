@@ -7,7 +7,162 @@
     <language>en-us</language>
     <author>Yuvraj Gupta</author>
     
-    <updated>Wed, 27 Jul 2016 00:00:00 UTC</updated>
+    <updated>Fri, 29 Jul 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Disaster Recovery The Big Need in Today Digital World</title>
+      <link>http://guptayuvraj.github.io/post/Disaster-Recovery-The-Big-Need-in-Today-Digital-World/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Disaster-Recovery-The-Big-Need-in-Today-Digital-World/</guid>
+      <description>&lt;p&gt;This blog has been written as a White Paper which has been reproduced in form of a blog.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Top Reasons Why IT Disaster Recovery Plan Should Be a Top Priority&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hardware or Machines Breakdown:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As hardware is highly designed in such a way that it is highly resistant to collapse though it can become faulty anytime. We cannot determine accurately when the Hardware will collapse. It can be via any fault in disk, internet connection failure, incorrect working of a part etc.
+Even being a single point of source it will affect the organization tremendously. To ensure that such a breakdown doesn’t hinder the organization capabilities , services or causes data loss We need to eradicate any point of failure by managing RAID , snapshots, mirroring which will cost significantly higher. So instead of eliminating a single point of failure the best option is to create a regular backup of your data which will prevent any type of data loss. For cost cutting you can take the service in form of Infrastructure as a Service (IAAS) which will enable you to outsource your whole IT environment instead of building an in house data center which will cost very high. It will exclude the capital expenses incurred while developing, maintaining &amp;amp; testing of IT Infrastructure in house.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Error due to humans:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As no one is perfect so are humans. They can make mistakes which are very difficult to prevent and correct. Most of you would have been a victim of data loss in such a way that you weren’t able to save a document due to power failure or due to a crash in your system. These things are inevitable and can occur anytime. As these are simple mistakes but they have a long lasting effect which is impossible to
+prevent or correct it. To ensure such things do not affect your organization we should take significant steps to prevent as we all know prevention is better than cure. We can create incremental backups of data which will make it very easy in restoring the files. We must ensure security is very high otherwise security can be compromised in terms of firewalls, any type of virus, open ports. The best way to keep a check on human error is during quality testing activity for product. Double checking policies are most used in ensuring that the quality is high which acts as a strategy.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lost Data or Losing Critical Information:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Misplacing data or losing out on critical information affects the worst especially if the data is of a client to which service is provided or to a prospective customer. If having a well-executed mechanism in work, it will help the organization to avert the loss of data.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/DR-1.jpg&#34; alt=&#34;&#34; title=&#34;Causes of Data Loss&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Clients/ Customer wants perfection:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Due to the popularity of internet and its related revolutions in web, companies are now forced to become more translucent and answerable leading to an increase in high competition. As the competition is growing so are the prices lower making the volume the biggest factor in deciding the growth rate of an organization. Multiple players present in market, customer service plays an important role. The better the service the better the chance the customer will remain with you. Every customer expects the perfection because they have realized the next best competitor will be ready to give you the better service in order to grab some business of their competitors. If a disaster occurs then you are not only losing your customer but you are even losing future prospective clients which may also lead to a significant amount of loss incurred by the company. Moreover in a service industry customers are the kings.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Holding of existing customer is costly, but re-acquiring a customer is very expensive:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On an average statistics basis it is very cheap to hold your client than to bring in new customers. Word from mouth to mouth is one of the biggest factors which drive the customers to an organization. If a disaster occurs it will be almost impossible to reacquire the old customer as the disaster would have affected him and wouldn’t be able to trust you leading to loss of business. Less the chance of recovering from
+disaster higher the chance of losing your customers. Earning a trust of a client takes a lot of time but losing it doesn’t even take much time. If in disaster his data is misplaced/lost or there is any disruption in the service it will affect his organization also. It will also lead to loss of money which is inversely in proportion with recovering back from disaster. IT disasters are undesirable to the clients. Though it is very common in industries so having a disaster recovery in place is very important and it will be a big need in today’s digital world.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Weakest link determines the organization:&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As we all know there is an old saying that You can have one of the most well-crafted ships ever made, but if your crew can’t see the iceberg just beyond your line of sight, then it doesn’t matter how well-built your ship is upon impact. It is very important to understand the above statement and it is an important factor which describes how strong an organization is. Since no business is resistant from disasters but we should have in place proper mechanisms which will help in prevention of such disasters and even quickly recovering from the loss. In today’s
+digitalized world there is a big need of having a disaster recovery plan in order. Making an excuse of not having one makes your organization vulnerable. We must create a disaster recovery plan such that the most critical and important servers are in top tier of data center having no single point of failure (SPOF) in terms of power failure or any failure in network connections. There should be multiple locations where your backup is being taken and ideally it should be minimum 75 kms away so that if a disaster occurs your other locations are safe and not affected. It will help in ensuring that you are almost protected in case of disaster occurs from any type of loss or downtime. It will give benefit to customers as their data will almost be safe at all-time leading to putting your business in shape and able to withstand tough IT disasters.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Save Time, Save Money, Save your customers, Save your business, Implement a rigid IT Disaster Recovery Environment.&lt;/strong&gt; No business is bulletproof to any disaster but having an IT disaster recovery plan will help in speeding up the recovery process which is expected by clients in today’s digital world. As per the statistics organization suffering a significant data loss are shut down within couple of years. Many business were shattered as they were not ready to embrace and implement an IT Disaster Recovery plan. We have simple solutions such as backing up increments of data, adopting IAAS from service providers, protecting your critical server, maintaining multiple backups at multiple locations. The need is very high for having a disaster recovery plan. Be prepared for developing, implementing, maintaining and testing disaster recovery plans in order to be saved by such disasters.&lt;strong&gt;The top priority of an organization in today’s world needs to be development of IT Disaster Recovery Plan.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disaster Recovery Plans makes you More Efficient&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Making an effective disaster plan which will help in aligning the business and consolidating it in order to recover from any type of disaster. By implementing a plan we should use the current technologies available in order to save cost, save time and also help in easy maintenance of the data or applications even for backup. According to IDC, using latest and advanced technologies we can enable more IT staff to protect the data or applications with recover capabilities. It also stated using automation processes we can reduce the time of staff with recovery procedures by upto 85 – 90%. By outsourcing the IT to a service provider it will help in more cost cutting.&lt;/p&gt;
+
+&lt;p&gt;The main ability in deciding how strong a disaster recovery plan lies in the fact:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Deciding which applications or data are critical?&lt;/li&gt;
+&lt;li&gt;Which applications or data are not critical?&lt;/li&gt;
+&lt;li&gt;What will act as a single point of failure?&lt;/li&gt;
+&lt;li&gt;Deciding remote business-critical data or applications?&lt;/li&gt;
+&lt;li&gt;Deciding which service or data applications should be online first?&lt;/li&gt;
+&lt;li&gt;Deciding time taken as downtime when a disaster occurs?&lt;/li&gt;
+&lt;li&gt;How much will the downtime cost you?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Email messaging, desktop applications and web sites are mostly non critical aspects of IT infrastructure. As we implement a strong disaster recovery solution we will face less problem with applications and would be able to recover quickly leading to less downtime.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disaster Recovery Plans help you Save Money&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Implementation of a disaster recovery plan which is rigid and strong helps in making your IT cost justified. According to IDC, having a disaster recovery plan including new technologies can help in cost cutting rather than using new technologies which do not support disaster recovery capabilities. Research shows cost of implementation can be reduced by around 35% when compared with data centers which are unprepared and use older technologies.&lt;/p&gt;
+
+&lt;p&gt;In current world of digitalization cost cutting is the most important factor for an organization and a solid Disaster Recovery &amp;amp; Backup plan efficiently helps you to achieve it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disaster Recovery Plans help you Make Money&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Whenever you think of making money via selling of a product or providing services, one main thing which is most crucial in providing it is that your business is operational and in use. Having a strong Disaster Recovery &amp;amp; Backup plan will actually help your organization to keep it running as efficiently as possible reducing the downtime which was faced earlier. It will not only help you recover quickly from a disaster recovery but also help in cutting down on disaster occurred time. If having a business without a disaster recovery plan the time till your company hasn’t recovered will keep losing money which even leads to bankruptcy as discussed in statistics.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/DR-2.jpg&#34; alt=&#34;&#34; title=&#34;Money made with effective Disaster Recovery plans&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The above figure clearly depicts the amount of money which could have been made more if you had best disaster recovery, average disaster recovery or poor disaster recovery mechanism in place.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Having the best and efficient disaster recovery plan will help you in saving money for your business and would help in retaining your customers driving growth for the organization.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How to implement Disaster Recovery as a Service:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/DR-3.jpg&#34; alt=&#34;&#34; title=&#34;DR Cycle&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/DR-4.jpg&#34; alt=&#34;&#34; title=&#34;DR Implementation Algorithm&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;STATISTICS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;90 % of businesses losing data from a disaster are forced to shut down within two years.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The survival rate for companies without a disaster recovery is less than 10 %.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Only 44 % of businesses successfully recovered information after recent data recovery event.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;53 % of claimants never recoup the losses incurred by a disaster.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These statistics are misleading as we cannot determine what big an effect it possess. 90% of losing data does not tell what type of loss has
+occurred? Is it data loss? Is the file deleted during disaster? Is the data misplaced?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Vendors offering DR solutions/ services stated 70% of disruptions are caused by internal malfunctioning / corruption of H/W, S/W &amp;amp; Human Errors.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;93% of organizations losing their data center for 10 days due to disaster filed for bankruptcy within a year.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;50% of organizations without data management filed for bankruptcy instantly.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Companies hit by a disaster who are not able to resume services within 10 days do not survive.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;31% of PC users have lost their data due to events beyond their control.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Only 35% of organizations have disaster recovery plan in place.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Survival rate for companies without a DR plan is &amp;lt; 10%.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;86% of companies experienced downtime in the previous 12 months.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;34% of companies do not test their tape backups.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;77% of companies failed to recover data from tape even after testing their tape backups.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Every week on an average 140,000 hard drives crash in United States itself.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;33% of companies do not back up their virtual servers as often their physical servers.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Improving Disaster Recovery Statistics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../images/DR-5.jpg&#34; alt=&#34;&#34; title=&#34;New Technology&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;71% companies adopting server virtualization were better prepared from recovering from a disaster than before adopting it.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;43% were better prepared for disasters after adopting private clouds.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;41% felt more prepared after adopting public cloud.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;36% felt better prepared after adopting mobility.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Cloud Gaming Social Network</title>
@@ -1051,20 +1206,6 @@ Uses ZFS.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&#34;../images/EMC-Vipr.jpg&#34; alt=&#34;&#34; title=&#34;EMC Vipr&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What is Software Defined Storage</title>
-      <link>http://guptayuvraj.github.io/post/What-is-Software-Defined-Storage/</link>
-      <pubDate>Mon, 11 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
-      <guid>http://guptayuvraj.github.io/post/What-is-Software-Defined-Storage/</guid>
-      <description>&lt;p&gt;The concept behind software-defined storage seems very appealing: a single point of data services, like volume management and snapshots, form a single console while using &lt;strong&gt;practically anyone’s disk hardware.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;As a pillar in the SDDC stack, Software Defined Storage (SDS) pools hardware storage resources and allows them to be programmatically defined in software. All the programming that controls storage-related tasks exists solely in software. The software could exist on a server or could be part of an operating system (OS) or a hypervisor. Provides flexible management at a much more granular level. Deployed Provision through S/W.&lt;/p&gt;
-
-&lt;p&gt;SDS forms a part of a broader software-defined data center (SDDC) concept wherein all the virtualized storage, server, networking and security resources required by an application can be defined by software and provisioned automatically. This design provides the means for storage services to be deployed on a wide range of hardware spanning vendor optimized to commodity to cloud.&lt;/p&gt;
 </description>
     </item>
     
