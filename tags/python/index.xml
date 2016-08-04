@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Python on Blog </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://guptayuvraj.github.io/tags/python/</link>
+    <language>en-us</language>
+    <author>Yuvraj Gupta</author>
+    
+    <updated>Fri, 05 Aug 2016 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Big Data Testing - Use Case</title>
+      <link>http://guptayuvraj.github.io/post/Big-Data-UseCase/</link>
+      <pubDate>Fri, 05 Aug 2016 00:00:00 UTC</pubDate>
+      <author>Yuvraj Gupta</author>
+      <guid>http://guptayuvraj.github.io/post/Big-Data-UseCase/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Use Case 1: You are deploying a Hadoop cluster of 200 nodes in production.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This blog is the second blog in the series of Big Data Testing. Kindly visit the first blog (&lt;a href=&#34;http://guptayuvraj.github.io/post/Big-Data-Testing/&#34;&gt;http://guptayuvraj.github.io/post/Big-Data-Testing/&lt;/a&gt;) to know about Big Data Testing along with various scenarios to test in Big Data ecosystem.&lt;/p&gt;
+
+&lt;p&gt;In this blog we will look at a common use-case used for testing in production environment. It is a fairly easy practical scenario which you can face. We will cover the following topics in this blog:-&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#PS&#34;&gt;Problem Statement&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#TT&#34;&gt;Traditional Method of Testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#CTT&#34;&gt;Challenges in Traditional Method of Testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#UA&#34;&gt;Use of Automation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#SD&#34;&gt;What will Script do?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#AS&#34;&gt;Creating Automation Script as Sample&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#SCF&#34;&gt;Structure of Configuration File&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#PSC&#34;&gt;Python Script&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#EPS&#34;&gt;Explanation of Python Script&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#AAS&#34;&gt;Advantages of Automation Script&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&#34;PS&#34;&gt; &lt;strong&gt;Problem Statement&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You need to validate that all the configuration files (5 configuration files in every server) across multiple servers in cluster is correct and consistent. Verify the configuration files are in desired location and content of each configuration files are same across every server.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;TT&#34;&gt; &lt;strong&gt;Traditional Method of Testing?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Login into every server and check whether all the configuration files are present is desired directory location and manually check the content of all configuration files present in every server across cluster.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;CTT&#34;&gt; &lt;strong&gt;Challenges in Traditional Method of Testing&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Time Consuming&lt;/li&gt;
+&lt;li&gt;Tedious work&lt;/li&gt;
+&lt;li&gt;Impossible to verify contents of each configuration file across each server&lt;/li&gt;
+&lt;li&gt;Impossible to find difference in configuration files across servers&lt;/li&gt;
+&lt;li&gt;Tough to find the problem post production and fixing it will require downtime and loss in data affecting business significantly.&lt;/li&gt;
+&lt;li&gt;Tough to find the cause of problem and tougher to know whether problem is due to configuration files or not and if via configuration files then which configuration file on which server.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&#34;UA&#34;&gt;&lt;strong&gt;Use of Automation&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Create a script and a configuration file for the script. Configuration file will contain list of servers, list of files to check and directory in which files will be present.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;SD&#34;&gt;&lt;strong&gt;What will Script Do?&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Initially, It will fetch the first server host address from configuration file and login into that server, fetch the file from the server as per the location of the file mentioned in configuration file, copy file from that server to local machine. Again it will fetch the second server host address from configuration file and login into that server, check whether configuration file is present in desired location as mentioned in configuration file, copy configuration files from second server to local machine and compare the configuration files received from both servers. The process continues for all the servers as mentioned in configuration file where it will fetch files and compare the files to validate whether there is any mismatch between files present across each server. Also this process continues for checking multiple files across each server.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;AS&#34;&gt;&lt;strong&gt;Creating Automation Script as Sample&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We will be creating scripts using Python in this use-case. You will require to create 2 files i.e. 1 configuration file and 1 script file.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;SCF&#34;&gt;&lt;strong&gt;Structure of Configuration file:&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[server]
+server1=nameofserver1.com
+server2=nameofserver2.com
+server3=nameofserver3.com 
+server4=nameofserver4.com
+.......
+.......
+.......
+server200=nameofserver200.com
+[file]
+file1=/name/of/file/file1.properties
+file2=/name/of/file/file2.xml
+.......
+.......
+file5=/name/of/file/file5.json
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let us save the configuration file as servers_files.txt&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;PSC&#34;&gt;&lt;strong&gt;Python Script&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;import os							
+import ConfigParser						
+config = ConfigParser.ConfigParser()				
+config.readfp(open(r&#39;servers_files.txt&#39;)) 				        
+path1 = config.get(&#39;server&#39;,&#39;server1&#39;) 						  
+for (file_key, file_val) in config.items(&amp;quot;file&amp;quot;): 			        
+FILE_NAME= &amp;quot;$(echo {} | sed &#39;s!.*/!!&#39;)&amp;quot;.format(file_val)
+	os.system(&amp;quot;mkdir -p /home/yuvraj/Desktop/{}&amp;quot;.format(FILE_NAME))	
+	for (server_key, server_val) in config.items(&amp;quot;server&amp;quot;):
+		os.system(&amp;quot;scp -oStrictHostKeyChecking=no username@{}:{} /home/yuvraj/Desktop/{}/{}&amp;quot;.format(server_val,file_val,FILE_NAME,server_val)) 	
+		os.system(&amp;quot;diff -q /home/yuvraj/Desktop/{}/{} /home/yuvraj/Desktop/{}/{}&amp;quot;.format(FILE_NAME,path1,FILE_NAME,server_val))
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a name=&#34;EPS&#34;&gt;&lt;strong&gt;Explanation of Python Script&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Line1 &amp;amp; Line 2 are used to import library for os operations and configuration parsing.&lt;/p&gt;
+
+&lt;p&gt;Line 3 is used to call configparser object.&lt;/p&gt;
+
+&lt;p&gt;Line 4 is used to open the txt file which is read by configparser.&lt;/p&gt;
+
+&lt;p&gt;Line 5 is used to fetch the value of server1 key.&lt;/p&gt;
+
+&lt;p&gt;Line 6 is used to create a loop to fetch file key &amp;amp; file value from configuration file.&lt;/p&gt;
+
+&lt;p&gt;Line 7 is used to fetch only the filename from the filelocation present in configuration file.&lt;/p&gt;
+
+&lt;p&gt;Line 8 is to create the directory based on filename fetched.&lt;/p&gt;
+
+&lt;p&gt;Line 9 is used to create a loop to fetch server key &amp;amp; value.&lt;/p&gt;
+
+&lt;p&gt;Line 10 is used to provide scp to copy file from server to local.&lt;/p&gt;
+
+&lt;p&gt;Line 11 used to find differences between all the files copied to local.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;AAS&#34;&gt;&lt;strong&gt;Advantages of Automation Script&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No manual task&lt;/li&gt;
+&lt;li&gt;Easy to catch the problem by catching proper exception such as file not present in desired location or file contents differ&lt;/li&gt;
+&lt;li&gt;Verify within minutes that cluster of 200 node contains correct configuration files&lt;/li&gt;
+&lt;li&gt;Easy to verify whether contents of configuration file are same or not&lt;/li&gt;
+&lt;li&gt;Easy to fix the problem as cause of problem is known and minimum downtime will be required to fix the problem if caused&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This usecase is not limited to the following scenarios:-&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Addition of nodes in cluster&lt;/li&gt;
+&lt;li&gt;Removal of nodes in cluster&lt;/li&gt;
+&lt;li&gt;Setting up new cluster&lt;/li&gt;
+&lt;li&gt;Upgrading the version of the software used in cluster across the nodes&lt;/li&gt;
+&lt;li&gt;Downgrading the version of the software used in cluster across the nodes&lt;/li&gt;
+&lt;li&gt;Installing new software requiring setting up configuration files across the nodes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At the end of this blog you will understand the ideology behind using automation for Big Data Testing. You will discover the benefits of using automation to test in Big Data ecosystem which will reduce the manual intervention of work to an extent. At the end a sample Python Script was shown which solved the problem in a simple yet elegant manner.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
