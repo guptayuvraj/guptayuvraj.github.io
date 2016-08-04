@@ -61,6 +61,7 @@ This step is considered as pre-Hadoop stage where data is generated from multipl
 - Ensure proper data from multiple data sources is ingested i.e. all required data is ingested as per their defined schema and data not matching schema should not be ingested. Data which has not matched with schema should be stored for stats reporting purpose. Also ensure there is no data corruption.
 - Comparison of source data with data ingested to simply validate that correct data is pushed.
 - Verify that correct data files are generated and loaded into HDFS correctly into desired location.
+
 <a name="DP">**Data Processing** :-</a>
 
 This step is used for validating Map-Reduce jobs. Map-Reduce is a concept used for condensing large amount of data into aggregated data. The data ingested is processed using execution of Map-Reduce jobs which provides desired results. In this step the tester verifies that ingested data is processed using Map-Reduce jobs and validate whether business logic is implemented correctly.

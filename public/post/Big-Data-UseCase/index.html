@@ -1,0 +1,323 @@
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Big Data Testing - Use Case - Blog</title>
+	<meta name="author" content="map[name:Yuvraj Gupta email:gupta.yuvraj@gmail.com]">
+
+	
+	
+	<meta name="description" content="">
+	
+
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<link href='/index.xml' rel="alternate" title="Blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://guptayuvraj.github.io/post/Big-Data-UseCase/">
+	<link href="http://guptayuvraj.github.io/favicon.png" rel="shortcut icon">
+	<link href="http://guptayuvraj.github.io/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="http://guptayuvraj.github.io/css/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+  
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-75311692-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+	
+	
+	<script src="http://guptayuvraj.github.io/js/md5.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5('gupta.yuvraj@gmail.com') + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+		});
+	</script>
+	
+	
+</div>
+<h1>Yuvraj Gupta</h1>
+<div class="subtitle">
+<b><big>Author | Techie | Gadget Freak | Sports Freak | Foodie  </b></big>
+</div>
+
+<nav id="main-nav"><ul class="main">
+    <li><a href="/">Blog</a></li>
+    <li><a href="/post/">Archives</a></li>
+</ul>
+
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+			<a class="email" href='mailto:gupta.yuvraj@gmail.com' title="Email">Email</a>
+		
+		
+			<a class="facebook" href='http://www.facebook.com/gupta.yuvraj' title="Facebook">Facebook</a>
+		
+		
+		
+			<a class="twitter" href='http://twitter.com/yuvrajgupta14' title="Twitter">Twitter</a>
+		
+		
+			<a class="github" href='https://github.com/guptayuvraj' title="GitHub">GitHub</a>
+		
+		
+		
+		  <a class="stackoverflow" href='http://stackoverflow.com/users/3678433/yuvraj-gupta' title="StackOverflow"></a>
+		
+		
+			<a class="linkedin" href='http://www.linkedin.com/in/guptayuvraj' title="LinkedIn">LinkedIn</a>
+		
+		
+		
+		
+		
+		
+			<a class="quora" href='https://quora.com/Yuvraj-Gupta-1' title="Quora">Quora</a>
+		
+		
+    	
+    	
+			<a class="rss" href='/index.xml' title="RSS">RSS</a>
+		
+
+	</div>
+</nav>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner">
+					<div itemscope itemtype="http://schema.org/Blog">
+					<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="title" itemprop="name">Big Data Testing - Use Case</h1>
+	<div class="entry-content" itemprop="articleBody"><p><strong>Use Case 1: You are deploying a Hadoop cluster of 200 nodes in production.</strong></p>
+
+<p>This blog is the second blog in the series of Big Data Testing. Kindly visit the first blog (<a href="http://guptayuvraj.github.io/post/Big-Data-Testing/">http://guptayuvraj.github.io/post/Big-Data-Testing/</a>) to know about Big Data Testing along with various scenarios to test in Big Data ecosystem.</p>
+
+<p>In this blog we will look at a common use-case used for testing in production environment. It is a fairly easy practical scenario which you can face. We will cover the following topics in this blog:-</p>
+
+<ul>
+<li><a href="#PS">Problem Statement</a></li>
+<li><a href="#TT">Traditional Method of Testing</a></li>
+<li><a href="#CTT">Challenges in Traditional Method of Testing</a></li>
+<li><a href="#UA">Use of Automation</a></li>
+<li><a href="#SD">What will Script do?</a></li>
+<li><a href="#AS">Creating Automation Script as Sample</a>
+
+<ul>
+<li><a href="#SCF">Structure of Configuration File</a></li>
+<li><a href="#PSC">Python Script</a></li>
+<li><a href="#EPS">Explanation of Python Script</a></li>
+</ul></li>
+<li><a href="#AAS">Advantages of Automation Script</a></li>
+</ul>
+
+<p><a name="PS"> <strong>Problem Statement</strong></a></p>
+
+<p>You need to validate that all the configuration files (5 configuration files in every server) across multiple servers in cluster is correct and consistent. Verify the configuration files are in desired location and content of each configuration files are same across every server.</p>
+
+<p><a name="TT"> <strong>Traditional Method of Testing?</strong></a></p>
+
+<p>Login into every server and check whether all the configuration files are present is desired directory location and manually check the content of all configuration files present in every server across cluster.</p>
+
+<p><a name="CTT"> <strong>Challenges in Traditional Method of Testing</strong></a></p>
+
+<ul>
+<li>Time Consuming</li>
+<li>Tedious work</li>
+<li>Impossible to verify contents of each configuration file across each server</li>
+<li>Impossible to find difference in configuration files across servers</li>
+<li>Tough to find the problem post production and fixing it will require downtime and loss in data affecting business significantly.</li>
+<li>Tough to find the cause of problem and tougher to know whether problem is due to configuration files or not and if via configuration files then which configuration file on which server.</li>
+</ul>
+
+<p><a name="UA"><strong>Use of Automation</strong></a></p>
+
+<p>Create a script and a configuration file for the script. Configuration file will contain list of servers, list of files to check and directory in which files will be present.</p>
+
+<p><a name="SD"><strong>What will Script Do?</strong></a></p>
+
+<p>Initially, It will fetch the first server host address from configuration file and login into that server, fetch the file from the server as per the location of the file mentioned in configuration file, copy file from that server to local machine. Again it will fetch the second server host address from configuration file and login into that server, check whether configuration file is present in desired location as mentioned in configuration file, copy configuration files from second server to local machine and compare the configuration files received from both servers. The process continues for all the servers as mentioned in configuration file where it will fetch files and compare the files to validate whether there is any mismatch between files present across each server. Also this process continues for checking multiple files across each server.</p>
+
+<p><a name="AS"><strong>Creating Automation Script as Sample</strong></a></p>
+
+<p>We will be creating scripts using Python in this use-case. You will require to create 2 files i.e. 1 configuration file and 1 script file.</p>
+
+<p><a name="SCF"><strong>Structure of Configuration file:</strong></a></p>
+
+<pre><code>[server]
+server1=nameofserver1.com
+server2=nameofserver2.com
+server3=nameofserver3.com 
+server4=nameofserver4.com
+.......
+.......
+.......
+server200=nameofserver200.com
+[file]
+file1=/name/of/file/file1.properties
+file2=/name/of/file/file2.xml
+.......
+.......
+file5=/name/of/file/file5.json
+</code></pre>
+
+<p>Let us save the configuration file as servers_files.txt</p>
+
+<p><a name="PSC"><strong>Python Script</strong></a></p>
+
+<pre><code>import os							
+import ConfigParser						
+config = ConfigParser.ConfigParser()				
+config.readfp(open(r'servers_files.txt')) 				        
+path1 = config.get('server','server1') 						  
+for (file_key, file_val) in config.items(&quot;file&quot;): 			        
+FILE_NAME= &quot;$(echo {} | sed 's!.*/!!')&quot;.format(file_val)
+	os.system(&quot;mkdir -p /home/yuvraj/Desktop/{}&quot;.format(FILE_NAME))	
+	for (server_key, server_val) in config.items(&quot;server&quot;):
+		os.system(&quot;scp -oStrictHostKeyChecking=no username@{}:{} /home/yuvraj/Desktop/{}/{}&quot;.format(server_val,file_val,FILE_NAME,server_val)) 	
+		os.system(&quot;diff -q /home/yuvraj/Desktop/{}/{} /home/yuvraj/Desktop/{}/{}&quot;.format(FILE_NAME,path1,FILE_NAME,server_val))
+
+</code></pre>
+
+<p><a name="EPS"><strong>Explanation of Python Script</strong></a></p>
+
+<p>Line1 &amp; Line 2 are used to import library for os operations and configuration parsing.</p>
+
+<p>Line 3 is used to call configparser object.</p>
+
+<p>Line 4 is used to open the txt file which is read by configparser.</p>
+
+<p>Line 5 is used to fetch the value of server1 key.</p>
+
+<p>Line 6 is used to create a loop to fetch file key &amp; file value from configuration file.</p>
+
+<p>Line 7 is used to fetch only the filename from the filelocation present in configuration file.</p>
+
+<p>Line 8 is to create the directory based on filename fetched.</p>
+
+<p>Line 9 is used to create a loop to fetch server key &amp; value.</p>
+
+<p>Line 10 is used to provide scp to copy file from server to local.</p>
+
+<p>Line 11 used to find differences between all the files copied to local.</p>
+
+<p><a name="AAS"><strong>Advantages of Automation Script</strong></a></p>
+
+<ul>
+<li>No manual task</li>
+<li>Easy to catch the problem by catching proper exception such as file not present in desired location or file contents differ</li>
+<li>Verify within minutes that cluster of 200 node contains correct configuration files</li>
+<li>Easy to verify whether contents of configuration file are same or not</li>
+<li>Easy to fix the problem as cause of problem is known and minimum downtime will be required to fix the problem if caused</li>
+</ul>
+
+<p>This usecase is not limited to the following scenarios:-</p>
+
+<ul>
+<li>Addition of nodes in cluster</li>
+<li>Removal of nodes in cluster</li>
+<li>Setting up new cluster</li>
+<li>Upgrading the version of the software used in cluster across the nodes</li>
+<li>Downgrading the version of the software used in cluster across the nodes</li>
+<li>Installing new software requiring setting up configuration files across the nodes</li>
+</ul>
+
+<p>At the end of this blog you will understand the ideology behind using automation for Big Data Testing. You will discover the benefits of using automation to test in Big Data ecosystem which will reduce the manual intervention of work to an extent. At the end a sample Python Script was shown which solved the problem in a simple yet elegant manner.</p>
+</div></article>
+					
+						<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size=''></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	
+	</div>
+	
+  	<script type="text/javascript" src='http://s7.addthis.com/js/250/addthis_widget.js#pubid=true'></script>
+  	
+</div>
+
+					
+					
+					<section id="comment">
+					    <h1 class="title">Comments</h1>
+					    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+					</section>
+					
+					
+
+<script type="text/javascript">
+    
+    var disqus_shortname = 'yuvrajgupta';
+
+    
+    
+
+    
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+    
+</script>
+
+
+				    </div>
+				</div>
+			</div>
+			<footer id="footer" class="inner">Copyright &copy; 2016
+
+    Yuvraj Gupta
+
+<script src="http://guptayuvraj.github.io/js/slash.js"></script>
+<script src="http://guptayuvraj.github.io/js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script>
+</footer>
+		</div>
+	</div>
+	
+</body>
+</html>
