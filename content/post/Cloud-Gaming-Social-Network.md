@@ -1,5 +1,5 @@
 +++
-date = "2016-07-28"
+date = "2016-07-27"
 draft = false
 title = "Cloud Gaming Social Network"
 categories = ["Cloud Computing","Gaming","Social Network"]
