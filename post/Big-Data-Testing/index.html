@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Big Data Testing - Blog</title>
+	<meta name="author" content="map[email:gupta.yuvraj@gmail.com name:Yuvraj Gupta]">
+
+	
+	
+	<meta name="description" content="">
+	
+
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<link href='/index.xml' rel="alternate" title="Blog" type="application/atom+xml">
+	
+	<link rel="canonical" href="http://guptayuvraj.github.io/post/Big-Data-Testing/">
+	<link href="http://guptayuvraj.github.io/favicon.png" rel="shortcut icon">
+	<link href="http://guptayuvraj.github.io/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="http://guptayuvraj.github.io/css/font-awesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+	
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+  
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-75311692-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+			<header id="header" class="inner"><div class="profilepic">
+	
+	
+	<script src="http://guptayuvraj.github.io/js/md5.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5('gupta.yuvraj@gmail.com') + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+		});
+	</script>
+	
+	
+</div>
+<h1>Yuvraj Gupta</h1>
+<div class="subtitle">
+<b><big>Author | Techie | Gadget Freak | Sports Freak | Foodie  </b></big>
+</div>
+
+<nav id="main-nav"><ul class="main">
+    <li><a href="/">Blog</a></li>
+    <li><a href="/post/">Archives</a></li>
+</ul>
+
+</nav>
+<nav id="sub-nav">
+	<div class="social">
+		
+			<a class="email" href='mailto:gupta.yuvraj@gmail.com' title="Email">Email</a>
+		
+		
+			<a class="facebook" href='http://www.facebook.com/gupta.yuvraj' title="Facebook">Facebook</a>
+		
+		
+		
+			<a class="twitter" href='http://twitter.com/yuvrajgupta14' title="Twitter">Twitter</a>
+		
+		
+			<a class="github" href='https://github.com/guptayuvraj' title="GitHub">GitHub</a>
+		
+		
+		
+		  <a class="stackoverflow" href='http://stackoverflow.com/users/3678433/yuvraj-gupta' title="StackOverflow"></a>
+		
+		
+			<a class="linkedin" href='http://www.linkedin.com/in/guptayuvraj' title="LinkedIn">LinkedIn</a>
+		
+		
+		
+		
+		
+		
+			<a class="quora" href='https://quora.com/Yuvraj-Gupta-1' title="Quora">Quora</a>
+		
+		
+    	
+    	
+			<a class="rss" href='/index.xml' title="RSS">RSS</a>
+		
+
+	</div>
+</nav>
+</header>
+			</div>
+		</div>
+		<div class="mid-col">
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner">
+					<div itemscope itemtype="http://schema.org/Blog">
+					<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="title" itemprop="name">Big Data Testing</h1>
+	<div class="entry-content" itemprop="articleBody"><p>This blog is for people who want to understand what to test in the Big Data ecosystem or what are the scenarios to cover in Big Data Testing. We will cover the following topics:-</p>
+
+<ul>
+<li><a href="#BD">Brief understanding on what is Big Data</a></li>
+<li><a href="#BDT">Why require Big Data Testing</a></li>
+<li><a href="#BDA">High level architecture of Big Data</a></li>
+<li><a href="#BDC">Brief explanation of Big Data Components</a></li>
+<li><a href="#BDTS">Big Data Testing scenarios</a>
+
+<ul>
+<li><a href="#DI">Data Ingestion Layer</a></li>
+<li><a href="#DP">Data Processing Layer</a></li>
+<li><a href="#DS">Data Storage Layer</a></li>
+<li><a href="#OTS">Other Testing scenarios</a></li>
+</ul></li>
+<li><a href="#TOOLS">List of few tools used in Big Data</a></li>
+</ul>
+
+<p><a name="BD"> <strong>What is Big Data?</strong></a></p>
+
+<p>Big Data is the new buzzword in the industry primarily due to large amount of data generated daily. Big Data is used to describe data which is large in size and grows exponentially with time. Big Data is based on 4V’s Volume (amount of data), Velocity (Speed of data in and out), Variety (Range of data type and sources) and Veracity (uncertainty of data). As data increases it becomes difficult to process, handle and manage the data. While traditional Computing infrastructure cannot work efficiently to handle Big Data, New Computing technologies have been created to handle, manage huge amount of data and processing it quicker than the traditional system and technologies.</p>
+
+<p>As Enterprises started to move towards Big Data it becomes important to understand the system and technologies used in order to get the best out of it. Enterprises have a new learning curve while moving towards Big Data. Learning the technologies is just a starting block whereas designing, testing and implementing are the big challenges to consider while moving to a whole new technology.</p>
+
+<p><a name="BDT"> <strong>Why require Big Data Testing?</strong></a></p>
+
+<p>With introduction of Big Data it becomes very much important to test the big data system with usage of appropriate data correctly. If not tested properly it would affect the business significantly thus automation becomes a key part of Big Data Testing to test the application and it’s functionality. Big Data Testing if done incorrectly will make it very difficult to understand the error, how it occurred and the probable solution with mitigation steps could take a long time thus resulting in incorrect/missing data and correcting it is again a huge challenge in such a way that current flowing data is not affected. As data is very important it is recommended to have a proper mechanism so that data is not lost/corrupted and proper mechanism should be used to handle failovers.</p>
+
+<p>We will be primarily discussing about Big Data Testing in Hadoop. Big Data primarily uses Hadoop for processing and handling large amount of data. Hadoop is a framework which provides cluster of computing resources for processing huge amount of data. In Hadoop extending cluster is easy with addition of nodes as required which should be carefully planned during design /requirement stage.</p>
+
+<p><a name="BDA"> <strong>Big Data Architecture</strong></a></p>
+
+<p>Let us have a look at the high level Big Data architecture.</p>
+
+<p><img src="../images/BigDataArchitecture.png" alt="Big Data Architecture" title="Big Data Architecture" /></p>
+
+<p>In the above diagram, Data Storage block contains Data Ingestion layer and Data Processing layer which are used to store processed data. Ingested data is stored in HDFS which acts as input for data processing. The above diagram also shows the data pipeline from data ingestion to data visualization.</p>
+
+<p><a name="BDC"><strong>Explanation of Big Data Components</strong></a></p>
+
+<p>Data ingestion layer is responsible for ingesting data into Hadoop. It is a preprocessing stage and the entry point from which data comes. It is used for batch, file or event ingestion. This layer is very critical because if data is corrupted or missing then data cannot be processed leading to complete loss of data. Handling failures /failover is very important to manage. In this layer storage formats play a crucial role for compression of data which would lead to reduction in I/O.</p>
+
+<p>Data Processing layer is responsible for processing of data ingested, aggregation of data as per business requirements. This layer uses business rules for processing and aggregating the data. Hadoop is used for processing data which uses Map Reduce operations. It is very important to create proper alert mechanisms in order to catch the failure and helping in resolving it as soon as possible.</p>
+
+<p>Data Storage layer is responsible to store the processed data from Hadoop. As data generated is huge it becomes important to design and use this layer in order to store all the data. This needs to be designed very carefully to prevent disk corruption or other failures leading to loss of data. This layer is also referred to data warehouse for storing infrequently accessed data, archived data or old data.</p>
+
+<p>Data Visualization layer is responsible for visualizing the data received from ingestion, processed as per business rules and storing the data. It is used for understanding the data and gathering insights from data. Stored data can be in any format (Excel file, Json file, Text file, Access file etc.)  which is used for visualization of data. Also it is not necessary that only data stored in HDFS can be used for data visualization.</p>
+
+<p><a name="BDTS"><strong>Big Data Testing Scenarios</strong></a></p>
+
+<p>Let us examine the scenarios for which Big Data Testing can be used in the Big Data components:-</p>
+
+<p><a name="DI"><strong>Data Ingestion</strong> :-</a></p>
+
+<p>This step is considered as pre-Hadoop stage where data is generated from multiple sources and data flows into HDFS. In this step the testers verifies that data is extracted properly and data is loaded into HDFS.</p>
+
+<ul>
+<li>Ensure proper data from multiple data sources is ingested i.e. all required data is ingested as per their defined schema and data not matching schema should not be ingested. Data which has not matched with schema should be stored for stats reporting purpose. Also ensure there is no data corruption.</li>
+<li>Comparison of source data with data ingested to simply validate that correct data is pushed.</li>
+<li>Verify that correct data files are generated and loaded into HDFS correctly into desired location.
+<a name="DP"><strong>Data Processing</strong> :-</a></li>
+</ul>
+
+<p>This step is used for validating Map-Reduce jobs. Map-Reduce is a concept used for condensing large amount of data into aggregated data. The data ingested is processed using execution of Map-Reduce jobs which provides desired results. In this step the tester verifies that ingested data is processed using Map-Reduce jobs and validate whether business logic is implemented correctly.</p>
+
+<ul>
+<li>Ensure Map Reduce Jobs run properly without any exceptions.</li>
+<li>Ensure key-value pairs are correctly generated post MR Jobs.</li>
+<li>Validate business rules are implemented on data.</li>
+<li>Validate data aggregation is implemented on data and data is consolidated post reduce operations.</li>
+<li>Validate that data is processed correctly post Map-Reduce Jobs by comparing output files with input files.
+&gt; Note: - For validation of data ingestion or data processing layers, we should use a small set of sample data (in Kb’s or Mb’s). By using a small sample data we can easily verify that correct data is ingested by comparing source data with data ingested output data at ingestion layer.  It becomes easier to verify that MR jobs are run without any error, business rules are correctly implemented on ingested data and validate data aggregation is correctly done by comparing output file with input file.
+&gt; <strong>Initially for testing data ingestion or data processing layers if using large data (in GB’s), it becomes very difficult to validate or verify each input record with output record and validating whether business rules are implemented correctly becomes difficult.</strong></li>
+</ul>
+
+<p><a name="DS"><strong>Data Storage</strong> :-</a></p>
+
+<p>This step is used for storing output data in HDFS or any other storage system (such as Data Warehouse). In this step the tester verifies that output data is correctly generated and loaded into storage system.</p>
+
+<ul>
+<li>Validate data is aggregated post Map-Reduce Jobs.</li>
+<li>Verify that correct data is loaded into storage system &amp; discard any intermediate data which is present.</li>
+<li>Verify that there is no data corruption by comparing output data with HDFS (or any storage system) data.</li>
+</ul>
+
+<p><a name="OTS">The other type of testing scenarios a Big Data Tester can do is:-</a></p>
+
+<ul>
+<li>Check whether proper alert mechanisms are implemented such as Mail on alert, sending metrics on Cloud watch etc.</li>
+<li>Check Exceptions or errors are displayed properly with appropriate exception message so that solving an error becomes easy.</li>
+<li>Performance testing to test the different parameters to process a random chunk of large data and monitor parameters such as time taken to complete Map-Reduce Jobs, memory utilization, disk utilization and other metrics as required.</li>
+<li>Integration testing for testing complete workflow directly from data ingestion to data storage/visualization.</li>
+<li>Architecture testing for testing that Hadoop is highly available all the time &amp; Failover services are properly implemented to ensure data is processed even in case of failure of nodes.</li>
+</ul>
+
+<p>Note: - For testing it is very important to generate data for testing covering various test scenarios (positive and negative). Positive test scenarios cover scenarios which are directly related to the functionality. Negative test scenarios cover scenarios which do not have direct relation with the desired functionality.</p>
+
+<p><a name="TOOLS"><strong>List of few tools used in Big Data</strong></a></p>
+
+<p><strong>Data Ingestion</strong> - Kafka, Zookeeper, Sqoop, Flume, Storm, Amazon Kinesis.</p>
+
+<p><strong>Data Processing</strong> - Hadoop (Map-Reduce), Cascading, Oozie, Hive, Pig.</p>
+
+<p><strong>Data Storage</strong> - HDFS (Hadoop Distributed File System), Amazon S3, HBase.</p>
+
+<p>At the end of this blog you understand the various scenarios which can be tested in Big Data domain.  You know what is Big Data and why do we require Big Data Testing. It made you aware of the Big Data architecture with brief explanation of its components. Lastly few tools were mentioned which are used within the Big Data System.</p>
+
+<p>In the next blog we will look at a use-case for a practical scenario as an example for Big Data Testing. It will cover the problem statement followed by testing via traditional method and importance of creating/using automation script to automate testing in Big Data domain.</p>
+</div></article>
+					
+						<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size=''></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	
+	</div>
+	
+  	<script type="text/javascript" src='http://s7.addthis.com/js/250/addthis_widget.js#pubid=true'></script>
+  	
+</div>
+
+					
+					
+					<section id="comment">
+					    <h1 class="title">Comments</h1>
+					    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+					</section>
+					
+					
+
+<script type="text/javascript">
+    
+    var disqus_shortname = 'yuvrajgupta';
+
+    
+    
+
+    
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+    
+</script>
+
+
+				    </div>
+				</div>
+			</div>
+			<footer id="footer" class="inner">Copyright &copy; 2016
+
+    Yuvraj Gupta
+
+<script src="http://guptayuvraj.github.io/js/slash.js"></script>
+<script src="http://guptayuvraj.github.io/js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script>
+</footer>
+		</div>
+	</div>
+	
+</body>
+</html>
