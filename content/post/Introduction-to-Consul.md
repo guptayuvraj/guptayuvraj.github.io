@@ -2,7 +2,7 @@
 date = "2017-11-14T19:35:13+05:30"
 draft = false
 title = "Introduction to Consul"
-categories = ["Consul"]
+categories = ["Consul", "HachiCorp","DevOps","ConfigurationManagement"]
 tags = ["Consul", "HachiCorp","DevOps","ConfigurationManagement"]
 author = "Yuvraj Gupta"
 +++
