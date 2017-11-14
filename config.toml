@@ -13,7 +13,6 @@ tag = "tags"
 
 [Params]
 author = "Yuvraj Gupta"
-subscribe_rss = "/index.xml"
 subscribe_email = "gupta.yuvraj@gmail.com"
 
 facebook_user = "gupta.yuvraj"
