@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Enterprise on Blog </title>
+      <title> on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/categories/enterprise/</link>
+    <link>http://guptayuvraj.github.io/categories/enterprise/index.xml</link>
     <language>en-us</language>
-    <author>Yuvraj Gupta</author>
     
-    <updated>Wed, 23 Mar 2016 00:00:00 UTC</updated>
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>How Cloud Computing will help?</title>
       <link>http://guptayuvraj.github.io/post/Importance-Cloud-Computing/</link>
       <pubDate>Wed, 23 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Importance-Cloud-Computing/</guid>
       <description>&lt;p&gt;The applications of cloud computing are practically limitless. With the right middleware, a cloud computing system could execute all the programs a normal computer could run. Potentially, everything from generic word processing software to customized computer programs designed for a specific company could work on a cloud computing system.
 Why would anyone want to rely on another computer system to run programs and store data? Here are just a few reasons:&lt;/p&gt;
@@ -33,7 +33,7 @@ Why would anyone want to rely on another computer system to run programs and sto
       <title>Cloud Enterprise Applications: 12 principles of operational readiness</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Enterprise-Operational-Readiness/</link>
       <pubDate>Mon, 21 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Enterprise-Operational-Readiness/</guid>
       <description>
 

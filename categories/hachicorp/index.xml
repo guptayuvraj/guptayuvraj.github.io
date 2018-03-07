@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Hachicorp on Blog </title>
+      <title> on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/categories/hachicorp/</link>
+    <link>http://guptayuvraj.github.io/categories/hachicorp/index.xml</link>
     <language>en-us</language>
-    <author>Yuvraj Gupta</author>
     
-    <updated>Tue, 14 Nov 2017 19:35:13 IST</updated>
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Introduction to Consul</title>
       <link>http://guptayuvraj.github.io/post/Introduction-to-Consul/</link>
       <pubDate>Tue, 14 Nov 2017 19:35:13 IST</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Introduction-to-Consul/</guid>
       <description>&lt;p&gt;This Blog explores Consul as a tool for Configuration Management. The scope of this Blog is limited to the Installation and Usage of Consul for Configuration Management.&lt;/p&gt;
 

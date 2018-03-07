@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Site on Blog </title>
+      <title> on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/tags/site/</link>
+    <link>http://guptayuvraj.github.io/tags/site/index.xml</link>
     <language>en-us</language>
-    <author>Yuvraj Gupta</author>
     
-    <updated>Tue, 26 Jul 2016 00:00:00 UTC</updated>
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>How Searching in a Site helps</title>
       <link>http://guptayuvraj.github.io/post/Search-Site/</link>
       <pubDate>Tue, 26 Jul 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Search-Site/</guid>
       <description>&lt;p&gt;Site search is beneficial to e-commerce and content websites alike. A great site search     software can help you retain customers, increase sales, track under-performing pages and keywords and even more.&lt;/p&gt;
 

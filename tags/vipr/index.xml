@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Vipr on Blog </title>
+      <title> on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/tags/vipr/</link>
+    <link>http://guptayuvraj.github.io/tags/vipr/index.xml</link>
     <language>en-us</language>
-    <author>Yuvraj Gupta</author>
     
-    <updated>Tue, 12 Apr 2016 00:00:00 UTC</updated>
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Understanding about EMC Vipr- All in One</title>
       <link>http://guptayuvraj.github.io/post/EMC-Vipr/</link>
       <pubDate>Tue, 12 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/EMC-Vipr/</guid>
       <description>&lt;p&gt;EMC ViPR will purely provide the Control Plane. It discovers storage, creates virtual storage pools, and provisions those pools to the application. Only by separating the data center from its underlying hardware can IT truly deliver resources as customizable, on-demand services. ViPR is able to support IT services in a heterogeneous storage environment while retaining and extending the value of underlying arrays. It perform functions like “in-place” analytics. Abstracting, pooling and automating the infrastructure. It supports open API including Amazon Simple storage service (S3), Open stack Swift &amp;amp; Atmos to completely free data and applications from storage dependencies.&lt;/p&gt;
 

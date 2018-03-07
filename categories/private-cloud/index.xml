@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Private Cloud on Blog </title>
+      <title> on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/categories/private-cloud/</link>
+    <link>http://guptayuvraj.github.io/categories/private-cloud/index.xml</link>
     <language>en-us</language>
-    <author>Yuvraj Gupta</author>
     
-    <updated>Sun, 20 Mar 2016 00:00:00 UTC</updated>
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Virtualization &amp; Private Cloud</title>
       <link>http://guptayuvraj.github.io/post/Virtualization-Private-Cloud/</link>
       <pubDate>Sun, 20 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Virtualization-Private-Cloud/</guid>
       <description>&lt;p&gt;Virtualization of computers or operating systems hides the physical characteristics of a computing platform from users; instead it shows another abstract computing platform. A hypervisor is a piece of virtualization software that allows multiple operating systems to run on a host computer concurrently. Virtualization providers include VMware, Microsoft, and Citrix Systems. Virtualization is an enabler of cloud computing.&lt;/p&gt;
 

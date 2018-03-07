@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Funny on Blog </title>
+      <title> on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/categories/funny/</link>
+    <link>http://guptayuvraj.github.io/categories/funny/index.xml</link>
     <language>en-us</language>
-    <author>Yuvraj Gupta</author>
     
-    <updated>Mon, 28 Mar 2016 00:00:00 UTC</updated>
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Cloud Efficiency - Theory of Einstein</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Einstein/</link>
       <pubDate>Mon, 28 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Einstein/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Einstein.jpg&#34; alt=&#34;&#34; title=&#34;Cloud Einstein Theory&#34; /&gt;&lt;/p&gt;
 </description>
@@ -23,7 +23,7 @@
       <title>Cloud Benefit To God</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Humor/</link>
       <pubDate>Sun, 27 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Humor/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Humor.png&#34; alt=&#34;&#34; title=&#34;Cloud Humor&#34; /&gt;&lt;/p&gt;
 </description>
@@ -33,7 +33,7 @@
       <title>Cloud Homework</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Homework/</link>
       <pubDate>Sat, 26 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Homework/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Homework.png&#34; alt=&#34;&#34; title=&#34;Cloud Homework&#34; /&gt;&lt;/p&gt;
 </description>
@@ -43,7 +43,7 @@
       <title>Cloud Help Desk</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Help-Desk/</link>
       <pubDate>Fri, 25 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Help-Desk/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Help-Desk.jpg&#34; alt=&#34;&#34; title=&#34;Cloud Help Desk&#34; /&gt;&lt;/p&gt;
 </description>
@@ -53,7 +53,7 @@
       <title>Cloud Data Specialist</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Data-Specialist/</link>
       <pubDate>Tue, 22 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Data-Specialist/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Specialist.jpg&#34; alt=&#34;&#34; title=&#34;Are you sure this is how we get data into the Cloud?&#34; /&gt;&lt;/p&gt;
 </description>
