@@ -1,6 +1,6 @@
 +++
 title = "General F-1 US Visa Procedure for Indians"
-draft = true
+draft = false
 date = "2018-03-07T14:24:42+05:30"
 categories = ["USA", "Visa"]
 tags = ["StudentVisa", "F-1","US"]

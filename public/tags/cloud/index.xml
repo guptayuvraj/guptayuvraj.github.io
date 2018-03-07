@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Cloud on Blog </title>
+      <title> on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/tags/cloud/</link>
+    <link>http://guptayuvraj.github.io/tags/cloud/index.xml</link>
     <language>en-us</language>
-    <author>Yuvraj Gupta</author>
     
-    <updated>Wed, 27 Jul 2016 00:00:00 UTC</updated>
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Cloud Gaming Social Network</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Gaming-Social-Network/</link>
       <pubDate>Wed, 27 Jul 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Gaming-Social-Network/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
 
@@ -72,7 +72,7 @@ The main objective is to enable people to play any game for free by just requiri
       <title>Cloud Computing Future Trends</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Computing-Future-Trends/</link>
       <pubDate>Sun, 24 Jul 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Future-Trends/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;The rise of the hybrid cloud&lt;/strong&gt;&lt;/li&gt;
@@ -132,7 +132,7 @@ As hybrid models become mainstream, more companies are likely to adopt this clou
       <title>Cloud Computing Forecast</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Computing-Forecast/</link>
       <pubDate>Sat, 23 Jul 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Forecast/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;Public cloud market overall will grow 18.5 percent, to $131 billion, in 2017 from $111 billion in 2012.&lt;/li&gt;
@@ -175,7 +175,7 @@ As hybrid models become mainstream, more companies are likely to adopt this clou
       <title>Cloud Computing Market Overview</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Computing-Market-Overview/</link>
       <pubDate>Fri, 22 Jul 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Market-Overview/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Cloud Market Overview&lt;/strong&gt;&lt;/p&gt;
 
@@ -243,7 +243,7 @@ Cloud Computing comes with multiple avenues in adding value. They could be in pr
       <title>Open Stack Swift</title>
       <link>http://guptayuvraj.github.io/post/OpenStackSwift/</link>
       <pubDate>Sat, 16 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/OpenStackSwift/</guid>
       <description>&lt;p&gt;&lt;strong&gt;ELIMINATE VENDOR LOCK-IN&lt;/strong&gt; OpenStack Swift is open source.
 Change providers without changing your application.&lt;/p&gt;
@@ -281,7 +281,7 @@ Monitoring- Monitors 500+ data points per node and integration with ganglia and 
       <title>Understanding PaaS</title>
       <link>http://guptayuvraj.github.io/post/PAAS/</link>
       <pubDate>Mon, 04 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/PAAS/</guid>
       <description>&lt;p&gt;Platform as a Service (PaaS) is a way to rent hardware, operating systems, storage and network capacity over the Internet. The service delivery model allows the customer to rent virtualized servers and associated services for running existing applications or developing and testing new ones.&lt;/p&gt;
 
@@ -308,7 +308,7 @@ PaaS provides the entire infrastructure needed to run applications over the Inte
       <title>Benefits Of Cloud Computing</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Computing-Benefits/</link>
       <pubDate>Sun, 03 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Benefits/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Accelerates your business by providing limitless scalability and transforming ideas with a greater speed into marketable services and products.&lt;/li&gt;
@@ -327,7 +327,7 @@ PaaS provides the entire infrastructure needed to run applications over the Inte
       <title>10 Things To Look For In Your Cloud Service Provider</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Service-Provider/</link>
       <pubDate>Sat, 02 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Service-Provider/</guid>
       <description>&lt;p&gt;The cloud computing market is exploding with a large number of new entrants. If you are shopping around for a cloud service provider (CSP), here are ten things you should keep in mind.&lt;/p&gt;
 
@@ -397,7 +397,7 @@ PaaS provides the entire infrastructure needed to run applications over the Inte
       <title>Case Study Precise</title>
       <link>http://guptayuvraj.github.io/post/Case-Study-Precise/</link>
       <pubDate>Fri, 01 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Case-Study-Precise/</guid>
       <description>&lt;p&gt;Precise(a developer of application performance management systems), was spun out of its parent company Symantec and into a private company. Suddenly, we had 1,000 customers to support, and a limited IT department. Symantec offered to sell us licenses for SAP and other enterprise software packages that we had been using. But in our new structure, we needed applications that were scaled down and easier to support. We ditched the world of licensed software and annual commitments to large capital expenses on equipment — the traditional way of doing IT — in favor of cloud, SaaS and virtualization.&lt;/p&gt;
 
@@ -421,7 +421,7 @@ PaaS provides the entire infrastructure needed to run applications over the Inte
       <title>Shifting of Guard from providers to consumers in Cloud</title>
       <link>http://guptayuvraj.github.io/post/Shifting-of-Guard-from-providers-to-consumers-in-Cloud/</link>
       <pubDate>Thu, 31 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Shifting-of-Guard-from-providers-to-consumers-in-Cloud/</guid>
       <description>
 
@@ -453,7 +453,7 @@ PaaS provides the entire infrastructure needed to run applications over the Inte
       <title>Future Of Computing</title>
       <link>http://guptayuvraj.github.io/post/Future-Of-Computing/</link>
       <pubDate>Wed, 30 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Future-Of-Computing/</guid>
       <description>&lt;p&gt;A new service for students and consumers aims to bring a complete Windows experience on whatever device you own.&lt;/p&gt;
 
@@ -500,7 +500,7 @@ Nivio promises to ‘complete’ your existing device; give it a second life. Th
       <title>Enhancing Data Security in Cloud Computing - Abstract</title>
       <link>http://guptayuvraj.github.io/post/Enhancing-Data-Security-Abstract/</link>
       <pubDate>Tue, 29 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Enhancing-Data-Security-Abstract/</guid>
       <description>&lt;p&gt;&lt;center&gt;
 &lt;strong&gt;Abstract&lt;/strong&gt;
@@ -528,7 +528,7 @@ Nivio promises to ‘complete’ your existing device; give it a second life. Th
       <title>Cloud Efficiency - Theory of Einstein</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Einstein/</link>
       <pubDate>Mon, 28 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Einstein/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Einstein.jpg&#34; alt=&#34;&#34; title=&#34;Cloud Einstein Theory&#34; /&gt;&lt;/p&gt;
 </description>
@@ -538,7 +538,7 @@ Nivio promises to ‘complete’ your existing device; give it a second life. Th
       <title>Cloud Benefit To God</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Humor/</link>
       <pubDate>Sun, 27 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Humor/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Humor.png&#34; alt=&#34;&#34; title=&#34;Cloud Humor&#34; /&gt;&lt;/p&gt;
 </description>
@@ -548,7 +548,7 @@ Nivio promises to ‘complete’ your existing device; give it a second life. Th
       <title>Cloud Homework</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Homework/</link>
       <pubDate>Sat, 26 Mar 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Homework/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;../images/Cloud-Homework.png&#34; alt=&#34;&#34; title=&#34;Cloud Homework&#34; /&gt;&lt;/p&gt;
 </description>

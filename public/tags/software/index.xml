@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Software on Blog </title>
+      <title> on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/tags/software/</link>
+    <link>http://guptayuvraj.github.io/tags/software/index.xml</link>
     <language>en-us</language>
-    <author>Yuvraj Gupta</author>
     
-    <updated>Mon, 16 May 2016 00:00:00 UTC</updated>
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Comparison Among Scale Out Storage Softwares</title>
       <link>http://guptayuvraj.github.io/post/CompareSOS/</link>
       <pubDate>Mon, 16 May 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/CompareSOS/</guid>
       <description>&lt;p&gt;Let&amp;rsquo;s compare various vendor offerings and the features provided by them categorized by the various categories according to which they are compared.&lt;/p&gt;
 
@@ -25,7 +25,7 @@
       <title>ScaleIOFeatures</title>
       <link>http://guptayuvraj.github.io/post/ScaleIOFeatures/</link>
       <pubDate>Sun, 15 May 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/ScaleIOFeatures/</guid>
       <description>&lt;p&gt;ScaleIO ECS is a software-only solution that uses application hosts’ local disks.&lt;/p&gt;
 
@@ -49,7 +49,7 @@
       <title>JedaNetwork</title>
       <link>http://guptayuvraj.github.io/post/JedaNetwork/</link>
       <pubDate>Sun, 17 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/JedaNetwork/</guid>
       <description>&lt;p&gt;Jeda Networks game changing intelligent software product called the Fabric Network Controller (FNC) abstracts the complexity of a storage network into a software controller.&lt;/p&gt;
 
@@ -71,7 +71,7 @@
       <title>NexentaStor</title>
       <link>http://guptayuvraj.github.io/post/NexentaStor/</link>
       <pubDate>Wed, 13 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/NexentaStor/</guid>
       <description>&lt;p&gt;Nexenta – NexentaStor:  delivers high-performance, ultra-scalable, cloud- and virtualization-optimized storage solutions. Nexenta supplies the software. You leverage your hardware. Does not provide object storage.&lt;/p&gt;
 
@@ -102,7 +102,7 @@ Uses ZFS.&lt;/p&gt;
       <title>Understanding about EMC Vipr- All in One</title>
       <link>http://guptayuvraj.github.io/post/EMC-Vipr/</link>
       <pubDate>Tue, 12 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/EMC-Vipr/</guid>
       <description>&lt;p&gt;EMC ViPR will purely provide the Control Plane. It discovers storage, creates virtual storage pools, and provisions those pools to the application. Only by separating the data center from its underlying hardware can IT truly deliver resources as customizable, on-demand services. ViPR is able to support IT services in a heterogeneous storage environment while retaining and extending the value of underlying arrays. It perform functions like “in-place” analytics. Abstracting, pooling and automating the infrastructure. It supports open API including Amazon Simple storage service (S3), Open stack Swift &amp;amp; Atmos to completely free data and applications from storage dependencies.&lt;/p&gt;
 
@@ -123,7 +123,7 @@ Uses ZFS.&lt;/p&gt;
       <title>What is Software Defined Storage</title>
       <link>http://guptayuvraj.github.io/post/What-is-Software-Defined-Storage/</link>
       <pubDate>Mon, 11 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/What-is-Software-Defined-Storage/</guid>
       <description>&lt;p&gt;The concept behind software-defined storage seems very appealing: a single point of data services, like volume management and snapshots, form a single console while using &lt;strong&gt;practically anyone’s disk hardware.&lt;/strong&gt;&lt;/p&gt;
 

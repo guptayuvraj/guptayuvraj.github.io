@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Cloud Service Provider on Blog </title>
+      <title> on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/categories/cloud-service-provider/</link>
+    <link>http://guptayuvraj.github.io/categories/cloud-service-provider/index.xml</link>
     <language>en-us</language>
-    <author>Yuvraj Gupta</author>
     
-    <updated>Fri, 22 Jul 2016 00:00:00 UTC</updated>
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
       <title>Cloud Computing Market Overview</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Computing-Market-Overview/</link>
       <pubDate>Fri, 22 Jul 2016 00:00:00 UTC</pubDate>
-      <author>Yuvraj Gupta</author>
+      
       <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Market-Overview/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Cloud Market Overview&lt;/strong&gt;&lt;/p&gt;
 
