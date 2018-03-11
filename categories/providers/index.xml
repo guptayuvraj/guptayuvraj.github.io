@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title> on Blog </title>
+      <title>Providers on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/categories/providers/index.xml</link>
+    <link>http://guptayuvraj.github.io/categories/providers/</link>
     <language>en-us</language>
+    <author>Yuvraj Gupta</author>
     
-    
-    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    <updated>Thu, 31 Mar 2016 00:00:00 UTC</updated>
     
     <item>
       <title>Shifting of Guard from providers to consumers in Cloud</title>
       <link>http://guptayuvraj.github.io/post/Shifting-of-Guard-from-providers-to-consumers-in-Cloud/</link>
       <pubDate>Thu, 31 Mar 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Shifting-of-Guard-from-providers-to-consumers-in-Cloud/</guid>
       <description>
 
@@ -23,7 +23,7 @@
 
 &lt;p&gt;Finally, the &lt;strong&gt;lack of transparency regarding pricing models and structure&lt;/strong&gt; is the third source of power. It allowed providers to come up with complex pricing structures that make any sort of price comparison nearly impossible. In order to compare prices, customers are forced to get in touch with salespeople and request proposals, going through a lengthy process. And the high initial investment makes any “try it out first” movement much harder.&lt;/p&gt;
 
-&lt;h2 id=&#34;a-consumer-friendly-cloud&#34;&gt;A consumer-friendly cloud&lt;/h2&gt;
+&lt;h2 id=&#34;a-consumer-friendly-cloud:1e26d8b33ceeb9d99961bbb5f007f8db&#34;&gt;A consumer-friendly cloud&lt;/h2&gt;
 
 &lt;p&gt;Fortunately for IT consumers, the shift to services, and especially cloud-based services, has been steadily shifting this power back into the hands of consumers. First, cloud computing has a great potential to democratize IT solutions by eliminating the entry barriers into this market. It can eliminate entry barriers for consumers by &lt;strong&gt;removing the need for upfront investment.&lt;/strong&gt; It is much easier for a small start-up to have dozens or even hundreds of server instances running at a given time, without the need to buy these servers, build a data center, or anything else.&lt;/p&gt;
 

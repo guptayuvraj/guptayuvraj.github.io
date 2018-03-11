@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title> on Blog </title>
+      <title>Operational on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/tags/operational/index.xml</link>
+    <link>http://guptayuvraj.github.io/tags/operational/</link>
     <language>en-us</language>
+    <author>Yuvraj Gupta</author>
     
-    
-    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    <updated>Mon, 21 Mar 2016 00:00:00 UTC</updated>
     
     <item>
       <title>Cloud Enterprise Applications: 12 principles of operational readiness</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Enterprise-Operational-Readiness/</link>
       <pubDate>Mon, 21 Mar 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Cloud-Enterprise-Operational-Readiness/</guid>
       <description>
 
-&lt;h1 id=&#34;enterprise-service-operational-principles&#34;&gt;Enterprise service operational principles&lt;/h1&gt;
+&lt;h1 id=&#34;enterprise-service-operational-principles:780d8bdc7e2b5b1e2903fcce2240231f&#34;&gt;Enterprise service operational principles&lt;/h1&gt;
 
 &lt;p&gt;These dozen statements describe how an enterprise service should be. If all these statements apply to my new enterprise service, I can happily stamp my operational approval on it.&lt;/p&gt;
 
@@ -25,7 +25,7 @@
 
 &lt;p&gt;Many cloud innovatorprovide services in one or two of these areas, to ease an organization’s workload. You can pay Green Hat to provide cloud-based performance testing tools, Core Cloud Inspect to check security, and Cloudkick to monitor infrastructure. A few big players like EMC and Novell have enough tools to take all the responsibility. The bigger your wallet, the more responsibility you can avoid.&lt;/p&gt;
 
-&lt;h2 id=&#34;my-enterprise-service&#34;&gt;My enterprise service:&lt;/h2&gt;
+&lt;h2 id=&#34;my-enterprise-service:780d8bdc7e2b5b1e2903fcce2240231f&#34;&gt;My enterprise service:&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Has been functionally tested&lt;/strong&gt;:- If a new business application has not yet been signed off by the guy paying the bills, I will waste my time carrying out operational tests.&lt;/li&gt;

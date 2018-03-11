@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title> on Blog </title>
+      <title>Backup on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/categories/backup/index.xml</link>
+    <link>http://guptayuvraj.github.io/categories/backup/</link>
     <language>en-us</language>
+    <author>Yuvraj Gupta</author>
     
-    
-    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    <updated>Mon, 25 Jul 2016 00:00:00 UTC</updated>
     
     <item>
       <title>Overview of few Backup Solution</title>
       <link>http://guptayuvraj.github.io/post/Overview-Backup-Solutions/</link>
       <pubDate>Mon, 25 Jul 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Overview-Backup-Solutions/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;EaseUS Todo Backup Home&lt;/strong&gt;&lt;/li&gt;

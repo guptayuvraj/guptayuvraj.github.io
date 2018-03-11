@@ -3,10 +3,9 @@
 <html lang="en-us">
 
 <head>
-	<meta name="generator" content="Hugo 0.17" />
 	<meta charset="utf-8">
 	<title>Blog</title>
-	<meta name="author" content="map[]">
+	<meta name="author" content="map[name:Yuvraj Gupta email:gupta.yuvraj@gmail.com]">
 
 	
 	
@@ -50,6 +49,13 @@
 			<header id="header" class="inner"><div class="profilepic">
 	
 	
+	<script src="http://guptayuvraj.github.io/js/md5.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.profilepic').append("<img src='http://www.gravatar.com/avatar/" + MD5('gupta.yuvraj@gmail.com') + "?s=160' alt='Profile Picture' style='width: 160px;' />");
+		});
+	</script>
+	
 	
 </div>
 <h1>Yuvraj Gupta</h1>
@@ -66,6 +72,8 @@
 </nav>
 <nav id="sub-nav">
 	<div class="social">
+		
+			<a class="email" href='mailto:gupta.yuvraj@gmail.com' title="Email">Email</a>
 		
 		
 			<a class="facebook" href='http://www.facebook.com/gupta.yuvraj' title="Facebook">Facebook</a>
@@ -163,8 +171,7 @@
 	</div>
 	<h1 class="title" itemprop="name"><a href="http://guptayuvraj.github.io/post/What-is-Software-Defined-Storage/" itemprop="url">What is Software Defined Storage</a></h1>
 	<div class="entry-content" itemprop="articleBody">
-		The concept behind software-defined storage seems very appealing: a single point of data services, like volume management and snapshots, form a single console while using practically anyone’s disk hardware.
-As a pillar in the SDDC stack, Software Defined Storage (SDS) pools hardware storage resources and allows them to be programmatically defined in software. All the programming that controls storage-related tasks exists solely in software. The software could exist on a server or could be part of an operating system (OS) or a hypervisor.
+		The concept behind software-defined storage seems very appealing: a single point of data services, like volume management and snapshots, form a single console while using practically anyone’s disk hardware. As a pillar in the SDDC stack, Software Defined Storage (SDS) pools hardware storage resources and allows them to be programmatically defined in software. All the programming that controls storage-related tasks exists solely in software. The software could exist on a server or could be part of an operating system (OS) or a hypervisor.
 		<a href="http://guptayuvraj.github.io/post/What-is-Software-Defined-Storage/" class="more-link">Read on →</a>
 	</div>
 </article>
@@ -226,8 +233,7 @@ As a pillar in the SDDC stack, Software Defined Storage (SDS) pools hardware sto
 	</div>
 	<h1 class="title" itemprop="name"><a href="http://guptayuvraj.github.io/post/Best-Practices-Storage-Virtualization/" itemprop="url">Best Practices while going for Storage Virtualization</a></h1>
 	<div class="entry-content" itemprop="articleBody">
-		Set your scope and objectives.  Begin the vendor selection process with specific goals and objectives. We must fully understand what we want to achieve or overcome with storage virtualization.
- Arrange Proper Staff Training  Address skill gaps so we can properly asses different virtualization approaches. Storage virtualization requires specific training and knowledge, so it’s necessary to asses current IT staff for skills and identify potential knowledge gaps. Also consider vendor specific training once finalized.
+		Set your scope and objectives. Begin the vendor selection process with specific goals and objectives. We must fully understand what we want to achieve or overcome with storage virtualization. Arrange Proper Staff Training Address skill gaps so we can properly asses different virtualization approaches. Storage virtualization requires specific training and knowledge, so it’s necessary to asses current IT staff for skills and identify potential knowledge gaps. Also consider vendor specific training once finalized.
 		<a href="http://guptayuvraj.github.io/post/Best-Practices-Storage-Virtualization/" class="more-link">Read on →</a>
 	</div>
 </article>
@@ -258,11 +264,7 @@ As a pillar in the SDDC stack, Software Defined Storage (SDS) pools hardware sto
 	</div>
 	<h1 class="title" itemprop="name"><a href="http://guptayuvraj.github.io/post/Implement-Storage-Virtualization/" itemprop="url">Implement Storage Virtualization</a></h1>
 	<div class="entry-content" itemprop="articleBody">
-		Why do we need to implement Storage Virtualization?
- Increasing Storage Demands Too long to do backup and restore. Limited Space in Data Center. Need to improve DR capabilities.  Approach for implementation of Storage Virtualization?
- Host Based: Physical drives are handled by traditional device driver, while a software layer above device driver intercepts I/O requests, looks up metadata and redirects I/O.
-Pros:
- Simple to design and code. Supports any storage type.
+		Why do we need to implement Storage Virtualization? Increasing Storage Demands Too long to do backup and restore. Limited Space in Data Center. Need to improve DR capabilities. Approach for implementation of Storage Virtualization? Host Based: Physical drives are handled by traditional device driver, while a software layer above device driver intercepts I/O requests, looks up metadata and redirects I/O. Pros: Simple to design and code. Supports any storage type. Improves storage utilization without thin provisioning restrictions.
 		<a href="http://guptayuvraj.github.io/post/Implement-Storage-Virtualization/" class="more-link">Read on →</a>
 	</div>
 </article>
@@ -293,7 +295,7 @@ Pros:
 	</div>
 	<h1 class="title" itemprop="name"><a href="http://guptayuvraj.github.io/post/Challenges-Storage-Virtualization/" itemprop="url">Challenges  of Storage Virtualization</a></h1>
 	<div class="entry-content" itemprop="articleBody">
-		 Storage Architecture becomes much more complicated. More complication may lead to troubleshooting problems. Problem determination and fault isolation can become complex. Arise of situations in which physical storage resources are overcommitted. Backing out of failed implementation. Interoperability. Management of Meta Data. Higher Latency  
+		Storage Architecture becomes much more complicated. More complication may lead to troubleshooting problems. Problem determination and fault isolation can become complex. Arise of situations in which physical storage resources are overcommitted. Backing out of failed implementation. Interoperability. Management of Meta Data. Higher Latency
 		
 	</div>
 </article>
@@ -325,7 +327,7 @@ Pros:
 	<h1 class="title" itemprop="name"><a href="http://guptayuvraj.github.io/post/Benefits-Storage-Virtualization/" itemprop="url">Benefits of Storage Virtualization</a></h1>
 	<div class="entry-content" itemprop="articleBody">
 		Improved Storage Management in an IT environment Better availability and estimation of downtime required with automated management. Ability to migrate data while retaining I/O access (Non disruptive data migration). Reduce the number of SAN devices. Decrease in Power consumed. Time Saving. Ease in Data Replication. Easy backup, archiving and recovery tasks. Expansion of Storage Capacity. Easy Updates Ability to increase Storage Volume Size in real time. Increased loading and backup speed.
-		<a href="http://guptayuvraj.github.io/post/Benefits-Storage-Virtualization/" class="more-link">Read on →</a>
+		
 	</div>
 </article>
 
@@ -386,8 +388,7 @@ Pros:
 	</div>
 	<h1 class="title" itemprop="name"><a href="http://guptayuvraj.github.io/post/PAAS/" itemprop="url">Understanding PaaS</a></h1>
 	<div class="entry-content" itemprop="articleBody">
-		Platform as a Service (PaaS) is a way to rent hardware, operating systems, storage and network capacity over the Internet. The service delivery model allows the customer to rent virtualized servers and associated services for running existing applications or developing and testing new ones.
-PaaS provides complete stack of development tools which are accessed by developers via web browser to create enterprise level applications, without installing anything besides a web browser on their computers, and deploying these over the complex &amp; heterogeneous infrastructure without any specific skills required.
+		Platform as a Service (PaaS) is a way to rent hardware, operating systems, storage and network capacity over the Internet. The service delivery model allows the customer to rent virtualized servers and associated services for running existing applications or developing and testing new ones. PaaS provides complete stack of development tools which are accessed by developers via web browser to create enterprise level applications, without installing anything besides a web browser on their computers, and deploying these over the complex &amp; heterogeneous infrastructure without any specific skills required.
 		<a href="http://guptayuvraj.github.io/post/PAAS/" class="more-link">Read on →</a>
 	</div>
 </article>
@@ -433,7 +434,7 @@ PaaS provides complete stack of development tools which are accessed by develope
 			</div>
 			<footer id="footer" class="inner">Copyright &copy; 2018
 
-    Blog
+    Yuvraj Gupta
 
 <script src="http://guptayuvraj.github.io/js/slash.js"></script>
 <script src="http://guptayuvraj.github.io/js/jquery.fancybox.pack.js"></script>
