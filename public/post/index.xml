@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Post-rsses on Blog </title>
+      <title>Posts on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/post/index.xml</link>
+    <link>http://guptayuvraj.github.io/post/</link>
     <language>en-us</language>
-    
+    <author>Yuvraj Gupta</author>
     
     <updated>Wed, 07 Mar 2018 14:24:42 IST</updated>
     
@@ -13,7 +13,7 @@
       <title>General F-1 US Visa Procedure for Indians</title>
       <link>http://guptayuvraj.github.io/post/US-Visa-Procedure/</link>
       <pubDate>Wed, 07 Mar 2018 14:24:42 IST</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/US-Visa-Procedure/</guid>
       <description>&lt;p&gt;This blog mentions the basic steps which are required to follow after getting an i20 form from a University. After getting an i20, we need to fill couple of forms which includes &lt;em&gt;DS-160 Form, Sevis Form (I-901) and Visa Appointment Date.&lt;/em&gt;&lt;/p&gt;
 
@@ -100,7 +100,7 @@ This form contains various sections and you are required to fill the sections wi
       <title>Introduction to Consul</title>
       <link>http://guptayuvraj.github.io/post/Introduction-to-Consul/</link>
       <pubDate>Tue, 14 Nov 2017 19:35:13 IST</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Introduction-to-Consul/</guid>
       <description>&lt;p&gt;This Blog explores Consul as a tool for Configuration Management. The scope of this Blog is limited to the Installation and Usage of Consul for Configuration Management.&lt;/p&gt;
 
@@ -131,7 +131,7 @@ This form contains various sections and you are required to fill the sections wi
       <title>Comparison of Flipkart and Amazon</title>
       <link>http://guptayuvraj.github.io/post/FlipkartvsAmazon/</link>
       <pubDate>Sat, 06 Aug 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/FlipkartvsAmazon/</guid>
       <description>&lt;p&gt;This answer has been written by me on Quora -&lt;/p&gt;
 
@@ -233,7 +233,7 @@ This form contains various sections and you are required to fill the sections wi
       <title>Big Data Testing - Use Case</title>
       <link>http://guptayuvraj.github.io/post/Big-Data-UseCase/</link>
       <pubDate>Fri, 05 Aug 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Big-Data-UseCase/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Use Case 1: You are deploying a Hadoop cluster of 200 nodes in production.&lt;/strong&gt;&lt;/p&gt;
 
@@ -376,7 +376,7 @@ FILE_NAME= &amp;quot;$(echo {} | sed &#39;s!.*/!!&#39;)&amp;quot;.format(file_va
       <title>Big Data Testing</title>
       <link>http://guptayuvraj.github.io/post/Big-Data-Testing/</link>
       <pubDate>Thu, 04 Aug 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Big-Data-Testing/</guid>
       <description>&lt;p&gt;This blog is for people who want to understand what to test in the Big Data ecosystem or what are the scenarios to cover in Big Data Testing. We will cover the following topics:-&lt;/p&gt;
 
@@ -494,7 +494,7 @@ FILE_NAME= &amp;quot;$(echo {} | sed &#39;s!.*/!!&#39;)&amp;quot;.format(file_va
       <title>Disaster Recovery The Big Need in Today Digital World</title>
       <link>http://guptayuvraj.github.io/post/Disaster-Recovery-The-Big-Need-in-Today-Digital-World/</link>
       <pubDate>Fri, 29 Jul 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Disaster-Recovery-The-Big-Need-in-Today-Digital-World/</guid>
       <description>&lt;p&gt;This blog has been written as a White Paper which has been reproduced in form of a blog.&lt;/p&gt;
 
@@ -649,7 +649,7 @@ occurred? Is it data loss? Is the file deleted during disaster? Is the data misp
       <title>Introduction to AngularJS</title>
       <link>http://guptayuvraj.github.io/post/Introduction-to-AngularJS/</link>
       <pubDate>Thu, 28 Jul 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Introduction-to-AngularJS/</guid>
       <description>&lt;p&gt;AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries.&lt;/p&gt;
 
@@ -848,7 +848,7 @@ Because AngularJS is built by Google, you can be sure that you are dealing with 
       <title>Cloud Gaming Social Network</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Gaming-Social-Network/</link>
       <pubDate>Wed, 27 Jul 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Cloud-Gaming-Social-Network/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;
 
@@ -907,7 +907,7 @@ The main objective is to enable people to play any game for free by just requiri
       <title>How Searching in a Site helps</title>
       <link>http://guptayuvraj.github.io/post/Search-Site/</link>
       <pubDate>Tue, 26 Jul 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Search-Site/</guid>
       <description>&lt;p&gt;Site search is beneficial to e-commerce and content websites alike. A great site search     software can help you retain customers, increase sales, track under-performing pages and keywords and even more.&lt;/p&gt;
 
@@ -940,7 +940,7 @@ The main objective is to enable people to play any game for free by just requiri
       <title>Overview of few Backup Solution</title>
       <link>http://guptayuvraj.github.io/post/Overview-Backup-Solutions/</link>
       <pubDate>Mon, 25 Jul 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Overview-Backup-Solutions/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;EaseUS Todo Backup Home&lt;/strong&gt;&lt;/li&gt;
@@ -1211,7 +1211,7 @@ In other words: if you delete a file on your computer, you have 30 days to recov
       <title>Cloud Computing Future Trends</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Computing-Future-Trends/</link>
       <pubDate>Sun, 24 Jul 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Future-Trends/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;The rise of the hybrid cloud&lt;/strong&gt;&lt;/li&gt;
@@ -1271,7 +1271,7 @@ As hybrid models become mainstream, more companies are likely to adopt this clou
       <title>Cloud Computing Forecast</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Computing-Forecast/</link>
       <pubDate>Sat, 23 Jul 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Forecast/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;Public cloud market overall will grow 18.5 percent, to $131 billion, in 2017 from $111 billion in 2012.&lt;/li&gt;
@@ -1314,7 +1314,7 @@ As hybrid models become mainstream, more companies are likely to adopt this clou
       <title>Cloud Computing Market Overview</title>
       <link>http://guptayuvraj.github.io/post/Cloud-Computing-Market-Overview/</link>
       <pubDate>Fri, 22 Jul 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Cloud-Computing-Market-Overview/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Cloud Market Overview&lt;/strong&gt;&lt;/p&gt;
 
@@ -1382,7 +1382,7 @@ Cloud Computing comes with multiple avenues in adding value. They could be in pr
       <title>Enhancing Data Security in Cloud Computing</title>
       <link>http://guptayuvraj.github.io/post/Enhancing-Data-Security-in-Cloud-Computing/</link>
       <pubDate>Thu, 21 Jul 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Enhancing-Data-Security-in-Cloud-Computing/</guid>
       <description>&lt;p&gt;This technical paper has been published in International Journal of Scientific Engineering &amp;amp; Research (IJSER) in the edition of Volume 3 Issue 12 December 2012.&lt;/p&gt;
 
@@ -1557,7 +1557,7 @@ These thoughts would ponder but one of the trickiest question to answer is where
       <title>Corporate Communication and Crisis Management</title>
       <link>http://guptayuvraj.github.io/post/Corporate-Communication-and-Crisis-Management/</link>
       <pubDate>Tue, 17 May 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Corporate-Communication-and-Crisis-Management/</guid>
       <description>&lt;p&gt;&lt;strong&gt;ABSTRACT&lt;/strong&gt;&lt;/p&gt;
 

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title> on Blog </title>
+      <title>Future on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/tags/future/index.xml</link>
+    <link>http://guptayuvraj.github.io/tags/future/</link>
     <language>en-us</language>
+    <author>Yuvraj Gupta</author>
     
-    
-    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    <updated>Wed, 30 Mar 2016 00:00:00 UTC</updated>
     
     <item>
       <title>Future Of Computing</title>
       <link>http://guptayuvraj.github.io/post/Future-Of-Computing/</link>
       <pubDate>Wed, 30 Mar 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Future-Of-Computing/</guid>
       <description>&lt;p&gt;A new service for students and consumers aims to bring a complete Windows experience on whatever device you own.&lt;/p&gt;
 

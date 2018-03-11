@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title> on Blog </title>
+      <title>Swift on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/tags/swift/index.xml</link>
+    <link>http://guptayuvraj.github.io/tags/swift/</link>
     <language>en-us</language>
+    <author>Yuvraj Gupta</author>
     
-    
-    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    <updated>Sat, 16 Apr 2016 00:00:00 UTC</updated>
     
     <item>
       <title>Open Stack Swift</title>
       <link>http://guptayuvraj.github.io/post/OpenStackSwift/</link>
       <pubDate>Sat, 16 Apr 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/OpenStackSwift/</guid>
       <description>&lt;p&gt;&lt;strong&gt;ELIMINATE VENDOR LOCK-IN&lt;/strong&gt; OpenStack Swift is open source.
 Change providers without changing your application.&lt;/p&gt;

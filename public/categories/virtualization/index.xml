@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title> on Blog </title>
+      <title>Virtualization on Blog </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://guptayuvraj.github.io/categories/virtualization/index.xml</link>
+    <link>http://guptayuvraj.github.io/categories/virtualization/</link>
     <language>en-us</language>
+    <author>Yuvraj Gupta</author>
     
-    
-    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    <updated>Sun, 10 Apr 2016 00:00:00 UTC</updated>
     
     <item>
       <title>What is Desktop Virtualization</title>
       <link>http://guptayuvraj.github.io/post/What-is-Desktop-Virtualization/</link>
       <pubDate>Sun, 10 Apr 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/What-is-Desktop-Virtualization/</guid>
       <description>&lt;p&gt;Desktop Virtualization is the concept of isolating an operating system (OS) from the client that is used to access it. It is also known as client virtualization which separates a computer desktop environment from the physical computer. It is used as a new approach to the provisioning, delivery, and management of user desktops in the enterprise. The main principle behind this new approach is leveraging existing and well-proven virtualization technologies to virtualize not only servers but also user desktops (the workstations). The resulting “virtualized” desktop is stored on a remote central server, instead of on the local storage of remote client; thus, when users work from their remote desktop client, all of the programs, applications, processes and data used are kept and run centrally, allowing users to access their desktops on any capable device, such as a traditional personal computer, notebook computer, smart phone, or thin client. Users may be geographically scattered, but all must be connected to the central machine by a local area network, a wide area network, or the public Internet.&lt;/p&gt;
 
@@ -27,7 +27,7 @@
       <title>Best Practices while going for Storage Virtualization</title>
       <link>http://guptayuvraj.github.io/post/Best-Practices-Storage-Virtualization/</link>
       <pubDate>Sat, 09 Apr 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Best-Practices-Storage-Virtualization/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Set your scope and objectives.&lt;/strong&gt;&lt;/li&gt;
@@ -65,7 +65,7 @@
       <title>Implement Storage Virtualization</title>
       <link>http://guptayuvraj.github.io/post/Implement-Storage-Virtualization/</link>
       <pubDate>Fri, 08 Apr 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Implement-Storage-Virtualization/</guid>
       <description>&lt;p&gt;Why do we need to implement Storage Virtualization?&lt;/p&gt;
 
@@ -168,7 +168,7 @@
       <title>Challenges  of Storage Virtualization</title>
       <link>http://guptayuvraj.github.io/post/Challenges-Storage-Virtualization/</link>
       <pubDate>Thu, 07 Apr 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Challenges-Storage-Virtualization/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;Storage Architecture becomes  much more complicated.&lt;/li&gt;
@@ -187,7 +187,7 @@
       <title>Benefits of Storage Virtualization</title>
       <link>http://guptayuvraj.github.io/post/Benefits-Storage-Virtualization/</link>
       <pubDate>Wed, 06 Apr 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Benefits-Storage-Virtualization/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;Improved Storage Management in an IT environment&lt;/li&gt;
@@ -210,7 +210,7 @@
       <title>What is Storage Virtualization</title>
       <link>http://guptayuvraj.github.io/post/What-is-Storage-Virtualization/</link>
       <pubDate>Tue, 05 Apr 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/What-is-Storage-Virtualization/</guid>
       <description>&lt;p&gt;It is the abstraction of physical media (hard disks or solid state drives etc) from the attaching servers which treats the storage as a single logical entity without regard to the hierarchy of physical media that is involved. Storage virtualization means adding an abstraction layer of software that hides the physical devices from the user and allows all devices to be managed as a single pool.
 It adds a new layer of software or hardware in between the storage systems and servers so that the applications would not require to know to which logical drive, partitions or storage subsystems the data resides in.&lt;/p&gt;
@@ -227,7 +227,7 @@ It adds a new layer of software or hardware in between the storage systems and s
       <title>Virtualization &amp; Private Cloud</title>
       <link>http://guptayuvraj.github.io/post/Virtualization-Private-Cloud/</link>
       <pubDate>Sun, 20 Mar 2016 00:00:00 UTC</pubDate>
-      
+      <author>Yuvraj Gupta</author>
       <guid>http://guptayuvraj.github.io/post/Virtualization-Private-Cloud/</guid>
       <description>&lt;p&gt;Virtualization of computers or operating systems hides the physical characteristics of a computing platform from users; instead it shows another abstract computing platform. A hypervisor is a piece of virtualization software that allows multiple operating systems to run on a host computer concurrently. Virtualization providers include VMware, Microsoft, and Citrix Systems. Virtualization is an enabler of cloud computing.&lt;/p&gt;
 
