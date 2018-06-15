@@ -17,24 +17,24 @@ Attaching some pics from the Orientation :)
 
 **Unviersity Building Pics**
 
-![Rawls Hall](../images/RawlsHall.jpg "Rawls Hall Classes and More")
-![Krannert School](../images/Krannert.jpg "Krannert The Graduate School")
-![Skybridge Connecting Rawls and Krannert Building](../images/Skybridge.jpg "Amazing Building Design")
-![Purdue engraved in Stone](../images/Purdue.jpg "Purdue Engraved")
-![Famous Purdue Arch](../images/PurdueArch.jpg "Famous Purdue Arch")
+![Rawls Hall](../images/rawlshall.jpg "Rawls Hall Classes and More")
+![Krannert School](../images/krannert.jpg "Krannert The Graduate School")
+![Skybridge Connecting Rawls and Krannert Building](../images/skybridge.jpg "Amazing Building Design")
+![Purdue engraved in Stone](../images/purdue.jpg "Purdue Engraved")
+![Famous Purdue Arch](../images/purduearch.jpg "Famous Purdue Arch")
 
 **Orientation Pics**
 
 ![Myself in Business Professional Attires](../images/Day1-Attire.jpg "Business Professional Attire")
 ![South Ballroom](../images/Orientation-Ballroom.jpg "Ballroom the venue for Orientation Day-1")
 ![South Ballroom PMU](../images/Orientation-Ballroom2.jpg "Ballroom of Purdue Memorial Union")
-![Random Click](../images/MyPic.jpg "Candid Pic")
+![Random Click](../images/mypic.jpg "Candid Pic")
 
 **Food Pics**
 
 ![Day 1 Lunch Menu](../images/Day1-Lunch-Menu.jpg "Lunch Menu of Day 1 Orientation")
 ![Bacon Turkey Wrapped Wraps](../images/Bacon+Turkey.jpg "Wrapped in Bacon and Turkey")
-![Veg Wraps](../images/VegWrap.jpg "Deliicous Veg Wrap")
-![Veggie Wraps](../images/VegWrap2.jpg "Veggie Wrapped")
+![Veg Wraps](../images/vegwrap.jpg "Deliicous Veg Wrap")
+![Veggie Wraps](../images/vegwrap2.jpg "Veggie Wrapped")
 ![Refreshments throughout the day](../images/Refreshment.jpg "Refreshments all along")
 
