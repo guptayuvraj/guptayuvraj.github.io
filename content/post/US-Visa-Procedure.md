@@ -2,7 +2,7 @@
 title = "General F-1 US Visa Procedure for Indians"
 draft = false
 date = "2018-03-07T14:24:42+05:30"
-categories = ["USA", "Visa"]
+categories = ["USA", "Visa","Purdue"]
 tags = ["StudentVisa", "F-1","US"]
 author = "Yuvraj Gupta"
 +++
